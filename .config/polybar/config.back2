@@ -1,0 +1,474 @@
+;----------------------------------------------------------------
+;BARS
+;----------------------------------------------------------------
+
+;-----------------------------------
+;BAR 1
+;-----------------------------------
+
+[bar/left]
+monitor = DisplayPort-0
+dock = false
+bottom = false
+width = 100%
+height = 23
+offset-y = 0
+offset-x = 0
+
+background = #ee222222
+foreground = #ccfafafa
+linecolor = #666
+
+border-top = 2
+border-top-color = #333
+
+spacing = 1
+lineheight = 1
+padding-left = 2
+padding-right = 2
+module-margin-left = 0
+module-margin-right = 2
+
+font-0 = tamzen:size=9;1
+font-1 = siji:pixelsize=10;0
+font-2 = unifont:size=6;-1
+font-3 = FontAwesome:size=10;1
+
+;modules-left = bspwm
+modules-center = bspwm
+modules-right = date
+
+wm-restack = bspwm
+
+;-----------------------------------
+;MAIN
+;-----------------------------------
+
+[bar/main]
+monitor = LVDS-1
+dock = false
+bottom = false
+width = 100%
+height = 23
+offset-y = 0
+offset-x = 0
+
+background = #ee222222
+foreground = #ccfafafa
+linecolor = #666
+
+border-top = 2
+border-top-color = #333
+
+spacing = 1
+lineheight = 1
+padding-left = 2
+padding-right = 2
+module-margin-left = 0
+module-margin-right = 2
+
+font-0 = tamzen:size=10;1
+font-1 = siji:pixelsize=11;0
+font-2 = unifont:size=6;-1
+font-3 = FontAwesome:size=10;1
+
+modules-left = powermenu xtitle
+modules-center = bspwm
+;modules-right = volume memory cpu battery date
+modules-right = volume memory cpu date
+
+wm-restack = bspwm
+
+tray-position = right
+tray-background = #ee222222
+tray-padding = 4
+
+;-----------------------------------
+;BAR 3
+;-----------------------------------
+
+[bar/right]
+monitor = DisplayPort-2
+dock = false
+bottom = false
+width = 100%
+height = 23
+offset-y = 0
+offset-x = 0
+
+background = #ee222222
+foreground = #ccfafafa
+linecolor = #666
+
+border-top = 2
+border-top-color = #333
+
+spacing = 1
+lineheight = 1
+padding-left = 2
+padding-right = 2
+module-margin-left = 0
+module-margin-right = 2
+
+font-0 = tamzen:size=9;1
+font-1 = siji:pixelsize=10;0
+font-2 = unifont:size=6;-1
+font-3 = FontAwesome:size=10;1
+
+;modules-left = bspwm
+modules-center = bspwm
+modules-right = date
+
+wm-restack = bspwm
+
+
+
+;-----------------------------------
+;BAR 3
+;-----------------------------------
+
+[bar/vga]
+monitor = VGA-0
+dock = false
+bottom = false
+width = 100%
+height = 23
+offset-y = 0
+offset-x = 0
+
+background = #ee222222
+foreground = #ccfafafa
+linecolor = #666
+
+border-top = 2
+border-top-color = #333
+
+spacing = 1
+lineheight = 1
+padding-left = 2
+padding-right = 2
+module-margin-left = 0
+module-margin-right = 2
+
+font-0 = tamzen:size=9;1
+font-1 = siji:pixelsize=10;0
+font-2 = unifont:size=6;-1
+font-3 = FontAwesome:size=10;1
+
+;modules-left = bspwm
+modules-center = bspwm
+modules-right = date
+
+wm-restack = bspwm
+
+
+;----------------------------------------------------------------
+;MODULES
+;----------------------------------------------------------------
+
+;-----------------------------------
+;POWERMENU
+;-----------------------------------
+
+[module/powermenu]
+type = custom/menu
+
+label-open = 
+label-close = 
+label-separator = /
+
+menu-0-0 = Terminate WM
+menu-0-0-foreground = #e60053
+menu-0-0-exec = bspc quit -1
+menu-0-1 = Reboot
+menu-0-1-foreground = #e60053
+menu-0-1-exec = menu-open-1
+menu-0-2 = Power off
+menu-0-2-foreground = #e60053
+menu-0-2-exec = menu-open-2
+
+menu-1-0 = Cancel
+menu-1-0-foreground = #e60053
+menu-1-0-exec = menu-open-0
+menu-1-1 = Reboot
+menu-1-1-foreground = #e60053
+menu-1-1-exec = reboot
+
+menu-2-0 = Power off
+menu-2-0-foreground = #e60053
+menu-2-0-exec = poweroff
+menu-2-1 = Cancel
+menu-2-1-foreground = #e60053
+menu-2-1-exec = menu-open-0
+
+;-----------------------------------
+;BSPWM
+;-----------------------------------
+
+[module/bspwm]
+type = internal/bspwm
+ws-icon-default = x
+
+label-active =  
+label-active-background = #ee333333
+label-active-underline= #cc333333
+label-active-padding = 2
+
+label-occupied = %{O-1}%{O-1} 
+label-occupied-padding = 2
+
+label-urgent =  
+label-urgent-background = #bd2c40
+label-urgent-padding = 2
+
+label-empty =  
+label-empty-foreground = #444
+label-empty-padding = 2
+
+[module/bspwm-tmp]
+type = internal/bspwm
+format = <label-state>
+
+label-active = A
+label-active-padding = 1
+label-occupied = O
+label-occupied-padding = 1
+label-empty = E
+label-empty-padding = 1
+
+;-----------------------------------
+;VOLUME
+;-----------------------------------
+
+[module/volume]
+type = internal/volume
+master-mixer = Master
+;speaker-mixer = Speaker
+;headphone-mixer = Headphone
+headphone-id = 9
+
+; format-volume = <ramp-volume> <label-volume>
+format-volume = <label-volume> <bar-volume>
+
+label-volume = VOL
+label-volume-foreground = ${BAR.foreground}
+
+label-muted = %{F#66} sound muted
+
+;ramp-volume-0 = 
+;ramp-volume-1 = 
+;ramp-volume-2 = 
+;ramp-volume-3 = 
+;ramp-volume-foreground = #666
+
+;ramp-headphones-0 = 
+;ramp-headphones-1 = 
+
+bar-volume-width = 20
+bar-volume-foreground-0 = #55aa55
+bar-volume-foreground-1 = #55aa55
+bar-volume-foreground-2 = #55aa55
+bar-volume-foreground-3 = #55aa55
+bar-volume-foreground-4 = #55aa55
+bar-volume-foreground-5 = #f5a70a
+bar-volume-foreground-6 = #ff5555
+bar-volume-gradient = false
+bar-volume-indicator = │
+bar-volume-indicator-font = 2
+bar-volume-indicator-foreground = #ff
+bar-volume-fill = ━
+bar-volume-fill-font = 2
+bar-volume-empty = ━
+bar-volume-empty-font = 2
+bar-volume-empty-foreground = #444444
+
+;-----------------------------------
+;RAM
+;-----------------------------------
+
+[module/memory]
+type = internal/memory
+interval = 2
+
+format = <label> <bar-used>
+label = RAM
+
+bar-used-width = 20
+bar-used-foreground-0 = #55aa55
+bar-used-foreground-1 = #55aa55
+bar-used-foreground-2 = #f5a70a
+bar-used-foreground-3 = #ff5555
+bar-used-gradient = false
+bar-used-indicator = │
+bar-used-indicator-font = 2
+bar-used-indicator-foreground = #ff
+bar-used-fill = ━
+bar-used-fill-font = 2
+bar-used-empty = ━
+bar-used-empty-font = 2
+bar-used-empty-foreground = #444444
+
+;-----------------------------------
+;CPU
+;-----------------------------------
+
+[module/cpu]
+type = internal/cpu
+interval = 2
+
+;format = <label> <bar-load> <ramp-coreload>
+format = <label> <bar-load>
+label = CPU
+
+; ramp-coreload-0 = ▁
+; ramp-coreload-0-font = 2
+; ramp-coreload-0-foreground = #55aa55
+; ramp-coreload-1 = ▂
+; ramp-coreload-1-font = 2
+; ramp-coreload-1-foreground = #55aa55
+; ramp-coreload-2 = ▃
+; ramp-coreload-2-font = 2
+; ramp-coreload-2-foreground = #55aa55
+; ramp-coreload-3 = ▄
+; ramp-coreload-3-font = 2
+; ramp-coreload-3-foreground = #55aa55
+; ramp-coreload-4 = ▅
+; ramp-coreload-4-font = 2
+; ramp-coreload-4-foreground = #f5a70a
+; ramp-coreload-5 = ▆
+; ramp-coreload-5-font = 2
+; ramp-coreload-5-foreground = #f5a70a
+; ramp-coreload-6 = ▇
+; ramp-coreload-6-font = 2
+; ramp-coreload-6-foreground = #ff5555
+; ramp-coreload-7 = █
+; ramp-coreload-7-font = 2
+; ramp-coreload-7-foreground = #ff5555
+
+bar-load-width = 20
+bar-load-foreground-0 = #55aa55
+bar-load-foreground-1 = #55aa55
+bar-load-foreground-2 = #f5a70a
+bar-load-foreground-3 = #ff5555
+bar-load-gradient = false
+bar-load-indicator = │
+bar-load-indicator-font = 2
+bar-load-indicator-foreground = #ff
+bar-load-fill = ━
+bar-load-fill-font = 2
+bar-load-empty = ━
+bar-load-empty-font = 2
+bar-load-empty-foreground = #444444
+
+;-----------------------------------
+;DATE
+;-----------------------------------
+
+[module/date]
+type = internal/date
+;date = %%{F#666}%{F#cc} %Y-%m-%d  %%{F#e60053}%%{F#cc} %H:%M:%S
+date = %%{F#666}%{F#cc} %A %d %b   %%{F#e60053}%%{F#cc} %H:%M:%S
+date-alt = %%{F#666}%{F#cc} %A %d %b  %%{F#e60053}%%{F#cc} %H:%M
+interval = 1
+
+;-----------------------------------
+;WIRED
+;-----------------------------------
+
+[module/wired]
+type = internal/network
+interface = enp14s0
+interval = 3.0
+
+label-connected = %{T3}%local_ip%%{T-}
+label-disconnected = %{T3}Not connected%{T-}
+label-disconnected-foreground = #66
+
+;-----------------------------------
+;XTITLE
+;-----------------------------------
+
+[module/xtitle]
+type = custom/script
+exec = xtitle -s
+tail = true
+mexlen = 40
+
+;-----------------------------------
+;BATTERY
+;-----------------------------------
+
+  [module/battery]
+  ;type = internal/battery
+  full-at = 99
+  battery = BAT0
+  adapter = AC
+
+  format-charging = <animation-charging> <label-charging>
+  format-discharging = <ramp-capacity> <label-discharging>
+  format-full = <ramp-capacity> <label-full>
+
+  label-charging = Charging %percentage%
+  label-discharging = Discharging %percentage%
+  label-full = Fully charged
+
+  ramp-capacity-0 = 
+  ramp-capacity-1 = 
+  ramp-capacity-2 = 
+  ramp-capacity-3 = 
+  ramp-capacity-4 = 
+
+  animation-charging-0 = 
+  animation-charging-1 = 
+  animation-charging-2 = 
+  animation-charging-3 = 
+  animation-charging-4 = 
+  animation-charging-framerate = 750
+
+;-----------------------------------
+;BACKLIGHT
+;-----------------------------------
+
+[module/backlight]
+type = internal/xbacklight
+output = radeon_bl0
+format = <ramp> <label>
+label = %percentage%
+ramp-0 = 🌕
+ramp-1 = 🌔
+ramp-2 = 🌓
+ramp-3 = 🌒
+ramp-4 = 🌑
+
+;-----------------------------------
+;NETWORK
+;-----------------------------------
+
+[module/wifi]
+type = internal/network
+interface = wlp3s0b1
+
+  interval = 3.0
+
+  format-connected =   <label-connected>
+  format-disconnected = ⚠  <label-disconnected>
+  format-packetloss = <animation-packetloss> <label-connected>
+
+   label-connected = %essid%
+  label-connected-foreground = #eefafafa
+  label-disconnected = disconnected
+  label-disconnected-foreground = #66ffffff
+
+  ramp-signal-0 = 😱
+  ramp-signal-1 = 😠
+  ramp-signal-2 = 😒
+  ramp-signal-3 = 😊
+  ramp-signal-4 = 😃
+  ramp-signal-5 = 😈
+
+  animation-packetloss-0 = ⚠
+  animation-packetloss-0-foreground = #ffa64c
+  animation-packetloss-1 = 📶
+  animation-packetloss-1-foreground = #000000
+  ; Framerate in milliseconds
+  animation-packetloss-framerate = 500

@@ -1,0 +1,205 @@
+!#include "/home/pieter-jan/.colors/notch"
+!#include "/home/pieter-jan/.colors/numix"
+#include "/home/pieter-jan/.colors/custom"
+
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+!rofi.color-enabled: true
+!rofi.color-window: #273238, #273238, #1e2529
+!rofi.color-normal: #273238, #c1c1c1, #273238, #394249, #ffffff
+!rofi.color-active: #273238, #80cbc4, #273238, #394249, #80cbc4
+!rofi.color-urgent: #273238, #ff1844, #273238, #394249, #ff1844
+
+
+
+#define t_black #222626
+#define t_background #c8151515
+#define t_transparent #00000000
+#define t_red #CC4E47
+#define t_green #7BBA4E
+#define t_yellow #e5c03b
+#define t_blue  #68aacc
+!#define t_purple #A474A5
+#define t_purple   #e28131
+#define t_cyan #97BEC6
+#define t_white #ACBFBF
+
+
+rofi.color-enabled: true
+rofi.fuzzy: true
+rofi.dpi: 100
+rofi.hide-scrollbar: true
+!States: bg, fg, bgalt, hlbg, hlfg
+rofi.color-normal: t_transparent,t_white,t_transparent,t_transparent,t_purple
+rofi.color-urgent: t_transparent,t_red,t_transparent,t_transparent,t_purple
+rofi.color-active: t_transparent,t_transparent,t_transparent,t_purple
+!states: background, border
+rofi.color-window: t_background,t_purple
+
+rofi.separator-style: solid
+rofi.sidebar-mode: false
+rofi.bw: 2
+rofi.columns: 3
+rofi.padding: 10
+rofi.eh: 1.1
+rofi.line-margin: 0
+
+!rofi.fullscreen: true
+rofi.xoffset: 0
+rofi.yoffset: 400
+!rofi.opacity: 100
+!rofi.fake-transparency: false
+rofi.location: 2
+rofi.width: 50
+rofi.font: Cantarell 15
+rofi.lines: 7
+
+rofi.border-radius: 8
+
+
+! #########################################
+urxvt*perl-lib:				/usr/lib/urxvt/perl
+urxvt*perl-ext-common:		default,matcher,clipboard
+urxvt*perl-matcher: 		1
+urxvt*matcher-button: 		3
+urxvt*url-launcher:			/usr/bin/google-chrome-stable
+!URxvt*matcher.button: 		1
+!URxvt*matcher.pattern.1: 	\\bwww\\.[\\w-]\\.[\\w./?&@#-]*[\\w/-]
+urxvt*cursorUnderline: 		1
+urxvt*letterspace:          -5
+urxvt*fading: 				10
+!urxvt*fadeColor: 			#000000	
+urxvt*cursorBlink:			true
+urxvt*scrollBar:			false
+urxvt*depth:				32 
+urxvt*internalBorder: 		5
+urxvt*dynamicColors: 		on
+urxvt.urgentOnBell:  		true
+URxvt.transparent:   		true
+URxvt.shading:       		15
+URxvt.saveLines:            4000
+
+
+URxvt.keysym.C-i:     	font-size:increase
+URxvt.keysym.C-k:   	font-size:decrease
+URxvt.keysym.C-S-Up:   font-size:incglobal
+URxvt.keysym.C-S-Down: font-size:decglobal
+URxvt.keysym.C-equal:  font-size:reset
+URxvt.keysym.C-slash:  font-size:show
+
+urxvt*font: xft:dejavu sans mono:size=9
+urxvt*boldFont: xft:dejavu sans mono:size=9
+urxvt*italicFont: xft:dejavu sans mono:size=9
+
+
+!rxvt*font: -*-tamzen-medium-r-normal-*-*-87-*-*-*-*-*-*
+!rxvt*boldFont: -*-tamzen-medium-r-normal-*-*-87-*-*-*-*-*-*
+!rxvt*italicFont: -*-tamzen-medium-r-normal-*-*-87-*-*-*-*-*-*
+!rxvt*bolditalicFont: -*-tamzen-medium-r-normal-*-*-87-*-*-*-*-*-*
+
+!URxvt*font:                                     xft:terminus12:hinting=true:pixelsize=12:antialias=false
+!URxvt*boldFont:                                 xft:terminus12:style=bold:hinting=true:pixelsize=12:antialias=false
+!URxvt*italicFont:                               xft:terminus12:style=italic:hinting=true:pixelsize=12:antialias=false
+!URxvt*boldItalicFont:                           xft:terminus12:style=bolditalic:hinting=true:pixelsize=12:antialias=false
+
+
+!urxvt*font: -lokaltog-fixed-medium-r-normal--10-100-75-75-c-60-iso8859-1
+!urxvt*boldFont: -lokaltog-fixed-medium-r-normal--10-100-75-75-c-60-iso8859-1
+!urxvt*italicFont: -lokaltog-fixed-medium-r-normal--10-100-75-75-c-60-iso8859-1
+!urxvt*bolditalicFont: -lokaltog-fixed-medium-r-normal--10-100-75-75-c-60-iso8859-1
+
+!urxvt*font: -lokaltog-fixed-medium-r-normal--10-100-75-75-c-60-iso10646-1
+!urxvt*boldFont: -lokaltog-fixed-medium-r-normal--10-100-75-75-c-60-iso10646-1
+!urxvt*italic: -lokaltog-fixed-medium-r-normal--10-100-75-75-c-60-iso10646-1
+!urxvt*bolditalicFont: -lokaltog-fixed-medium-r-normal--10-100-75-75-c-60-iso10646-1
+
+!urxvt*font: -*-lemon-*-*-*-*-*-*-*-*-*-*-*-*
+!urxvt*boldFont: -*-lemon-*-*-*-*-*-*-*-*-*-*-*-*
+!urxvt*italicFont: -*-lemon-*-*-*-*-*-*-*-*-*-*-*-*
+!urxvt*bolditalicFont: -*-lemon-*-*-*-*-*-*-*-*-*-*-*-*
+
+!urxvt*font: xft:dejavu sans mono:size=10
+!urxvt*boldFont: xft:dejavu sans mono:bold:size=10
+!urxvt*italicFont: xft:dejavu sans mono:italic:size=10
+
+!urxvt*font: -lucy-tewi-medium-r-normal--11-90-75-75-p-58-iso10646-1
+!urxvt*boldFont: -lucy-tewi-medium-r-normal--11-90-75-75-p-58-iso10646-1
+!urxvt*italicFont: -lucy-tewi-medium-r-normal--11-90-75-75-p-58-iso10646-1
+!urxvt*bolditalicFont: -lucy-tewi-medium-r-normal--11-90-75-75-p-58-iso10646-1
+
+!urxvt*font: -*-tewi-medium-r-*-*-11-*-*-*-*-*-*-*
+!urxvt*boldFont: -*-tewi-medium-r-*-*-11-*-*-*-*-*-*-*
+!urxvt*italicFont: -*-tewi-medium-r-*-*-11-*-*-*-*-*-*-*
+!urxvt*bolditalicFont: -*-tewi-medium-r-*-*-11-*-*-*-*-*-*-*
+
+!urxvt*font: -*-profont-medium-*-*-*-11-*-*-*-*-*-*-*
+!urxvt*boldFont: -*-profont-bold-*-*-*-11-*-*-*-*-*-*-*
+!urxvt*italicFont: -*-profont-medium-*-*-*-11-*-*-*-*-*-*-*
+!urxvt*bolditalicFont: -*-profont-bold-*-*-*-11-*-*-*-*-*-*-*
+
+!urxvt*font: -*-dash-*-*-*-*-*-*-*-*-*-*-*-*
+!urxvt*boldFont: -*-dash-*-*-*-*-*-*-*-*-*-*-*-*
+!urxvt*italicFont: -*-dash-*-*-*-*-*-*-*-*-*-*-*-*
+!urxvt*bolditalicFont: -*-dash-*-*-*-*-*-*-*-*-*-*-*-*
+
+!urxvt*font: -*-suxus-*-*-*-*-*-*-*-*-*-*-*-*
+!urxvt*boldFont: -*-suxus-*-*-*-*-*-*-*-*-*-*-*-*
+!urxvt*italicFont: -*-suxus-*-*-*-*-*-*-*-*-*-*-*-*
+!urxvt*bolditalicFont: -*-suxus-*-*-*-*-*-*-*-*-*-*-*-*
+
+!urxvt*font: -*-limey-*-*-*-*-*-*-*-*-*-*-*-*
+!urxvt*boldFont: -*-limey-*-*-*-*-*-*-*-*-*-*-*-*
+!urxvt*italicFont: -*-limey-*-*-*-*-*-*-*-*-*-*-*-*
+!urxvt*bolditalicFont: -*-limey-*-*-*-*-*-*-*-*-*-*-*-*
+
+
+
+!urxvt*font: -*-lime-*-*-*-*-*-*-*-*-*-*-*-*
+!urxvt*boldFont: -*-lime-*-*-*-*-*-*-*-*-*-*-*-*
+!urxvt*italicFont: -*-lime-*-*-*-*-*-*-*-*-*-*-*-*
+!urxvt*bolditalicFont: -*-lime-*-*-*-*-*-*-*-*-*-*-*-*
+
+!urxvt*font: -*-cure-medium-*-*-*-*-*-*-*-*-*-*-*
+!urxvt*boldFont: -*-cure-medium-*-*-*-*-*-*-*-*-*-*-*
+!urxvt*italicFont: -*-cure-medium-*-*-*-*-*-*-*-*-*-*-*
+!urxvt*bolditalicFont: -*-cure-medium-*-*-*-*-*-*-*-*-*-*-*
+
+
+!urxvt*font: -*-terminus-medium-r-normal-*-12-*-*-*-*-*-*-*
+!urxvt*boldFont: -*-terminus-bold-r-normal-*-12-*-*-*-*-*-*-*
+!urxvt*italicFont: -*-terminus-medium-r-normal-*-12-*-*-*-*-*-*-*
+!urxvt*bolditalicFont: -*-terminus-bold-r-normal-*-12-*-*-*-*-*-*-*
+
+!urxvt*font: xft:inconsolata:size=11
+!urxvt*boldFont: xft:inconsolata:bold:size=11
+!urxvt*italicFont: xft:inconsolata:italic:size=11
+
+!urxvt*font: -*-gohufontmod11-medium-r-normal-*-11-*-*-*-*-*-*-*
+!urxvt*boldFont: -*-gohufontmod11-bold-r-normal-*-11-*-*-*-*-*-*-*
+!urxvt*italicFont: -*-gohufontmod11-medium-r-normal-*-11-*-*-*-*-*-*-*
+!urxvt*bolditalicFont: -*-gohufontmod11-bold-r-normal-*-11-*-*-*-*-*-*-*
+
+!urxvt*font: -*-terminus12-medium-r-normal-*-*-*-*-*-*-*-*-*
+!urxvt*boldFont: -*-terminus12-bold-r-normal-*-*-*-*-*-*-*-*-*
+!urxvt*italicFont: -*-terminus12-medium-r-normal-*-*-*-*-*-*-*-*-*
+!urxvt*bolditalicFont: -*-terminus12-bold-r-normal-*-*-*-*-*-*-*-*-*
+
+!urxvt*font: -*-terminus-medium-r-normal-*-11-*-*-*-*-*-*-* 
+!urxvt*boldFont: -*-terminus-medium-r-normal-*-11-*-*-*-*-*-*-* 
+!urxvt*italicFont: -*-terminus-medium-r-normal-*-11-*-*-*-*-*-*-* 
+!urxvt*bolditalicFont: -*-terminus-medium-r-normal-*-11-*-*-*-*-*-*-* 
+
+Xft.antialias: 1
+Xft.autohint: 0
+Xft.dpi: 96
+Xft.hinting: 1
+Xft.hintstyle: hintfull
+Xft.lcdfilter: lcddefault
+Xft.rgba: rgb
+
+xclock*majorColor: #9a875f
+xclock*minorColor: #9a875f
+xclock*minuteColor: #9a875f
+xclock*hourColor: #9a875f
+xclock*secondColor: #9a875f

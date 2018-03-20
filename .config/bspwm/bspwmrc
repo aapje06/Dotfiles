@@ -1,0 +1,83 @@
+#!/bin/sh
+
+#sxhkd &
+
+#setting up some env variables
+
+export QT_QPA_PLATFORMTHEME=gtk2
+
+# mounting the data partition
+sudo mount /dev/md126p1 /mnt/Data
+
+#starting the applications that are needed by startup
+#feh --bg-fill ~/Pictures/bmw.jpg &
+# feh --bg-fill ~/Pictures/wood-forest-stack-stacked.jpg &
+feh --bg-fill ~/Dropbox/Thuis/bureau\'s/fire.jpg &
+
+polybar main &
+polybar left &
+polybar right &
+
+conky &
+
+compton -c --vsync opengl &
+
+redshift-gtk &
+
+nm-applet &
+
+dropbox &
+
+
+#general bspwm config
+bspc config border_width         2
+bspc config window_gap          10
+
+bspc config top_padding         20
+bspc config left_padding        0
+bspc config right_padding       0
+
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      false
+bspc config focus_by_distance    true
+bspc config history_aware_focus  true
+
+#bspc config normal_border_color "#131313"
+#bspc config focused_border_color "#d64937"
+#bspc config presel_feedback_color "#d64937"
+bspc config normal_border_color "#131313"
+bspc config focused_border_color "#eb9605"
+bspc config presel_feedback_color "#eb9605"
+bspc config click_to_focus 	true
+
+bspc config pointer_action1 	move
+bspc config pointer_action2 	resize_side
+bspc config pointer_action3 	resize_corner
+
+
+# bspwm rules
+bspc rule -a Galculator state=floating follow=on
+bspc rule -a Gimp state=floating follow=on
+bspc rule -a Pavucontrol state=floating follow=on
+bspc rule -a Arandr state=floating follow=on
+bspc rule -a Zathura state=tiled
+bspc rule -a Git-gui state=floating follow=on
+bspc rule -a Gitk state=floating follow=on
+bspc rule -a Java state=floating follow=on
+
+
+#Setting up the monitors...
+bspc monitor focused -n MonMiddle
+bspc monitor prev -n MonLeft
+bspc monitor next -n MonMiddle
+bspc monitor next -n MonRight
+
+bspc monitor MonLeft -d 1 2 3
+bspc monitor MonMiddle -d 4 5 6
+bspc monitor MonRight -d 7 8 9
+
+bspc monitor MonLeft -n GPU-0.DVI-I-3
+bspc monitor MonMiddle -n GPU-0.DVI-I-2
+bspc monitor MonRight -n GPU-1.DVI-I-2
+

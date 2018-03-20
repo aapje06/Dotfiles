@@ -1,0 +1,22 @@
+urxvt*background:       [99]#2d2d2d
+urxvt*foreground:       #f9f9f9
+URxvt*tintColor:     #ffffff
+
+
+*color0:  #2d2d2d
+*color8: #dedede
+*color1:  #f9f9f9
+*color9:  #dedede
+*color2:  #d64937
+*color10: #dedede
+*color3:  #f9f9f9
+*color11: #dedede
+*color4:  #d64937
+*color12: #d64937
+*color5:  #dedede
+*color13: #f9f9f9
+*color6:  #dedede
+*color14: #f9f9f9
+*color7:  #dedede
+*color15: #f9f9f9
+		
