@@ -8,6 +8,7 @@ bindkey -v
 alias ll='ls -l'
 alias vi=vim
 alias calen='cal -n3 -m'
+alias dotgit='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 export WINEPREFIX=~/.wine
 export WINEARCH=win32
 
