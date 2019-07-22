@@ -1,0 +1,26 @@
+2018/11/26-16:15:41.868 1057 Reusing MANIFEST /home/pieter-jan/.config/google-chrome/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2018/11/26-16:15:41.868 1057 Recovering log #202
+2018/11/26-16:15:41.869 1057 Reusing old log /home/pieter-jan/.config/google-chrome/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000202.log 
+2018/11/26-16:24:45.158 1611 Level-0 table #206: started
+2018/11/26-16:24:45.189 1611 Level-0 table #206: 2630646 bytes OK
+2018/11/26-16:24:45.191 1611 Delete type=0 #202
+2018/11/26-16:38:47.137 1611 Level-0 table #208: started
+2018/11/26-16:38:47.164 1611 Level-0 table #208: 1923261 bytes OK
+2018/11/26-16:38:47.168 1611 Delete type=0 #205
+2018/11/26-17:03:41.885 1611 Level-0 table #210: started
+2018/11/26-17:03:41.918 1611 Level-0 table #210: 2585543 bytes OK
+2018/11/26-17:03:41.921 1611 Delete type=0 #207
+2018/11/26-17:03:41.923 1611 Compacting 4@0 + 3@1 files
+2018/11/26-17:03:41.972 1611 Generated table #211@0: 10 keys, 2238399 bytes
+2018/11/26-17:03:42.009 1611 Generated table #212@0: 11 keys, 2156859 bytes
+2018/11/26-17:03:42.063 1611 Generated table #213@0: 16 keys, 2919815 bytes
+2018/11/26-17:03:42.066 1611 Generated table #214@0: 2 keys, 150 bytes
+2018/11/26-17:03:42.066 1611 Compacted 4@0 + 3@1 files => 7315223 bytes
+2018/11/26-17:03:42.068 1611 compacted to: files[ 0 4 1 0 0 0 0 ]
+2018/11/26-17:03:42.068 1611 Delete type=2 #198
+2018/11/26-17:03:42.068 1611 Delete type=2 #199
+2018/11/26-17:03:42.069 1611 Delete type=2 #208
+2018/11/26-17:03:42.069 1611 Delete type=2 #210
+2018/11/26-17:03:42.069 1611 Delete type=2 #203
+2018/11/26-17:03:42.070 1611 Delete type=2 #206
+2018/11/26-17:03:42.070 1611 Delete type=2 #200

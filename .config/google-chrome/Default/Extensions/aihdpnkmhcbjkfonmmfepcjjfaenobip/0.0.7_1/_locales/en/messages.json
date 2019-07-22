@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "Extension Desc",
+      "message": "Enable repeat button for video players on Youtube.com"
+   },
+   "appName": {
+      "description": "Extension name",
+      "message": "Youtube Repeat Button"
+   }
+}

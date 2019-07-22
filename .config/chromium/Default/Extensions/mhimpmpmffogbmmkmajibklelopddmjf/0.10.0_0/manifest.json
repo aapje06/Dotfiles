@@ -1,0 +1,26 @@
+{
+   "author": "Nik Rolls, Callum Locke",
+   "background": {
+      "persistent": false,
+      "scripts": [ "js/background.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "js/content.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Makes JSON easy to read. Open source.",
+   "homepage_url": "https://github.com/nikrolls/json-formatter",
+   "icons": {
+      "128": "icons/128.png",
+      "32": "icons/32.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyp2v0GixoNAu3TK/s8UZGxnXCIaFdQjV2k8ya/Tx1OKL7aX9xJ9hf5bBNaHaXpzJKt59JO6B2kgZpKmL0K+nfUGjlIWIclEquj/cxWCJ+lNMp3GbXNhiqdxlnkqADZqW3tkxHD2Ccpval1Gpb7gO0kMxfByY+XvEvGnigR47xZB3RETi55FT+uDjoPyQEgZw8TpchrBAGviZefB1FCZsl8G3RSbv/CLTqBID8aD54DbFD5/8x+cPNSIZ8LXlk/Pl4/i3nw/aJzDuoctPq6142z93gnPnf35USOhe3mGy80YK9Cpm2gAcYFXEiLiKXO+iHCsNx+IfRcRlV0KSP62wGwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "21",
+   "minimum_edge_version": "40",
+   "name": "JSON Formatter",
+   "permissions": [ "storage", "*://*/*", "\u003Call_urls>" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.10.0"
+}

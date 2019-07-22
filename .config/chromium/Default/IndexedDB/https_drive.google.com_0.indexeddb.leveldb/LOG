@@ -1,0 +1,25 @@
+2018/02/19-14:12:54.817 754 Reusing MANIFEST /home/pieter-jan/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/02/19-14:12:54.817 754 Recovering log #219
+2018/02/19-14:12:54.821 754 Reusing old log /home/pieter-jan/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000219.log 
+2018/02/19-14:14:50.157 2656 Level-0 table #223: started
+2018/02/19-14:14:50.177 2656 Level-0 table #223: 4205369 bytes OK
+2018/02/19-14:14:50.179 2656 Delete type=0 #219
+2018/02/19-14:14:53.894 2656 Level-0 table #225: started
+2018/02/19-14:14:53.911 2656 Level-0 table #225: 4831310 bytes OK
+2018/02/19-14:14:53.913 2656 Delete type=0 #222
+2018/02/19-14:16:48.062 2656 Level-0 table #227: started
+2018/02/19-14:16:48.083 2656 Level-0 table #227: 4925767 bytes OK
+2018/02/19-14:16:48.085 2656 Delete type=0 #224
+2018/02/19-14:16:48.085 2656 Compacting 4@0 + 1@1 files
+2018/02/19-14:16:48.110 2656 Generated table #228@0: 68 keys, 2248171 bytes
+2018/02/19-14:16:48.114 2656 Generated table #229@0: 8 keys, 2885 bytes
+2018/02/19-14:16:48.114 2656 Compacted 4@0 + 1@1 files => 2251056 bytes
+2018/02/19-14:16:48.116 2656 compacted to: files[ 0 2 1 0 0 0 0 ]
+2018/02/19-14:16:48.116 2656 Delete type=2 #223
+2018/02/19-14:16:48.117 2656 Delete type=2 #220
+2018/02/19-14:16:48.117 2656 Delete type=2 #227
+2018/02/19-14:16:48.118 2656 Delete type=2 #225
+2018/02/19-14:16:48.119 2656 Delete type=2 #218
+2018/02/19-14:24:19.961 2656 Level-0 table #231: started
+2018/02/19-14:24:19.981 2656 Level-0 table #231: 4282573 bytes OK
+2018/02/19-14:24:19.983 2656 Delete type=0 #226

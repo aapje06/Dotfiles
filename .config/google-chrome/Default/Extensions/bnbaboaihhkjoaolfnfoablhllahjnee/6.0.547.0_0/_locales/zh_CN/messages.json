@@ -1,0 +1,11 @@
+{
+   "appDesc": {
+      "message": "应用捆绑, 包括用于几何、表格、概率统计及代数运算的免费工具"
+   },
+   "appName": {
+      "message": "GeoGebra 经典"
+   },
+   "appShortName": {
+      "message": "GeoGebra 经典"
+   }
+}

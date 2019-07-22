@@ -1,0 +1,50 @@
+{
+   "app": {
+      "icon_color": "#6A6A6E",
+      "launch": {
+         "web_url": "https://stenciljs.com/"
+      },
+      "linked_icons": [ {
+         "size": 32,
+         "url": "https://stenciljs.com/assets/img/icon.png"
+      }, {
+         "size": 48,
+         "url": "https://stenciljs.com/assets/img/icon.png"
+      }, {
+         "size": 64,
+         "url": "https://stenciljs.com/assets/img/icon.png"
+      }, {
+         "size": 96,
+         "url": "https://stenciljs.com/assets/img/icon.png"
+      }, {
+         "size": 128,
+         "url": "https://stenciljs.com/assets/img/icon.png"
+      }, {
+         "size": 144,
+         "url": "https://stenciljs.com/assets/img/icon.png"
+      }, {
+         "size": 256,
+         "url": "https://stenciljs.com/assets/img/icon.png"
+      } ],
+      "theme_color": "rgba(22,22,29,1)"
+   },
+   "description": "",
+   "icons": {
+      "128": "icons/128.png",
+      "144": "icons/144.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "AMDTwtuBCbROOScdtkBKuLipnjijgHCzw7KLXbZSnoY=",
+   "name": "Stencil",
+   "url_handlers": {
+      "scope": {
+         "matches": [ "https://stenciljs.com/*" ],
+         "title": "Stencil"
+      }
+   },
+   "version": "2018.11.12.40394"
+}

@@ -1,0 +1,21 @@
+{
+   "content_scripts": [ {
+      "css": [ "css/youtebe-repeter.css" ],
+      "js": [ "scripts/youtebe-repeter.js" ],
+      "matches": [ "http://www.youtube.com/*", "https://www.youtube.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "images/icon-128x128.png",
+      "16": "images/icon-16x16.png",
+      "32": "images/icon-32x32.png",
+      "48": "images/icon-48x48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApVy2okHXTSCsEDMR4MslYX34b3j/HGs9IxQdqz69clWh814jFDf9yeecEAhuo57syvR2ykgQU3DGLEGMlf6Yk+abTyWueGP3BwNYNHBqRyUMvuJkGPpmgA7/zjTtE6HPoOST3IXSfRRCX+RYFZCYAuA1l5952UJwaDst94/6JTsXnyNg2dTzun6/8lLRmECVtcydhBOKbLoHz5dRFzoYN0F+eDVbUu5Tax+EmlVARobcu7FYPiM7RhuxIQIhb5ausS2mZsVYZzAlN6h8zEA/6EJ0YTidTJM3qfUiINkuLdZwIWAxSNM8nKTRBdQihcfod6psYUT/p3L/HYDGQGcPlQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.7"
+}

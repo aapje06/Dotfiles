@@ -1,0 +1,17 @@
+VirtualBox GUI VM Selector Window 5.2.8 r120774 linux.amd64 (Feb 28 2018 07:46:09) release log
+00:00:00.460816 Log opened 2018-11-05T13:30:36.417463000Z
+00:00:00.460817 Build Type: release
+00:00:00.460819 OS Product: Linux
+00:00:00.460821 OS Release: 4.15.10-1-ARCH
+00:00:00.460822 OS Version: #1 SMP PREEMPT Thu Mar 15 12:24:34 UTC 2018
+00:00:00.460844 DMI Product Name: Precision M4700
+00:00:00.460855 DMI Product Version: 01
+00:00:00.460894 Host RAM: 7919MB (7.7GB) total, 7504MB (7.3GB) available
+00:00:00.460897 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.460897 Process ID: 791
+00:00:00.460898 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.460917 Qt version: 5.10.1
+00:00:00.524802 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.710047 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 10x33 x 1896x1033
+00:00:00.729755 Failed to open "/dev/vboxdrv", errno=13, rc=VERR_VM_DRIVER_NOT_ACCESSIBLE
+00:00:00.731963 GUI: UIMediumEnumerator: Medium-enumeration finished!

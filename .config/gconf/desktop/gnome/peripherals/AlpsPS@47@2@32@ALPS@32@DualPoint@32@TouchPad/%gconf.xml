@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="palm_detection" mtime="1523627450" type="bool" value="true"/>
+	<entry name="tap_fast_tap" mtime="1503351528" type="bool" value="false"/>
+	<entry name="vertical_scrolling_distance" mtime="1503351443" type="bool" value="true"/>
+	<entry name="tap_time" mtime="1503351522" type="int" value="171"/>
+	<entry name="tap_move" mtime="1503351525" type="int" value="179"/>
+	<entry name="disable_tapping" mtime="1503351470" type="bool" value="false"/>
+	<entry name="off" mtime="1523627442" type="int" value="0"/>
+	<entry name="horizontal_scrolling" mtime="1523627401" type="bool" value="true"/>
+	<entry name="vertical_scrolling" mtime="1523627400" type="bool" value="true"/>
+	<entry name="disable_while_other_device_exists" mtime="1499881259" type="bool" value="true"/>
+	<entry name="device_type" mtime="1523627422" type="string">
+		<stringvalue>touchpad</stringvalue>
+	</entry>
+</gconf>

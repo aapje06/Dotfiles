@@ -1,0 +1,44 @@
+VirtualBox XPCOM Server 5.2.8 r120774 linux.amd64 (Feb 28 2018 07:46:09) release log
+00:00:00.002678 main     Log opened 2018-11-05T13:30:36.235794000Z
+00:00:00.002680 main     Build Type: release
+00:00:00.002682 main     OS Product: Linux
+00:00:00.002684 main     OS Release: 4.15.10-1-ARCH
+00:00:00.002685 main     OS Version: #1 SMP PREEMPT Thu Mar 15 12:24:34 UTC 2018
+00:00:00.002717 main     DMI Product Name: Precision M4700
+00:00:00.002729 main     DMI Product Version: 01
+00:00:00.002772 main     Host RAM: 7919MB (7.7GB) total, 7509MB (7.3GB) available
+00:00:00.002775 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.002776 main     Process ID: 822
+00:00:00.002777 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.004485 main     IPC socket path: /tmp/.vbox-pieter-jan-ipc/ipcd
+00:00:00.112845 nspr-2   VirtualBox: object creation starts
+00:00:00.113692 nspr-2   Home directory: '/home/pieter-jan/.config/VirtualBox'
+00:00:00.113947 nspr-2   Loading settings file "/home/pieter-jan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.122747 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for wlp3s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.124424 nspr-2   HostDnsMonitorProxy::notify
+00:00:00.128554 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.129038 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={0eb668d2-495e-5a36-8890-29999b5f030c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.136585 nspr-2   Loading settings file "/home/pieter-jan/VirtualBox VMs/Windows_10/Windows_10.vbox" with version "1.15-linux"
+00:00:00.139555 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={MachineWrap} aText={Runtime error opening '/home/pieter-jan/VirtualBox VMs/ubuntu_16.04_Robot/ubuntu_16.04_Robot.vbox' for reading: -38 (Access denied.).
+00:00:00.139560 nspr-2   /build/virtualbox/src/VirtualBox-5.2.8/src/VBox/Main/src-server/MachineImpl.cpp[741] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:00.140106 nspr-2   VirtualBox: object created
+00:00:00.357910 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={MachineWrap} aText={Runtime error opening '/home/pieter-jan/VirtualBox VMs/ubuntu_16.04_Robot/ubuntu_16.04_Robot.vbox' for reading: -38 (Access denied.).
+00:00:00.357917 nspr-3   /build/virtualbox/src/VirtualBox-5.2.8/src/VBox/Main/src-server/MachineImpl.cpp[741] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:00.358184 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={MachineWrap} aText={Runtime error opening '/home/pieter-jan/VirtualBox VMs/ubuntu_16.04_Robot/ubuntu_16.04_Robot.vbox' for reading: -38 (Access denied.).
+00:00:00.358187 nspr-3   /build/virtualbox/src/VirtualBox-5.2.8/src/VBox/Main/src-server/MachineImpl.cpp[741] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:00.358858 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={MachineWrap} aText={Runtime error opening '/home/pieter-jan/VirtualBox VMs/ubuntu_16.04_Robot/ubuntu_16.04_Robot.vbox' for reading: -38 (Access denied.).
+00:00:00.358863 nspr-3   /build/virtualbox/src/VirtualBox-5.2.8/src/VBox/Main/src-server/MachineImpl.cpp[741] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:00.360552 nspr-3   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:00.360570 nspr-3   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9570b9d5-f1a1-448a-10c5-e12f5285adad} aComponent={VirtualBoxWrap} aText={Could not find a registered machine named 'ubuntu_16.04_Robot'}, preserve=false aResultDetail=0
+00:00:00.573977 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:00.667171 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:00.668106 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:00.668822 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:03.803722 nspr-3   Saving settings file "/home/pieter-jan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:03.818771 nspr-2   Saving settings file "/home/pieter-jan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:03.825684 nspr-2   Saving settings file "/home/pieter-jan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:09.347122 main     VirtualBox: object deletion starts
+00:00:09.347192 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium '/home/pieter-jan/VirtualBox VMs/Windows_10/Windows_10.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:09.641586 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={9570b9d5-f1a1-448a-10c5-e12f5285adad} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:00:14.347764 main     {00007f2e28019040} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
+00:00:14.348024 main     VirtualBox: object deleted

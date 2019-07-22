@@ -1,0 +1,1012 @@
+{
+   "addStyleLabel": {
+      "message": "新スタイルを作成"
+   },
+   "addStyleTitle": {
+      "message": "スタイルを追加"
+   },
+   "alphaChannel": {
+      "message": "透明度"
+   },
+   "appliesAdd": {
+      "message": "追加"
+   },
+   "appliesDisplay": {
+      "message": "適用先: $applies$",
+      "placeholders": {
+         "applies": {
+            "content": "$1"
+         }
+      }
+   },
+   "appliesDisplayTruncatedSuffix": {
+      "message": "さらに表示"
+   },
+   "appliesDomainOption": {
+      "message": "ドメイン上の URL"
+   },
+   "appliesHelp": {
+      "message": "「適用先」を使用すると、このセクションのコードが適用される URL を制限することができます。"
+   },
+   "appliesLabel": {
+      "message": "適用先"
+   },
+   "appliesLineWidgetLabel": {
+      "message": "「適用先」の情報を表示"
+   },
+   "appliesLineWidgetWarning": {
+      "message": "圧縮されたCSSでは機能しません"
+   },
+   "appliesRegexpOption": {
+      "message": "正規表現に一致する URL"
+   },
+   "appliesRemove": {
+      "message": "削除"
+   },
+   "appliesRemoveError": {
+      "message": "「適用先」の最後の項目を削除することはできません"
+   },
+   "appliesSpecify": {
+      "message": "個別指定"
+   },
+   "appliesToEverything": {
+      "message": "すべて"
+   },
+   "appliesUrlPrefixOption": {
+      "message": "次で始まる URL"
+   },
+   "applyAllUpdates": {
+      "message": "すべての更新を適用"
+   },
+   "author": {
+      "message": "作者"
+   },
+   "backupButtons": {
+      "message": "バックアップ"
+   },
+   "backupMessage": {
+      "message": "ファイルを選択するか、このページにドラッグ＆ドロップしてください。"
+   },
+   "bckpInstStyles": {
+      "message": "スタイルをエクスポート"
+   },
+   "checkAllUpdates": {
+      "message": "全スタイルの更新をチェック"
+   },
+   "checkAllUpdatesForce": {
+      "message": "全スタイルを再チェックします。私はスタイルを編集していません！"
+   },
+   "checkForUpdate": {
+      "message": "更新をチェック"
+   },
+   "checkingForUpdate": {
+      "message": "チェック中..."
+   },
+   "clickToUninstall": {
+      "message": "クリックでアンインストール"
+   },
+   "cm_autoCloseBrackets": {
+      "message": "括弧と引用符を自動的に閉じる"
+   },
+   "cm_autoCloseBracketsTooltip": {
+      "message": "()[]{}''\"\" の開き括弧/引用符の入力時に、対応する閉じ括弧/引用符を自動的に追加します"
+   },
+   "cm_autocompleteOnTyping": {
+      "message": "入力の自動補完を有効にする"
+   },
+   "cm_colorpicker": {
+      "message": "CSSの色選択ツールを使用する"
+   },
+   "cm_indentWithTabs": {
+      "message": "スマートインデントにタブ文字を使用"
+   },
+   "cm_keyMap": {
+      "message": "キーマップ"
+   },
+   "cm_lineWrapping": {
+      "message": "ワードラップを有効にする"
+   },
+   "cm_matchHighlight": {
+      "message": "ハイライト"
+   },
+   "cm_matchHighlightSelection": {
+      "message": "選択した単語のみ"
+   },
+   "cm_matchHighlightToken": {
+      "message": "カーソル下の単語"
+   },
+   "cm_resizeGripHint": {
+      "message": "ダブルクリックで高さを最大化/元に戻す"
+   },
+   "cm_selectByTokens": {
+      "message": "ダブルクリックでトークンを選択する"
+   },
+   "cm_selectByTokensTooltip": {
+      "message": "トークンの例: .foo-bar-2 #aabbcc 0.32 !important\n無効にすると、記号で区切られた範囲で単語が選択されます。"
+   },
+   "cm_smartIndent": {
+      "message": "スマートインデントを使用する"
+   },
+   "cm_tabSize": {
+      "message": "タブサイズ"
+   },
+   "cm_theme": {
+      "message": "テーマ"
+   },
+   "colorpickerSwitchFormatTooltip": {
+      "message": "フォーマット切り替え: HEX -> RGB -> HSL\nシフトを押しながらクリックすると逆向きに切り替えます。\nまた、PgUp (PageUp), PgDn (PageDown) キーも使用できます。"
+   },
+   "colorpickerTooltip": {
+      "message": "色選択ツールを開きます"
+   },
+   "configOnChange": {
+      "message": "変更時"
+   },
+   "configOnChangeTooltip": {
+      "message": "自動保存して変更を自動的に適用します"
+   },
+   "configureStyle": {
+      "message": "設定"
+   },
+   "configureStyleOnHomepage": {
+      "message": "ホームページ上で設定"
+   },
+   "confirmCancel": {
+      "message": "キャンセル"
+   },
+   "confirmClose": {
+      "message": "閉じる"
+   },
+   "confirmDefault": {
+      "message": "デフォルトを使用"
+   },
+   "confirmDelete": {
+      "message": "削除"
+   },
+   "confirmDiscardChanges": {
+      "message": "変更を破棄しますか？"
+   },
+   "confirmNo": {
+      "message": "いいえ"
+   },
+   "confirmSave": {
+      "message": "保存"
+   },
+   "confirmStop": {
+      "message": "中止"
+   },
+   "confirmYes": {
+      "message": "はい"
+   },
+   "dateInstalled": {
+      "message": "インストール日"
+   },
+   "dateUpdated": {
+      "message": "更新日"
+   },
+   "dbError": {
+      "message": "Stylusのデータベース使用中にエラーが発生しました。考えられる解決策を記載したWebページを開きますか？"
+   },
+   "defaultTheme": {
+      "message": "デフォルト"
+   },
+   "deleteStyleConfirm": {
+      "message": "このスタイルを削除してもよろしいですか？"
+   },
+   "deleteStyleLabel": {
+      "message": "削除"
+   },
+   "description": {
+      "message": "Stylus でウェブのデザインを変更しましょう。これは、ユーザースタイルを管理するツールです。Stylus を利用すると、多くの人気サイト向けのテーマやスキンを簡単にインストールできます。"
+   },
+   "disableAllStyles": {
+      "message": "すべてのスタイルをオフにする"
+   },
+   "disableStyleLabel": {
+      "message": "無効化"
+   },
+   "dragDropMessage": {
+      "message": "このページの任意の場所にバックアップファイルをドロップしてインポートします。"
+   },
+   "editDeleteText": {
+      "message": "削除"
+   },
+   "editGotoLine": {
+      "message": "行（または行:列）に移動"
+   },
+   "editStyleHeading": {
+      "message": "スタイルを編集"
+   },
+   "editStyleLabel": {
+      "message": "編集"
+   },
+   "editStyleTitle": {
+      "message": "スタイル「$stylename$」を編集",
+      "placeholders": {
+         "stylename": {
+            "content": "$1"
+         }
+      }
+   },
+   "editorStylesButton": {
+      "message": "エディタのスタイルを見つける"
+   },
+   "enableStyleLabel": {
+      "message": "有効化"
+   },
+   "exportLabel": {
+      "message": "エクスポート"
+   },
+   "externalFeedback": {
+      "message": "フィードバック"
+   },
+   "externalHomepage": {
+      "message": "ホームページ"
+   },
+   "externalLink": {
+      "message": "外部リンク"
+   },
+   "externalSupport": {
+      "message": "サポート"
+   },
+   "externalUsercssDocument": {
+      "message": "Usercssの文書"
+   },
+   "filteredStyles": {
+      "message": "$numTotal$ 件中の $numShown$ 件を表示",
+      "placeholders": {
+         "numShown": {
+            "content": "$1"
+         },
+         "numTotal": {
+            "content": "$2"
+         }
+      }
+   },
+   "filteredStylesAllHidden": {
+      "message": "現在のフィルターにマッチするスタイルはありません"
+   },
+   "findStyles": {
+      "message": "スタイルを検索"
+   },
+   "findStylesForSite": {
+      "message": "このサイト用のスタイルを検索"
+   },
+   "findStylesInline": {
+      "message": "結果を下に表示"
+   },
+   "findStylesInlineTooltip": {
+      "message": "検索結果をこのウィンドウに表示"
+   },
+   "genericAdd": {
+      "message": "追加"
+   },
+   "genericClone": {
+      "message": "複製"
+   },
+   "genericDisabledLabel": {
+      "message": "無効化"
+   },
+   "genericEnabledLabel": {
+      "message": "有効"
+   },
+   "genericError": {
+      "message": "エラー"
+   },
+   "genericHistoryLabel": {
+      "message": "履歴"
+   },
+   "genericNext": {
+      "message": "次"
+   },
+   "genericPrevious": {
+      "message": "前"
+   },
+   "genericResetLabel": {
+      "message": "リセット"
+   },
+   "genericSavedMessage": {
+      "message": "保存しました"
+   },
+   "genericTitle": {
+      "message": "タイトル"
+   },
+   "genericUnknown": {
+      "message": "不明"
+   },
+   "helpAlt": {
+      "message": "ヘルプ"
+   },
+   "helpKeyMapCommand": {
+      "message": "コマンド名を入力"
+   },
+   "helpKeyMapHotkey": {
+      "message": "ホットキーを押す"
+   },
+   "importAppendLabel": {
+      "message": "スタイルに追加"
+   },
+   "importAppendTooltip": {
+      "message": "インポートされたスタイルを現在のスタイルに追加する"
+   },
+   "importLabel": {
+      "message": "インポート"
+   },
+   "importReplaceLabel": {
+      "message": "スタイルを上書き"
+   },
+   "importReplaceTooltip": {
+      "message": "現在のスタイルの内容を破棄し、インポートされたスタイルで上書きする"
+   },
+   "importReportLegendAdded": {
+      "message": "件のスタイルを追加しました"
+   },
+   "importReportLegendIdentical": {
+      "message": "件の同一のスタイルをスキップしました"
+   },
+   "importReportLegendInvalid": {
+      "message": "件の無効なスタイルをスキップしました"
+   },
+   "importReportLegendUpdatedBoth": {
+      "message": "件のメタ情報とコードを更新しました"
+   },
+   "importReportLegendUpdatedCode": {
+      "message": "件のコードを更新しました"
+   },
+   "importReportLegendUpdatedMeta": {
+      "message": "件のメタ情報を更新しました"
+   },
+   "importReportTitle": {
+      "message": "スタイルのインポートが終了しました"
+   },
+   "importReportUnchanged": {
+      "message": "変更がありませんでした。"
+   },
+   "importReportUndone": {
+      "message": "件のスタイルを元に戻しました"
+   },
+   "importReportUndoneTitle": {
+      "message": "インポートが取り消されました"
+   },
+   "installButton": {
+      "message": "インストール"
+   },
+   "installButtonInstalled": {
+      "message": "インストール済み"
+   },
+   "installButtonReinstall": {
+      "message": "再インストール"
+   },
+   "installButtonUpdate": {
+      "message": "更新"
+   },
+   "installUpdate": {
+      "message": "更新をインストール"
+   },
+   "installUpdateFrom": {
+      "message": "現在、このスタイルは「$url$」から更新されます",
+      "placeholders": {
+         "url": {
+            "content": "$1"
+         }
+      }
+   },
+   "installUpdateFromLabel": {
+      "message": "更新をチェック"
+   },
+   "installUpdateUnavailable": {
+      "message": "更新のチェックを有効にするには、ファイルをタブストリップにドロップするか、スタイルのメタデータで @updateURL を指定してください。"
+   },
+   "license": {
+      "message": "ライセンス"
+   },
+   "linkGetHelp": {
+      "message": "ヘルプ"
+   },
+   "linkGetStyles": {
+      "message": "スタイルを取得"
+   },
+   "linkStylusWiki": {
+      "message": "ウィキ"
+   },
+   "linkTranslate": {
+      "message": "翻訳"
+   },
+   "linterCSSLintIncompatible": {
+      "message": "CSSLintは「$preprocessorname$」プリプロセッサをサポートしていません",
+      "placeholders": {
+         "preprocessorname": {
+            "content": "$1"
+         }
+      }
+   },
+   "linterCSSLintSettings": {
+      "message": "（次のようにルールを設定してください: 0=無効, 1=警告, 2=エラー）"
+   },
+   "linterConfigPopupTitle": {
+      "message": "$linter$ のルールを設定する",
+      "placeholders": {
+         "linter": {
+            "content": "$1"
+         }
+      }
+   },
+   "linterConfigTooltip": {
+      "message": "Linterの設定を行うときはクリックしてください"
+   },
+   "linterInvalidConfigError": {
+      "message": "これらの不正な設定のために保存されませんでした:"
+   },
+   "linterIssues": {
+      "message": "問題点"
+   },
+   "linterIssuesHelp": {
+      "message": "$link$ によってこれらの問題点が見つかりました:",
+      "placeholders": {
+         "link": {
+            "content": "$1"
+         }
+      }
+   },
+   "linterJSONError": {
+      "message": "不正なJSONフォーマットです"
+   },
+   "linterResetMessage": {
+      "message": "予期しないリセットを復旧するには、テキストボックス内で Ctrl-Z（または Cmd-Z）を押してください"
+   },
+   "linterRulesLink": {
+      "message": "ルールの完全なリストを見る"
+   },
+   "liveReloadError": {
+      "message": "ファイルの監視中にエラーが発生しました"
+   },
+   "liveReloadInstallHint": {
+      "message": "自動リロードが有効になっているため、このタブとソースファイルのタブの両方が開いている間に、外部変更によってインストール済みスタイルが自動更新されることがあります。"
+   },
+   "liveReloadLabel": {
+      "message": "自動リロード"
+   },
+   "liveReloadUnavailable": {
+      "message": "自動リロードを有効にするには、ファイルをタブストリップ（タブのタイトルが表示されている領域）にドロップしてください。"
+   },
+   "manageFavicons": {
+      "message": "適用先欄のファビコン"
+   },
+   "manageFaviconsGray": {
+      "message": "グレー表示"
+   },
+   "manageFaviconsHelp": {
+      "message": "Stylusは外部サービスを使用します https://www.google.com/s2/favicons"
+   },
+   "manageFilters": {
+      "message": "フィルター"
+   },
+   "manageHeading": {
+      "message": "インストール済みのスタイル"
+   },
+   "manageMaxTargets": {
+      "message": "適用先欄の表示件数"
+   },
+   "manageNewStyleAsUsercss": {
+      "message": "Usercssとして"
+   },
+   "manageNewUI": {
+      "message": "新しい管理UIレイアウト"
+   },
+   "manageOnlyDisabled": {
+      "message": "無効なスタイルのみ"
+   },
+   "manageOnlyEnabled": {
+      "message": "有効なスタイルのみ"
+   },
+   "manageOnlyExternal": {
+      "message": "外部取得スタイルのみ"
+   },
+   "manageOnlyLocal": {
+      "message": "ローカル作成スタイルのみ"
+   },
+   "manageOnlyLocalTooltip": {
+      "message": "（userstyles.orgのページからインストールされていないスタイル）"
+   },
+   "manageOnlyNonUsercss": {
+      "message": "非Usercssスタイルのみ"
+   },
+   "manageOnlyUpdates": {
+      "message": "更新もしくは問題があるスタイルのみ"
+   },
+   "manageOnlyUsercss": {
+      "message": "Usercssスタイルのみ"
+   },
+   "menuShowBadge": {
+      "message": "アクティブなスタイルの数を表示する"
+   },
+   "noStylesForSite": {
+      "message": "該当するスタイルはありません。"
+   },
+   "openManage": {
+      "message": "管理"
+   },
+   "openOptionsManage": {
+      "message": "オプション UI"
+   },
+   "openOptionsPopup": {
+      "message": "オプション"
+   },
+   "openStylesManager": {
+      "message": "スタイルマネージャーを開く"
+   },
+   "optionsActions": {
+      "message": "アクション"
+   },
+   "optionsAdvanced": {
+      "message": "上級者向け"
+   },
+   "optionsAdvancedContextDelete": {
+      "message": "エディタのコンテキストメニューに「削除」を追加します"
+   },
+   "optionsAdvancedExposeIframes": {
+      "message": "HTML[stylus-iframe] によってiframeへのアクセスを可能にします"
+   },
+   "optionsAdvancedExposeIframesNote": {
+      "message": "各iframeにトップサイトドメインを公開します。\n次のようにiframe用のCSSを書くことができるようになります:\nhtml[stylus-iframe$=\"twitter.com\"] h1 { display:none }"
+   },
+   "optionsAdvancedNewStyleAsUsercss": {
+      "message": "新しいスタイルを usercss として作成します"
+   },
+   "optionsBadgeDisabled": {
+      "message": "無効にしたときの背景色"
+   },
+   "optionsBadgeNormal": {
+      "message": "背景色"
+   },
+   "optionsCheck": {
+      "message": "スタイル更新"
+   },
+   "optionsCheckUpdate": {
+      "message": "使用可能なすべての更新を確認してインストールする"
+   },
+   "optionsCustomizeBadge": {
+      "message": "ツールバーアイコンのバッジ"
+   },
+   "optionsCustomizeIcon": {
+      "message": "ツールバーアイコン"
+   },
+   "optionsCustomizePopup": {
+      "message": "ポップアップ"
+   },
+   "optionsCustomizeUpdate": {
+      "message": "更新"
+   },
+   "optionsHeading": {
+      "message": "オプション"
+   },
+   "optionsIconDark": {
+      "message": "暗いブラウザのテーマ"
+   },
+   "optionsIconLight": {
+      "message": "明るいブラウザのテーマ"
+   },
+   "optionsOpen": {
+      "message": "開く"
+   },
+   "optionsOpenManager": {
+      "message": "スタイル管理"
+   },
+   "optionsPopupWidth": {
+      "message": "ポップアップの幅（ピクセル単位）"
+   },
+   "optionsReset": {
+      "message": "オプションをデフォルト値にリセットする"
+   },
+   "optionsResetButton": {
+      "message": "オプションをリセット"
+   },
+   "optionsSubheading": {
+      "message": "その他のオプション"
+   },
+   "optionsUpdateImportNote": {
+      "message": "旧バージョンまたはStylishからスタイルのバックアップをインポートする場合は、スタイルマネージャで一度手動で更新チェックを行い、すべてのスタイルが確実に更新されるようにしてください。"
+   },
+   "optionsUpdateInterval": {
+      "message": "ユーザースタイルの自動更新間隔（時間単位）（0を指定すると更新しません）"
+   },
+   "paginationCurrent": {
+      "message": "現在のページ"
+   },
+   "paginationEstimated": {
+      "message": "推定ページ数"
+   },
+   "paginationNext": {
+      "message": "次ページ"
+   },
+   "paginationPrevious": {
+      "message": "前ページ"
+   },
+   "paginationTotal": {
+      "message": "総ページ数"
+   },
+   "parseUsercssError": {
+      "message": "Stylusはusercssの解析に失敗しました: "
+   },
+   "popupBorders": {
+      "message": "横に白い境界線を追加する"
+   },
+   "popupBordersTooltip": {
+      "message": "新しいChromeが横の境界線を描かなくなったため、暗いテーマで有効です"
+   },
+   "popupHotkeysInfo": {
+      "message": "\u003C1>-\u003C9>, \u003C0>, または数字パッドキーにより、N番目のスタイルの有効/無効を切り替えます（0は10番目を意味します）\n\u003CA>-\u003CZ> は、その文字で始まる先頭のスタイルの有効/無効を切り替えます\n\u003CShift> を併用すると、切り替えではなくエディタを開きます\n\u003CNumpad +> は、リストのスタイルをすべて有効にします\n\u003CNumpad –> は、リストのスタイルをすべて無効にします\n\u003CNumpad *> と \u003C`>（バッククォート）は、初期状態が有効なスタイルのみを切り替えます。すなわち ポップアップ上で後から有効にしたスタイルは切り替えません。例えば、テスト後に初期の選択に戻すには、全解除してから切り替えてください（すなわち \u003CNumpad –> \u003CNumpad *> の順に押してください）\n詳細については wiki を参照ください"
+   },
+   "popupHotkeysTooltip": {
+      "message": "クリックすると使用可能なホットキーを表示します"
+   },
+   "popupManageTooltip": {
+      "message": "シフトを押しながらクリック または 右クリック で、現在のサイトに適用可能なスタイルの管理画面を開きます"
+   },
+   "popupOpenEditInWindow": {
+      "message": "新しいウィンドウでエディタを開く"
+   },
+   "popupOpenEditInWindowTooltip": {
+      "message": "エディタのタブをブラウザのウィンドウから切り離すことでも有効になります。\nそして、分離したエディタのタブを他のブラウザのウィンドウに結合すれば無効になります。"
+   },
+   "popupStylesFirst": {
+      "message": "スタイルをコマンドボタンより上に表示"
+   },
+   "prefShowBadge": {
+      "message": "現在のサイトで有効なスタイルの数を表示"
+   },
+   "previewLabel": {
+      "message": "自動プレビュー"
+   },
+   "previewTooltip": {
+      "message": "変更を保存しないで一時的に適用します。\n変更を確定する場合には、スタイルを保存してください。"
+   },
+   "replace": {
+      "message": "置換"
+   },
+   "replaceAll": {
+      "message": "すべて置換"
+   },
+   "replaceWith": {
+      "message": "次に置換"
+   },
+   "retrieveBckp": {
+      "message": "スタイルをインポート"
+   },
+   "search": {
+      "message": "検索"
+   },
+   "searchCaseSensitive": {
+      "message": "大文字小文字を区別する"
+   },
+   "searchNumberOfResults": {
+      "message": "マッチ数"
+   },
+   "searchNumberOfResults2": {
+      "message": "コードおよび適用先欄のマッチ数"
+   },
+   "searchRegexp": {
+      "message": "正規表現検索には /re/ を使用してください"
+   },
+   "searchResultInstallCount": {
+      "message": "総インストール数"
+   },
+   "searchResultNoneFound": {
+      "message": "該当するスタイルはありません。"
+   },
+   "searchResultRating": {
+      "message": "評価"
+   },
+   "searchResultUpdated": {
+      "message": "更新日"
+   },
+   "searchResultWeeklyCount": {
+      "message": "週間インストール数"
+   },
+   "searchStyles": {
+      "message": "コンテンツの検索"
+   },
+   "searchStylesHelp": {
+      "message": "\u003C/> キーで検索欄に移動します。\n文字列検索 : 名前、コード、適用先のURL/サイト名を検索します。3文字より短い単語は無視されます。\nURL検索 : 検索文字列の前に \u003Curl:> を付けてください。例.  \u003Curl:https://github.com/openstyles/stylus>\n正規表現検索 : 検索文字列にスラッシュとフラグを含めてください。例. \u003C/body.*?\\ba\\b/simguy>\n正確な文字列検索 : 検索文字列をダブルクォートで囲んでください。例. \u003C\".header ~ div\">"
+   },
+   "sectionAdd": {
+      "message": "他のセクションを追加"
+   },
+   "sectionCode": {
+      "message": "コード"
+   },
+   "sectionHelp": {
+      "message": "セクションを利用すると、1 つのスタイルの中で複数のコードを定義し、それぞれ異なる URL に適用することができます。たとえば、単一のスタイルで、サイトのトップページの表示方法と他のページの表示方法を変えることができます。"
+   },
+   "sectionRemove": {
+      "message": "セクションを削除"
+   },
+   "sectionRestore": {
+      "message": "削除したセクションを復旧"
+   },
+   "shortcuts": {
+      "message": "ショートカット"
+   },
+   "shortcutsNote": {
+      "message": "キーボードショートカットを定義する"
+   },
+   "sortDateNewestFirst": {
+      "message": "新しい順"
+   },
+   "sortDateOldestFirst": {
+      "message": "古い順"
+   },
+   "sortLabel": {
+      "message": "インストール済みスタイルの並べ替え"
+   },
+   "sortLabelTitleAsc": {
+      "message": "タイトル昇順"
+   },
+   "sortLabelTitleDesc": {
+      "message": "タイトル降順"
+   },
+   "sortStylesHelp": {
+      "message": "インストール済みの項目の並べ替え方法を、ドロップダウンリストで選択してください。デフォルト設定は、タイトルの昇順（AからZへ）になっています。「タイトル降順」を選択すると、タイトルの降順（ZからAへ）に並べ替えます。\n他に、複数の基準で項目の並べ替えを行う設定もあります。これは、複数の列を持つ表の並べ替えと考えられ、（プラス記号を挟んで）選択された各カテゴリーは、対応する列またはグループを表します。\n例えば、「有効（1番目）＋タイトル」という設定の場合、すべての有効な項目がリストの先頭に並べられ、次にタイトルの昇順（AからZへ）で有効／無効な項目がそれぞれ並べられます。"
+   },
+   "sortStylesHelpTitle": {
+      "message": "コンテンツの並べ替え"
+   },
+   "styleBadRegexp": {
+      "message": "正規表現は無効です。"
+   },
+   "styleBeautify": {
+      "message": "書式整形"
+   },
+   "styleBeautifyIndentConditional": {
+      "message": "@media, @supports をインデント"
+   },
+   "styleBeautifyPreserveNewlines": {
+      "message": "改行を保存"
+   },
+   "styleCancelEditLabel": {
+      "message": "管理画面に戻る"
+   },
+   "styleChangesNotSaved": {
+      "message": "このスタイルは変更されていますが、保存されていません。"
+   },
+   "styleEnabledLabel": {
+      "message": "有効"
+   },
+   "styleFromMozillaFormatError": {
+      "message": "Mozilla形式のインポートに失敗しました"
+   },
+   "styleFromMozillaFormatPrompt": {
+      "message": "Mozilla形式のコードを貼り付ける"
+   },
+   "styleInstall": {
+      "message": "「$stylename$」を Stylus にインストールしますか？",
+      "placeholders": {
+         "stylename": {
+            "content": "$1"
+         }
+      }
+   },
+   "styleInstallFailed": {
+      "message": "ユーザースタイルのインストールに失敗しました!\n$error$",
+      "placeholders": {
+         "error": {
+            "content": "$1"
+         }
+      }
+   },
+   "styleInstallOverwrite": {
+      "message": "「$stylename$」はすでにインストール済みです。上書きしますか？\nバージョン: $oldVersion$ -> $newVersion$",
+      "placeholders": {
+         "newVersion": {
+            "content": "$3"
+         },
+         "oldVersion": {
+            "content": "$2"
+         },
+         "stylename": {
+            "content": "$1"
+         }
+      }
+   },
+   "styleMetaErrorCheckbox": {
+      "message": "不正な @var チェックボックス: 値は0か1である必要があります"
+   },
+   "styleMetaErrorColor": {
+      "message": "$color$ は有効な色ではありません",
+      "placeholders": {
+         "color": {
+            "content": "$1"
+         }
+      }
+   },
+   "styleMetaErrorPreprocessor": {
+      "message": "未サポートの @preprocessor: $preprocessor$",
+      "placeholders": {
+         "preprocessor": {
+            "content": "$1"
+         }
+      }
+   },
+   "styleMetaErrorRangeOrNumber": {
+      "message": "不正な @var $type$: 最低でも1個の数値を持つ配列である必要があります",
+      "placeholders": {
+         "type": {
+            "content": "$1"
+         }
+      }
+   },
+   "styleMetaErrorSelectValueMismatch": {
+      "message": "不正な @select: 値がリストに存在しません"
+   },
+   "styleMissingMeta": {
+      "message": "メタデータがありません @$key$",
+      "placeholders": {
+         "key": {
+            "content": "$1"
+         }
+      }
+   },
+   "styleMissingName": {
+      "message": "名前を入力してください"
+   },
+   "styleNotAppliedRegexpProblemTooltip": {
+      "message": "'regexp()' の誤った使用のためスタイルを適用できませんでした"
+   },
+   "styleRegexpInvalidExplanation": {
+      "message": "いくつかの 'regexp()' のルールはコンパイルできませんでした"
+   },
+   "styleRegexpPartialExplanation": {
+      "message": "このスタイルは、完全なURLの一致を要求する \u003Ca href='https://developer.mozilla.org/docs/Web/CSS/@document'>CSS4 @document 仕様\u003C/a> に違反した部分一致の正規表現を使用しています。影響を受けるCSSセクションはページに適用されませんでした。このスタイルは、'regexp()' のルールを誤ってチェックしていた かなり初期のバージョンの Stylish-for-Chrome で作成された可能性があります（既知のバグです）。"
+   },
+   "styleRegexpProblemTooltip": {
+      "message": "'regexp()' の誤った使用のためいくつかのセクションを適用できませんでした"
+   },
+   "styleRegexpTestButton": {
+      "message": "正規表現をテスト"
+   },
+   "styleRegexpTestFull": {
+      "message": "一致するタブ"
+   },
+   "styleRegexpTestInvalid": {
+      "message": "無効な正規表現がスキップされました"
+   },
+   "styleRegexpTestNone": {
+      "message": "一致するタブはありません"
+   },
+   "styleRegexpTestNote": {
+      "message": "注: 正規表現の入力欄でエスケープする場合には、「\\」1個を使用してください。それは、CSSでの引用符で囲まれた文字列の仕様に従い、スタイルコード内で自動的に「\\\\」に変換されます。"
+   },
+   "styleRegexpTestPartial": {
+      "message": "完全に一致しないため、スキップされました"
+   },
+   "styleRegexpTestTitle": {
+      "message": "一致する開いているタブのリスト（URLをクリックするとそのタブに移動します）"
+   },
+   "styleSaveLabel": {
+      "message": "保存"
+   },
+   "styleSectionsTitle": {
+      "message": "セクション"
+   },
+   "styleToMozillaFormatHelp": {
+      "message": "Mozilla形式のコードは、userstyles.org に投稿することができ、また従来の Stylish for Firefox でも使用できます"
+   },
+   "styleToMozillaFormatTitle": {
+      "message": "Mozilla形式のスタイル"
+   },
+   "styleUpdate": {
+      "message": "「$stylename$」を更新してもよろしいですか？",
+      "placeholders": {
+         "stylename": {
+            "content": "$1"
+         }
+      }
+   },
+   "styleUpdateDiscardChanges": {
+      "message": "このスタイルはエディタの外部で変更されました。このスタイルをリロードしますか？"
+   },
+   "stylusUnavailableForURL": {
+      "message": "このページではStylusは動作しません。"
+   },
+   "stylusUnavailableForURLdetails": {
+      "message": "セキュリティ上の予防措置として、ブラウザは拡張機能がビルトイン ページ（chrome://version, Chrome 61 の標準の新しいタブページ, about:addons 等）に影響を与えることを禁止しています。これは他の拡張機能のページについても同様です。各ブラウザはまた、自身の拡張機能ギャラリーへのアクセスについても制限しています（Chrome Web ストア や AMO 等）。"
+   },
+   "syncStorageErrorSaving": {
+      "message": "値を保存できません。テキストの量を減らしてください。"
+   },
+   "toggleStyle": {
+      "message": "スタイルの有効/無効の切り替え"
+   },
+   "undo": {
+      "message": "元に戻す"
+   },
+   "undoGlobal": {
+      "message": "すべてのセクションで元に戻す"
+   },
+   "unreachableAMO": {
+      "message": "Firefoxはこのサイトへのアクセスを禁止しています。"
+   },
+   "unreachableAMOHint": {
+      "message": "アクセスを許可するには、\u003Cabout:config> を開き、リストを右クリックして「新規作成」－「真偽値」をクリックし、\u003Cprivacy.resistFingerprinting.block_mozAddonManager> を貼り付けてOKをクリックし、\u003Ctrue> を選択してOKをクリックし、その後、\u003Caddons.mozilla.org> ページをリロードしてください。"
+   },
+   "unreachableAMOHintNewFF": {
+      "message": "Firefox 60 以降では、\u003Cabout:config>の\u003Cextensions.webextensions.restrictedDomains>からAMOのドメインを削除する必要があるかもしれません。"
+   },
+   "unreachableAMOHintOldFF": {
+      "message": "Firefox 59 以降のみが、「WebExtensionがこのようなCSPプロテクトされたサイトにスタイル要素を追加すること」を許可する設定を行えます。"
+   },
+   "unreachableContentScript": {
+      "message": "ページと通信できませんでした。タブを再読み込みしてみてください。"
+   },
+   "unreachableFileHint": {
+      "message": "chrome://extensions ページでStylus拡張機能の当該チェックボックスを有効にした場合にのみ、Stylusは file:// URLにアクセスできます。"
+   },
+   "updateAllCheckSucceededNoUpdate": {
+      "message": "更新は見つかりませんでした。"
+   },
+   "updateAllCheckSucceededSomeEdited": {
+      "message": "いくつかの更新可能なスタイルは、ローカルでの編集内容が失われることを避けるために、チェックされませんでした。更新を強制的に行うには、個別のチェック、もしくは、全スタイルに対する再チェックを実行してください（この場合、ローカルでの編集内容は上書きされます）。"
+   },
+   "updateCheckFailBadResponseCode": {
+      "message": "更新に失敗しました: サーバーが応答コード「$code$」を返しています。",
+      "placeholders": {
+         "code": {
+            "content": "$1"
+         }
+      }
+   },
+   "updateCheckFailServerUnreachable": {
+      "message": "更新に失敗しました: サーバーに到達できません。"
+   },
+   "updateCheckHistory": {
+      "message": "更新チェックの履歴"
+   },
+   "updateCheckManualUpdateForce": {
+      "message": "更新をインストール（ローカルでの編集内容は上書きされます）"
+   },
+   "updateCheckManualUpdateHint": {
+      "message": "更新を強制すると、すべてのローカルでの編集内容が上書きされます。"
+   },
+   "updateCheckSkippedLocallyEdited": {
+      "message": "このスタイルはローカルで編集されました。"
+   },
+   "updateCheckSkippedMaybeLocallyEdited": {
+      "message": "このスタイルはローカルで編集されている可能性があります。"
+   },
+   "updateCheckSucceededNoUpdate": {
+      "message": "スタイルは最新の状態です。"
+   },
+   "updateCompleted": {
+      "message": "更新が完了しました。"
+   },
+   "updatesCurrentlyInstalled": {
+      "message": "更新がインストールされました:"
+   },
+   "usercssAvoidOverwriting": {
+      "message": "既存のスタイルの上書きを避けるために、@name または @namespace の値を変更してください。"
+   },
+   "usercssConfigIncomplete": {
+      "message": "設定ダイアログの表示後に、スタイルが更新または削除されました。スタイルのメタデータの破損を避けるため、これらの変数は保存されませんでした:"
+   },
+   "usercssEditorNamePlaceholder": {
+      "message": "コードで@nameを指定してください"
+   },
+   "usercssReplaceTemplateConfirmation": {
+      "message": "現在のコードで、新しいUsercssスタイルのデフォルト・テンプレートを置き換えますか？"
+   },
+   "usercssReplaceTemplateName": {
+      "message": "@name を空にすると、デフォルト・テンプレートを置き換えます"
+   },
+   "usercssReplaceTemplateSectionBody": {
+      "message": "ここにコードを挿入..."
+   },
+   "versionInvalidOlder": {
+      "message": "インストール済みのスタイルより古いバージョンです。"
+   },
+   "writeStyleFor": {
+      "message": "次のスタイルを書く:"
+   },
+   "writeStyleForURL": {
+      "message": "このURL"
+   }
+}

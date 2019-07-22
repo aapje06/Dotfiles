@@ -1,0 +1,228 @@
+{
+   "addStyleLabel": {
+      "message": "Γράψτε νέο στυλ"
+   },
+   "addStyleTitle": {
+      "message": "Προσθήκη στυλ"
+   },
+   "appliesAdd": {
+      "message": "Προσθήκη"
+   },
+   "appliesDisplay": {
+      "message": "Ισχύει για: $applies$",
+      "placeholders": {
+         "applies": {
+            "content": "$1"
+         }
+      }
+   },
+   "appliesDisplayTruncatedSuffix": {
+      "message": "και πολλά άλλα"
+   },
+   "appliesDomainOption": {
+      "message": "URL στον τομέα"
+   },
+   "appliesHelp": {
+      "message": "Χρησιμοποιήστε το \"Ισχύει για\" έλεγχοι ώστε να περιοριστουν ποιες διευθύνσεις τον κώδικα σε αυτό το τμήμα να εφαρμόζονται."
+   },
+   "appliesLabel": {
+      "message": "Ισχύει για"
+   },
+   "appliesRegexpOption": {
+      "message": "Διευθύνσεις URL που ταιριάζουν με την κανονική έκφραση"
+   },
+   "appliesRemove": {
+      "message": "Αφαίρεση"
+   },
+   "appliesSpecify": {
+      "message": "Καθορισμός"
+   },
+   "appliesToEverything": {
+      "message": "Τα πάντα"
+   },
+   "appliesUrlPrefixOption": {
+      "message": "Διευθύνσεις URL που αρχίζουν με"
+   },
+   "applyAllUpdates": {
+      "message": "Εφαρμογή όλων των ενημερώσεων"
+   },
+   "checkAllUpdates": {
+      "message": "Έλεγχος όλων των στυλ για ενημερώσεις"
+   },
+   "checkForUpdate": {
+      "message": "Έλεγχος για ενημερώσεις"
+   },
+   "checkingForUpdate": {
+      "message": "Έλεγχος..."
+   },
+   "cm_indentWithTabs": {
+      "message": "Χρήση καρτελών με έξυπνη εσοχή"
+   },
+   "cm_lineWrapping": {
+      "message": "Αναδίπλωση λέξεων"
+   },
+   "cm_smartIndent": {
+      "message": "Χρήση έξυπνης εσοχής"
+   },
+   "cm_tabSize": {
+      "message": "Μέγεθος καρτέλας"
+   },
+   "dbError": {
+      "message": "Παρουσιάστηκε σφάλμα χρησιμοποιώντας την κομψή βάση δεδομένων. Θα θέλατε να επισκεφθείτε μια ιστοσελίδα με πιθανές λύσεις;"
+   },
+   "deleteStyleConfirm": {
+      "message": "Είστε σίγουροι ότι θέλετε να διαγράψετε αυτό το στυλ;"
+   },
+   "deleteStyleLabel": {
+      "message": "Διαγραφή"
+   },
+   "description": {
+      "message": "Επαναπροσδιορίση του διαδίκτυου με το  Stylus, έναν διαχειριστή στυλ. Το Stylus σας επιτρέπει να εγκαταστήσετε εύκολα themes και skins για πολλές δημοφιλείς ιστοσελίδες."
+   },
+   "disableAllStyles": {
+      "message": "Απενεργοποιηση ολων των στυλ"
+   },
+   "disableStyleLabel": {
+      "message": "Απενεργοποίηση"
+   },
+   "editGotoLine": {
+      "message": "Μετάβαση στη γραμμή (ή line:col)"
+   },
+   "editStyleHeading": {
+      "message": "Επεξεργασία Στυλ"
+   },
+   "editStyleLabel": {
+      "message": "Επεξεργασία"
+   },
+   "editStyleTitle": {
+      "message": "Επεξεργασία του στυλ $stylename$",
+      "placeholders": {
+         "stylename": {
+            "content": "$1"
+         }
+      }
+   },
+   "enableStyleLabel": {
+      "message": "Ενεργοποίηση"
+   },
+   "findStylesForSite": {
+      "message": "Αναζήτηση περισσότερων στυλ για αυτή την ιστοσελίδα"
+   },
+   "helpAlt": {
+      "message": "Βοήθεια"
+   },
+   "installUpdate": {
+      "message": "Εγκατάσταση ενημέρωσης"
+   },
+   "manageFilters": {
+      "message": "Φίλτρα"
+   },
+   "manageHeading": {
+      "message": "Εγκατεστημένα Στυλ"
+   },
+   "manageOnlyEnabled": {
+      "message": "Μόνο ενεργοποιημένα στυλ"
+   },
+   "manageTitle": {
+      "message": "Κομψή"
+   },
+   "menuShowBadge": {
+      "message": "Εμφάνιση ενεργους καταμέτρησης στυλ"
+   },
+   "noStylesForSite": {
+      "message": "Δεν υπάρχουν εγκατεστημένα στυλ για αυτή την ιστοσελίδα."
+   },
+   "openManage": {
+      "message": "Διαχείριση εγκατεστημένων στυλ"
+   },
+   "optionsHeading": {
+      "message": "Επιλογές"
+   },
+   "popupStylesFirst": {
+      "message": "Στυλ λίστας πριν των εντολών στο μενού του κουμπιού γραμμής εργαλείων"
+   },
+   "prefShowBadge": {
+      "message": "Εμφάνιση αριθμού των στυλ που δραστηριοποιούνται για την τρέχουσα τοποθεσία στην μπάρα εργαλείων"
+   },
+   "sectionAdd": {
+      "message": "Προσθήκη ένος άλλου τμήματος"
+   },
+   "sectionCode": {
+      "message": "Κώδικας"
+   },
+   "sectionHelp": {
+      "message": "Ενότητες σας επιτρέπουν να ορίσετε διαφορετικά κομμάτια του κώδικα για να εφαρμόζονται σε διαφορετικά σύνολα των διευθύνσεων URL στο ίδιο στυλ. Για παράδειγμα, ένα ενιαίο ύφος θα μπορούσε να αλλάξει την αρχική σελίδα ενός ιστότοπου με έναν τρόπο, ενώ αλλάζει το υπόλοιπο μιας τοποθεσίας ένας άλλος τρόπος."
+   },
+   "sectionRemove": {
+      "message": "Αφαίρεση ενότητας"
+   },
+   "styleBadRegexp": {
+      "message": "Το Regexp δεν είναι έγκυρο."
+   },
+   "styleCancelEditLabel": {
+      "message": "Πίσω στη διαχείριση"
+   },
+   "styleChangesNotSaved": {
+      "message": "Έχετε κάνει αλλαγές σε αυτό το ύφος χωρίς αποθήκευση."
+   },
+   "styleEnabledLabel": {
+      "message": "Ενεργοποιημένη"
+   },
+   "styleInstall": {
+      "message": "Εγκατάσταση του '$stylename$' στο Stylus;",
+      "placeholders": {
+         "stylename": {
+            "content": "$1"
+         }
+      }
+   },
+   "styleMissingName": {
+      "message": "Εισάγετε ένα όνομα"
+   },
+   "styleSaveLabel": {
+      "message": "Αποθήκευση"
+   },
+   "styleSectionsTitle": {
+      "message": "Ενότητες"
+   },
+   "styleToMozillaFormatHelp": {
+      "message": "Η μορφή του Mozilla κώδικα μπορεί να χρησιμοποιηθεί με το Stylish για το Firefox και μπορεί να υποβληθεί στο userstyles.org."
+   },
+   "styleUpdate": {
+      "message": "Είστε σίγουροι ότι θέλετε να ενημερώσετε το '$stylename$';",
+      "placeholders": {
+         "stylename": {
+            "content": "$1"
+         }
+      }
+   },
+   "stylusUnavailableForURL": {
+      "message": "To Stylus δεν λειτουργεί σε σελίδες όπως αυτή."
+   },
+   "updateAllCheckSucceededNoUpdate": {
+      "message": "Όλα τα στυλ είναι ενημερωμένα."
+   },
+   "updateCheckFailBadResponseCode": {
+      "message": "Αποτυχία ενημέρωσης: ο διακομιστής ανταποκρίθηκε με κωδικό $code$.",
+      "placeholders": {
+         "code": {
+            "content": "$1"
+         }
+      }
+   },
+   "updateCheckFailServerUnreachable": {
+      "message": "Αποτυχία ενημέρωσης: απρόσιτος διακομιστής."
+   },
+   "updateCheckSucceededNoUpdate": {
+      "message": "Το στυλ είναι ενημερωμένο."
+   },
+   "updateCompleted": {
+      "message": "Η ενημέρωση ολοκληρώθηκε."
+   },
+   "writeStyleFor": {
+      "message": "Γράψτε νέο στυλ για:"
+   },
+   "writeStyleForURL": {
+      "message": "αυτή την διεύθυνση URL"
+   }
+}

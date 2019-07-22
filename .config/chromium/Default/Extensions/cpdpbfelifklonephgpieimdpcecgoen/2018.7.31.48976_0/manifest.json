@@ -1,0 +1,70 @@
+{
+   "app": {
+      "icon_color": "#DC032C",
+      "launch": {
+         "web_url": "http://localhost:8080/"
+      },
+      "linked_icons": [ {
+         "size": 32,
+         "url": "http://localhost:8080/assets/icons/icon-72x72.png"
+      }, {
+         "size": 48,
+         "url": "http://localhost:8080/assets/icons/icon-72x72.png"
+      }, {
+         "size": 64,
+         "url": "http://localhost:8080/assets/icons/icon-72x72.png"
+      }, {
+         "size": 72,
+         "url": "http://localhost:8080/assets/icons/icon-72x72.png"
+      }, {
+         "size": 96,
+         "url": "http://localhost:8080/assets/icons/icon-96x96.png"
+      }, {
+         "size": 128,
+         "url": "http://localhost:8080/assets/icons/icon-128x128.png"
+      }, {
+         "size": 144,
+         "url": "http://localhost:8080/assets/icons/icon-144x144.png"
+      }, {
+         "size": 152,
+         "url": "http://localhost:8080/assets/icons/icon-152x152.png"
+      }, {
+         "size": 192,
+         "url": "http://localhost:8080/assets/icons/icon-192x192.png"
+      }, {
+         "size": 256,
+         "url": "http://localhost:8080/assets/icons/icon-384x384.png"
+      }, {
+         "size": 384,
+         "url": "http://localhost:8080/assets/icons/icon-384x384.png"
+      }, {
+         "size": 512,
+         "url": "http://localhost:8080/assets/icons/icon-512x512.png"
+      } ],
+      "theme_color": "rgba(25,118,210,1)"
+   },
+   "description": "",
+   "icons": {
+      "128": "icons/128.png",
+      "144": "icons/144.png",
+      "152": "icons/152.png",
+      "192": "icons/192.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "384": "icons/384.png",
+      "48": "icons/48.png",
+      "512": "icons/512.png",
+      "64": "icons/64.png",
+      "72": "icons/72.png",
+      "96": "icons/96.png"
+   },
+   "key": "OH20Q4eOOd8m/pgm2x/UAQCxRvk3lbB/2jv+73CbWso=",
+   "name": "stas-hmi-framework",
+   "url_handlers": {
+      "scope": {
+         "matches": [ "http://localhost:8080/*" ],
+         "title": "stas-hmi-framework"
+      }
+   },
+   "version": "2018.7.31.48976"
+}

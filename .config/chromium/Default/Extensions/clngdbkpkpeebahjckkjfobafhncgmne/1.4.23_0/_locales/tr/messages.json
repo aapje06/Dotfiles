@@ -1,0 +1,160 @@
+{
+   "addStyleLabel": {
+      "message": "Yeni stil oluşturun"
+   },
+   "addStyleTitle": {
+      "message": "Stil Ekleyin"
+   },
+   "appliesAdd": {
+      "message": "Ekleyin"
+   },
+   "appliesDisplay": {
+      "message": "Şuraya uygulanır: $applies$",
+      "placeholders": {
+         "applies": {
+            "content": "$1"
+         }
+      }
+   },
+   "appliesDisplayTruncatedSuffix": {
+      "message": "ve diğerleri"
+   },
+   "appliesDomainOption": {
+      "message": "Alan adındaki URLler"
+   },
+   "appliesHelp": {
+      "message": "Bu bölümdeki kodun hangi URLlere uygulanacağını sınırlamak için 'Şuraya uygulanır' denetimlerini kullanın."
+   },
+   "appliesLabel": {
+      "message": "Şuraya uygulanır"
+   },
+   "appliesRegexpOption": {
+      "message": "regexp ile eşleşen URL'ler"
+   },
+   "appliesRemove": {
+      "message": "Kaldır"
+   },
+   "appliesSpecify": {
+      "message": "Belirt"
+   },
+   "appliesToEverything": {
+      "message": "Her şey"
+   },
+   "appliesUrlPrefixOption": {
+      "message": "Şununla başlayan URL'ler:"
+   },
+   "checkAllUpdates": {
+      "message": "Tüm stiller için güncellemeleri denetle"
+   },
+   "checkForUpdate": {
+      "message": "Güncellemeleri denetle"
+   },
+   "checkingForUpdate": {
+      "message": "Kontrol ediliyor..."
+   },
+   "deleteStyleConfirm": {
+      "message": "Bu stili silmek istediğinizden emin misiniz?"
+   },
+   "deleteStyleLabel": {
+      "message": "Sil"
+   },
+   "description": {
+      "message": "Kullanıcı stil yöneticisi Stylus ile Web'in stilini yenileyin. Stylus Google, Facebook, YouTube, Orkut ve diğer pek çok site için temalar ve görünüm yüklemenize imkân tanır."
+   },
+   "disableStyleLabel": {
+      "message": "Devre dışı bırak"
+   },
+   "editStyleHeading": {
+      "message": "Stili Düzenle"
+   },
+   "editStyleLabel": {
+      "message": "Düzenle"
+   },
+   "editStyleTitle": {
+      "message": "$stylename$ Stilini Düzenleyin",
+      "placeholders": {
+         "stylename": {
+            "content": "$1"
+         }
+      }
+   },
+   "enableStyleLabel": {
+      "message": "Etkinleştir"
+   },
+   "findStylesForSite": {
+      "message": "Bu site için başka stiller bul"
+   },
+   "helpAlt": {
+      "message": "Yardım"
+   },
+   "installUpdate": {
+      "message": "Güncellemeyi yükle"
+   },
+   "manageHeading": {
+      "message": "Yüklü Stiller"
+   },
+   "noStylesForSite": {
+      "message": "Bu site için hiçbir stil yüklenmedi."
+   },
+   "openManage": {
+      "message": "Yüklü stilleri yönet"
+   },
+   "sectionAdd": {
+      "message": "Başka bölüm ekle"
+   },
+   "sectionCode": {
+      "message": "Kod"
+   },
+   "sectionHelp": {
+      "message": "Bölümler, aynı stil içindeki farklı URL kümelerine uygulanacak farklı kod parçaları tanımlamanıza olanak sağlar. Örneğin, tek bir stil bir sitenin ana sayfasını belirli bir şekilde değiştirirken, sayfanın kalan kısmını farklı bir şekilde değiştirebilir."
+   },
+   "sectionRemove": {
+      "message": "Bölümü kaldır"
+   },
+   "styleCancelEditLabel": {
+      "message": "Yönetim sayfasına dön"
+   },
+   "styleChangesNotSaved": {
+      "message": "Bu stilde yaptığınız, kaydedilmemiş değişiklikler var."
+   },
+   "styleEnabledLabel": {
+      "message": "Etkin"
+   },
+   "styleInstall": {
+      "message": "'$stylename$' Stylus'e yüklensin mi?",
+      "placeholders": {
+         "stylename": {
+            "content": "$1"
+         }
+      }
+   },
+   "styleMissingName": {
+      "message": "Bir ad girin"
+   },
+   "styleSaveLabel": {
+      "message": "Kaydet"
+   },
+   "styleSectionsTitle": {
+      "message": "Bölümler"
+   },
+   "styleToMozillaFormatHelp": {
+      "message": "Kodun Mozilla biçimi, Firefox için Stylish ile kullanılabilir ve userstyles.org sitesine gönderilebilir."
+   },
+   "updateCheckFailBadResponseCode": {
+      "message": "Güncellenemedi: sunucu yanıt olarak $code$ kodunu gönderdi.",
+      "placeholders": {
+         "code": {
+            "content": "$1"
+         }
+      }
+   },
+   "updateCheckFailServerUnreachable": {
+      "message": "Güncellenemedi: sunucuya erişilemiyor."
+   },
+   "updateCheckSucceededNoUpdate": {
+      "message": "Stil güncel."
+   },
+   "updateCompleted": {
+      "message": "Güncelleme tamamlandı."
+   }
+}

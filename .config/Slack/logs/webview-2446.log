@@ -1,0 +1,183 @@
+[06/04/18, 20:47:18:414] info: ╔══════════════════════════════════════════════════════════════════════════════╗
+[06/04/18, 20:47:18:415] info: ║      Slack 3.0.0, linux 4.15.10-1-ARCH on x64 at 06/04/18, 20:47:18:411      ║
+[06/04/18, 20:47:18:415] info: ╚══════════════════════════════════════════════════════════════════════════════╝
+[06/04/18, 20:47:18:531] info: Initializing local storage instance at path: /home/pieter-jan/.config/Slack/local-settings.json
+[06/04/18, 20:47:18:837] info: updateSuspendResume: true
+[06/04/18, 20:47:18:838] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[06/04/18, 20:47:22:176] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T9A14CKNZ"
+}
+[06/04/18, 20:47:22:179] info: Store: MAIN_WINDOW_SHOWN
+[06/04/18, 20:47:23:118] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "loaded",
+  "teamId": "T6SGGRDBP"
+}
+[06/04/18, 20:47:23:136] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T9A14CKNZ"
+}
+[06/04/18, 20:47:23:137] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T6SGGRDBP"
+}
+[06/04/18, 20:47:23:435] info: Store: SELECT_CHANNEL C9AUM0F8X
+[06/04/18, 20:47:23:435] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T9A14CKNZ"
+}
+[06/04/18, 20:47:23:436] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[06/04/18, 20:47:23:437] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T9A14CKNZ",
+  "theme": {
+    "active_item": "#6698C8",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#94E864",
+    "badge": "#78AF8F",
+    "column_bg": "#303E4D",
+    "hover_item": "#4A5664",
+    "menu_bg": "#2C3849",
+    "text_color": "#FFFFFF"
+  }
+}
+[06/04/18, 20:47:23:438] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 5,
+  "state": "loaded",
+  "teamId": "T8KGJDVTQ"
+}
+[06/04/18, 20:47:23:439] info: Store: SELECT_CHANNEL C6SGGRKTP
+[06/04/18, 20:47:23:439] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[06/04/18, 20:47:23:442] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T8KGJDVTQ"
+}
+[06/04/18, 20:47:23:451] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T6SGGRDBP"
+}
+[06/04/18, 20:47:23:452] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "webapp-loaded",
+  "teamId": "T6SGGRDBP"
+}
+[06/04/18, 20:47:23:470] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T6SGGRDBP",
+  "token": "xoxs-⋯"
+}
+[06/04/18, 20:47:23:473] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T6SGGRDBP",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[06/04/18, 20:47:23:510] info: Store: SELECT_CHANNEL D8JK94Z51
+[06/04/18, 20:47:23:515] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[06/04/18, 20:47:23:794] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-22/290747504084_06553d4bb8012621e99a_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-22/290747504084_06553d4bb8012621e99a_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-22/290747504084_06553d4bb8012621e99a_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-22/290747504084_06553d4bb8012621e99a_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-22/290747504084_06553d4bb8012621e99a_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-22/290747504084_06553d4bb8012621e99a_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-22/290747504084_06553d4bb8012621e99a_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-22/290747504084_06553d4bb8012621e99a_original.png"
+  },
+  "teamId": "T8KGJDVTQ"
+}
+[06/04/18, 20:47:24:327] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8KGJDVTQ"
+}
+[06/04/18, 20:47:24:328] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 5,
+  "state": "webapp-loaded",
+  "teamId": "T8KGJDVTQ"
+}
+[06/04/18, 20:47:24:328] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T9A14CKNZ"
+}
+[06/04/18, 20:47:24:329] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T9A14CKNZ"
+}
+[06/04/18, 20:47:24:336] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T8KGJDVTQ",
+  "token": "xoxs-⋯"
+}
+[06/04/18, 20:47:24:337] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T8KGJDVTQ",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[06/04/18, 20:47:24:392] info: Raw Locale list: ["C","en_US.utf8","POSIX",""]
+[06/04/18, 20:47:24:392] info: Filtered Locale list: ["en_US"]
+[06/04/18, 20:47:24:393] info: Counts: {"en":["en_US"]}
+[06/04/18, 20:47:24:393] info: Setting en
+[06/04/18, 20:47:24:394] info: Result: {"en":"en-US"}
+[06/04/18, 20:47:24:397] info: Requesting to load en-US, alternatives are ["en-US","en-US","en-US"]
+[06/04/18, 20:47:24:399] info: Loading dictionary for language en-US
+[06/04/18, 20:47:24:399] info: Returning local copy: /home/pieter-jan/.config/Slack/dictionaries/en-US.bdic
+[06/04/18, 20:47:24:404] info: Setting current spellchecker to en-US, requested language was en-US
+[06/04/18, 20:47:24:404] info: Creating node-spellchecker instance
+[06/04/18, 20:47:24:407] info: Actually installing spell check provider to Electron
+[06/04/18, 20:47:24:431] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T9A14CKNZ",
+  "token": "xoxs-⋯"
+}
+[06/04/18, 20:47:24:905] info: Loading dictionary for language en-US
+[06/04/18, 20:47:24:905] info: Returning local copy: /home/pieter-jan/.config/Slack/dictionaries/en-US.bdic
+[06/04/18, 20:47:24:906] info: Setting current spellchecker to en-US, requested language was en-US
+[06/04/18, 20:47:43:264] info: Store: MAIN_WINDOW_FOCUSED
+[06/04/18, 20:47:43:362] info: Store: SELECT_TEAM T8KGJDVTQ
+[06/04/18, 20:47:48:318] info: Store: SELECT_CHANNEL G8LS2H9NJ
+[06/04/18, 20:48:51:215] info: Store: MAIN_WINDOW_FOCUSED
+[06/04/18, 20:48:51:217] info: Store: MAIN_WINDOW_FOCUSED

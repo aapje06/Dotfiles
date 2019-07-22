@@ -1,0 +1,23 @@
+{
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "vimeo.content.js" ],
+      "matches": [ "*://vimeo.com/*", "*://player.vimeo.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Repeat & Speed buttons for Vimeo HTML5 video",
+   "icons": {
+      "128": "images/vimeo128.png",
+      "48": "images/vimeo48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDRF9nlU0lSwEG9rs6Dq9OcD/fKXxvsetOhGPWSrx+yC8uAmYQqYHTul686zSxrjGk10U0qeben5w8dHw08D8Qmc/IfeCkSfb8cA3vrhX76lGjB47QdR2nqXR3IkKhB4dK8CPBv69mmJIb32DB8rsmXDy7DeUgVwjheC9B1GCqSDwIDAQAB",
+   "manifest_version": 2,
+   "name": "Vimeo repeat & speed",
+   "optional_permissions": [ "storage" ],
+   "options_ui": {
+      "open_in_tab": false,
+      "page": "options/options.html"
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.11"
+}

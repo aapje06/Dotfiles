@@ -1,0 +1,55 @@
+.head {
+    direction: rtl;
+    text-transform: uppercase;
+    height: 27px;
+    position: relative;
+    cursor: pointer;
+}
+
+pre.prettyprint {
+    border: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+#code {
+    margin: 0;
+}
+
+.wrapper {
+    border: 1px solid #888;
+    min-height: 32px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+}
+
+.head span {
+    background: #c4ee99;
+
+    padding: 4px 8px;
+    display: inline-block;
+    border-bottom-left-radius: 5px;
+    border-left: 1px dotted #888;
+    border-bottom: 1px dotted #888;
+}
+
+.head span.collapsed {
+    border-bottom: 0;
+    border-bottom-left-radius: 0px;
+}
+
+core-collapse {
+    margin-top: -27px;
+}
+
+.inlinetext {
+    margin-top: -20px;
+    padding-left: 8px;
+    height: 20px;
+    font-family: monospace;
+    white-space: pre;
+    font-size: 13px;
+    color: #222222;
+    overflow: hidden;
+    display: block;
+}

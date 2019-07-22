@@ -1,0 +1,42 @@
+{
+   "background": {
+      "page": "background/page.html"
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "icons/icon128.png",
+         "16": "icons/icon16.png",
+         "19": "icons/icon19.png",
+         "32": "icons/icon38.png",
+         "38": "icons/icon38.png",
+         "48": "icons/icon48.png"
+      },
+      "default_popup": "ui/browseraction.html",
+      "default_title": "Scrollbar Customizer"
+   },
+   "content_scripts": [ {
+      "js": [ "contentscripts/sl.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_idle"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://api.megaxt.com https://ssl.google-analytics.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_extDescription__",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "19": "icons/icon19.png",
+      "32": "icons/icon38.png",
+      "38": "icons/icon38.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAisJih9r+JGJAhKPI5E/eXzJ98B6ThqALfpzv+q6Yl7G5IZy1SV83WRRa8tF6uOfQbsi9rqrGBXDIJZidQTvVEgbVqryUv/QKaij/FgiIxeDk5yiK5kLYW8D/ynQCGClCLfXtnoA6dyHh419PFtgTdC2doCwtNu+nS17aXYPMcKvtn9ddxQn0w4WzxFhk97V5zMzhuuu2AUtlhGrD6Xq1sARTk6FXo3eQIpfBqiCR0yfPu/hqxLjRr+4VJbk3w5BCqqeeVgnG0/n/MIRuPLi3sc1fY0Gj8bJNcsvo9YjTuHQIfzbpNezZkfFh15tSdPA0qGwu+UsgHNao4iJS7DYDvwIDAQAB",
+   "manifest_version": 2,
+   "name": "Scrollbar Customizer",
+   "options_page": "ui/options.html",
+   "permissions": [ "*://*/*", "webRequest", "webRequestBlocking", "tabs", "storage" ],
+   "short_name": "SBCustomizer",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.3.1",
+   "web_accessible_resources": [ "imgs/*.png" ]
+}

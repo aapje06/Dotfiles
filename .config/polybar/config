@@ -1,0 +1,601 @@
+;----------------------------------------------------------------
+;BARS
+;----------------------------------------------------------------
+
+
+;-----------------------------------
+;MAIN
+;-----------------------------------
+
+[bar/main]
+monitor = LVDS
+bottom = false
+width = 100%
+height = 23
+offset-y = 0
+offset-x = 0
+background = #ee222222
+foreground = #ccfafafa
+linecolor = #666
+line-size = 0
+spacing = 1
+padding-left = 2
+padding-right = 2
+
+locale = en_US.UTF-8
+
+tray-position = right
+tray-background = #ee222222
+tray-padding = 4
+
+
+module-margin-left = 0
+module-margin-right = 2
+
+font-0 = tamzen:size=11;1
+font-3 = Wuncon Siji:pixelsize=11;0   ;Wuncon Siji:pixelsize=11;0
+font-1 = unifont:size=7;-1
+font-2 = FontAwesome:size=10;1
+
+modules-left = powermenu xtitle
+modules-center = bspwm
+modules-right = volume memory cpu battery backlight date
+
+wm-restack = bspwm
+
+
+;-----------------------------------
+;DisplayPort-0
+;-----------------------------------
+
+[bar/dp]
+monitor = DisplayPort-0
+bottom = false
+width = 100%
+height = 23
+offset-y = 0
+offset-x = 0
+background = #ee222222
+foreground = #ccfafafa
+linecolor = #666
+line-size = 0
+spacing = 1
+padding-left = 2
+padding-right = 2
+
+locale = en_US.UTF-8
+
+module-margin-left = 0
+module-margin-right = 2
+
+font-0 = tamzen:size=11;1
+font-3 = Siji:pixelsize=11;0   ;Wuncon Siji:pixelsize=11;0
+font-1 = unifont:size=7;-1
+font-2 = FontAwesome:size=10;1
+
+modules-center = bspwm
+modules-right = battery date
+
+wm-restack = bspwm
+
+
+;-----------------------------------
+;DisplayPort-2
+;-----------------------------------
+
+[bar/hdmi]
+monitor = DisplayPort-2
+bottom = false
+width = 100%
+height = 23
+offset-y = 0
+offset-x = 0
+background = #ee222222
+foreground = #ccfafafa
+linecolor = #666
+line-size = 0
+spacing = 1
+padding-left = 2
+padding-right = 2
+
+locale = en_US.UTF-8
+
+module-margin-left = 0
+module-margin-right = 2
+
+font-0 = tamzen:size=11;1
+font-3 = Siji:pixelsize=11;0   ;Wuncon Siji:pixelsize=11;0
+font-1 = unifont:size=7;-1
+font-2 = FontAwesome:size=10;1
+
+
+modules-center = bspwm
+modules-right = battery date
+
+
+;-----------------------------------
+;DisplayPort-0
+;-----------------------------------
+
+[bar/vga]
+monitor = VGA-0
+bottom = false
+width = 100%
+height = 23
+offset-y = 0
+offset-x = 0
+background = #ee222222
+foreground = #ccfafafa
+linecolor = #666
+line-size = 0
+spacing = 1
+padding-left = 2
+padding-right = 2
+
+locale = en_US.UTF-8
+
+module-margin-left = 0
+module-margin-right = 2
+
+font-0 = tamzen:size=11;1
+font-3 = Siji:pixelsize=11;0   ;Wuncon Siji:pixelsize=11;0
+font-1 = unifont:size=7;-1
+font-2 = FontAwesome:size=10;1
+
+modules-center = bspwm
+modules-right = battery date
+
+
+;----------------------------------------------------------------
+;MODULES
+;----------------------------------------------------------------
+
+;-----------------------------------
+;BACKLIGHT
+;-----------------------------------
+[module/backlight]
+type = internal/backlight
+card = radeon_bl0
+
+;format = <label> 
+;<ramp>
+
+format = <label><ramp>
+
+;label = BL
+label = %{F#eb9605}%{F#cc}
+
+; Only applies if <ramp> is used
+ramp-0 = 🌕
+ramp-1 = 🌔
+ramp-2 = 🌓
+ramp-3 = 🌒
+ramp-4 = 🌑
+
+;-----------------------------------
+;XBACKLIGHT
+;-----------------------------------
+[module/xbacklight]
+type = internal/xbacklight
+
+output = LVDS-1
+enable-scroll = true
+
+format = <label><ramp>
+
+label = %percentage%%
+
+; Only applies if <ramp> is used
+ramp-0 = 🌕
+ramp-1 = 🌔
+ramp-2 = 🌓
+ramp-3 = 🌒
+ramp-4 = 🌑
+
+;-----------------------------------
+;DATE
+;-----------------------------------
+
+[module/date]
+type = internal/date
+interval = 1.0
+;date = %d-%m-%Y
+date = %A %d %b
+time = %H:%M
+date-alt = %d-%m-%Y
+time-alt = %H:%M:%S
+;format = 🕓 <label>
+format = %{F#eb9605}%{F#cc} <label>
+label = %date% | %time%
+
+; OLD COLOR: e60053
+
+;date = %%{F#666}%{F#cc} %Y-%m-%d  %%{F#e60053}%%{F#cc} %H:%M:%S
+;date = %%{F#666}%{F#cc} %A %d %b   %%{F#e60053}%%{F#cc} %H:%M:%S
+;date-alt = %%{F#666}%{F#cc} %A %d %b  %%{F#e60053}%%{F#cc} %H:%M
+;interval = 1
+
+;-----------------------------------
+;POWERMENU
+;-----------------------------------
+
+[module/powermenu]
+type = custom/menu
+
+label-open = %{F#eb9605}%{F#cc}
+label-close = %{F#eb9605}%{F#cc}
+label-separator = /
+
+menu-0-0 = Terminate WM
+menu-0-0-foreground = #eb9605
+menu-0-0-exec = bspc quit -1
+menu-0-1 = Reboot
+menu-0-1-foreground = #eb9605
+menu-0-1-exec = menu-open-1
+menu-0-2 = Power off
+menu-0-2-foreground = #eb9605
+menu-0-2-exec = menu-open-2
+
+menu-1-0 = Cancel
+menu-1-0-foreground = #eb9605
+menu-1-0-exec = menu-open-0
+menu-1-1 = Reboot
+menu-1-1-foreground = #eb9605
+menu-1-1-exec = reboot
+
+menu-2-0 = Power off
+menu-2-0-foreground = #eb9605
+menu-2-0-exec = poweroff
+menu-2-1 = Cancel
+menu-2-1-foreground = #eb9605
+menu-2-1-exec = menu-open-0
+
+;-----------------------------------
+;BSPWM
+;-----------------------------------
+
+[module/bspwm]
+type = internal/bspwm
+ws-icon-default = 
+
+label-monitor = test
+inline-mode = false
+
+scroll-up = bspwm-desknext
+scroll-down = bspwm-deskprev
+
+;label-focussed =  
+;;label-focussed = %icon%
+;label-focussed-background = #ee333333
+;label-focussed-underline= #cc333333
+;label-focussed-padding = 1
+;
+;label-dimmed-focussed = 
+;label-dimmed-focussed-background = #ee333333
+;label-dimmed-focussed-underline= #cc333333
+;label-dimmed-focussed-padding = 1
+;
+;label-occupied = %{O-1}%{O-1} 
+;label-occupied-padding = 1
+;
+;label-urgent =  
+;label-urgent-background = #bd2c40
+;label-urgent-padding = 1
+;
+;label-empty =  
+;label-empty-foreground = #444
+;label-empty-padding = 1
+;
+;format = <label-state>
+
+; If any values for label-dimmed-N are defined, the workspace/mode
+; colors will get overridden with those values if the monitor is out of focus
+; To only override workspaces in a specific state, use:
+;   label-dimmed-focused
+;   label-dimmed-occupied
+;   label-dimmed-urgent
+;   label-dimmed-empty
+label-dimmed-foreground = #555
+label-dimmed-underline = #cc333333
+label-dimmed-focused-background = #ee333333
+
+; Available tokens:
+;   %name%
+;   %icon%
+;   %index%
+; Default: %icon%  %name%
+label-focused = 
+label-focused-foreground = #ffffff
+label-focused-background = #ee333333
+label-focused-underline = #cc333333
+label-focussed-padding = 1
+
+; Available tokens:
+;   %name%
+;   %icon%
+;   %index%
+; Default: %icon%  %name%
+label-occupied = 
+label-occupied-foreground = #f0f0f0
+label-occupied-underline = #cc333333
+label-occupied-padding = 1
+
+; Available tokens:
+;   %name%
+;   %icon%
+;   %index%
+; Default: %icon%  %name%
+label-urgent = 
+label-urgent-foreground = #000000
+label-urgent-background = #bd2c40
+label-urgent-underline = #cc333333
+label-urgent-padding = 1
+
+; Available tokens:
+;   %name%
+;   %icon%
+;   %index%
+; Default: %icon%  %name%
+label-empty = 
+label-empty-foreground = #444
+label-empty-padding = 1
+
+
+
+
+
+[module/bspwm-tmp]
+type = internal/bspwm
+format = <label-state>
+
+label-active = A
+label-active-padding = 1
+label-occupied = O
+label-occupied-padding = 1
+label-empty = E
+label-empty-padding = 1
+
+;-----------------------------------
+;VOLUME
+;-----------------------------------
+
+[module/volume]
+type = internal/volume
+master-mixer = Master
+;speaker-mixer = Speaker
+;headphone-mixer = Headphone
+headphone-id = 9
+
+; format-volume = <ramp-volume> <label-volume>
+format-volume = <label-volume> <bar-volume>
+
+label-volume = VOL
+label-volume-foreground = ${BAR.foreground}
+
+;label-muted = %{F#66} sound muted
+label-muted = %{F#66}sound muted
+
+;ramp-volume-0 = 
+;ramp-volume-1 = 
+;ramp-volume-2 = 
+;ramp-volume-3 = 
+;ramp-volume-foreground = #666
+
+;ramp-headphones-0 = 
+;ramp-headphones-1 = 
+
+bar-volume-width = 20
+bar-volume-foreground-0 = #55aa55
+bar-volume-foreground-1 = #55aa55
+bar-volume-foreground-2 = #55aa55
+bar-volume-foreground-3 = #55aa55
+bar-volume-foreground-4 = #55aa55
+bar-volume-foreground-5 = #f5a70a
+bar-volume-foreground-6 = #ff5555
+bar-volume-gradient = false
+bar-volume-indicator = │
+bar-volume-indicator-font = 2
+bar-volume-indicator-foreground = #ff
+bar-volume-fill = ━
+bar-volume-fill-font = 2
+bar-volume-empty = ━
+bar-volume-empty-font = 2
+bar-volume-empty-foreground = #444444
+
+;-----------------------------------
+;RAM
+;-----------------------------------
+
+[module/memory]
+type = internal/memory
+interval = 2
+
+format = <label> <bar-used>
+label = RAM
+
+bar-used-width = 20
+bar-used-foreground-0 = #55aa55
+bar-used-foreground-1 = #55aa55
+bar-used-foreground-2 = #f5a70a
+bar-used-foreground-3 = #ff5555
+bar-used-gradient = false
+bar-used-indicator = │
+bar-used-indicator-font = 2
+bar-used-indicator-foreground = #ff
+bar-used-fill = ━
+bar-used-fill-font = 2
+bar-used-empty = ━
+bar-used-empty-font = 2
+bar-used-empty-foreground = #444444
+
+;-----------------------------------
+;CPU
+;-----------------------------------
+
+[module/cpu]
+type = internal/cpu
+interval = 2
+
+;format = <label> <bar-load> <ramp-coreload>
+format = <label> <bar-load>
+label = CPU
+
+; ramp-coreload-0 = ▁
+; ramp-coreload-0-font = 2
+; ramp-coreload-0-foreground = #55aa55
+; ramp-coreload-1 = ▂
+; ramp-coreload-1-font = 2
+; ramp-coreload-1-foreground = #55aa55
+; ramp-coreload-2 = ▃
+; ramp-coreload-2-font = 2
+; ramp-coreload-2-foreground = #55aa55
+; ramp-coreload-3 = ▄
+; ramp-coreload-3-font = 2
+; ramp-coreload-3-foreground = #55aa55
+; ramp-coreload-4 = ▅
+; ramp-coreload-4-font = 2
+; ramp-coreload-4-foreground = #f5a70a
+; ramp-coreload-5 = ▆
+; ramp-coreload-5-font = 2
+; ramp-coreload-5-foreground = #f5a70a
+; ramp-coreload-6 = ▇
+; ramp-coreload-6-font = 2
+; ramp-coreload-6-foreground = #ff5555
+; ramp-coreload-7 = █
+; ramp-coreload-7-font = 2
+; ramp-coreload-7-foreground = #ff5555
+
+bar-load-width = 20
+bar-load-foreground-0 = #55aa55
+bar-load-foreground-1 = #55aa55
+bar-load-foreground-2 = #f5a70a
+bar-load-foreground-3 = #ff5555
+bar-load-gradient = false
+bar-load-indicator = │
+bar-load-indicator-font = 2
+bar-load-indicator-foreground = #ff
+bar-load-fill = ━
+bar-load-fill-font = 2
+bar-load-empty = ━
+bar-load-empty-font = 2
+bar-load-empty-foreground = #444444
+
+;;-----------------------------------
+;;DATE
+;;-----------------------------------
+;
+;[module/date]
+;type = internal/date
+;;date = %%{F#666}%{F#cc} %Y-%m-%d  %%{F#e60053}%%{F#cc} %H:%M:%S
+;date = %%{F#666}%{F#cc} %A %d %b   %%{F#e60053}%%{F#cc} %H:%M:%S
+;date-alt = %%{F#666}%{F#cc} %A %d %b  %%{F#e60053}%%{F#cc} %H:%M
+;interval = 1
+
+;-----------------------------------
+;WIRED
+;-----------------------------------
+
+[module/wired]
+type = internal/network
+interface = enp14s0
+interval = 3.0
+
+label-connected = %{T3}%local_ip%%{T-}
+label-disconnected = %{T3}Not connected%{T-}
+label-disconnected-foreground = #66
+
+;-----------------------------------
+;XTITLE
+;-----------------------------------
+
+[module/xtitle]
+type = custom/script
+exec = xtitle -s -t100
+tail = true
+maxlen = 40
+
+;-----------------------------------
+;BATTERY
+;-----------------------------------
+
+[module/battery]
+;type = internal/battery
+type = internal/battery
+full-at = 99
+battery = BAT0
+adapter = AC
+
+
+format-charging = <animation-charging> <label-charging>
+format-discharging = <ramp-capacity> <label-discharging>
+format-full = <ramp-capacity> <label-full>
+
+;label-charging = Charging %percentage%%
+;label-discharging = Discharging %percentage%%
+;label-full = Fully charged
+
+label-charging = %percentage%%
+label-discharging = %percentage%%
+label-full = 100%
+
+
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-3 = 
+ramp-capacity-4 = 
+
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
+animation-charging-3 = 
+animation-charging-4 = 
+animation-charging-framerate = 750
+
+;-----------------------------------
+;BACKLIGHT
+;-----------------------------------
+
+;[module/backlight]
+;type = internal/xbacklight
+;output = radeon_bl0
+;format = <ramp> <label>
+;label = %percentage%
+;ramp-0 = 🌕
+;ramp-1 = 🌔
+;ramp-2 = 🌓
+;ramp-3 = 🌒
+;ramp-4 = 🌑
+
+;-----------------------------------
+;NETWORK
+;-----------------------------------
+
+[module/wifi]
+type = internal/network
+interface = wlp3s0b1
+
+  interval = 3.0
+
+  format-connected =   <label-connected>
+  format-disconnected = ⚠  <label-disconnected>
+  format-packetloss = <animation-packetloss> <label-connected>
+
+   label-connected = %essid%
+  label-connected-foreground = #eefafafa
+  label-disconnected = disconnected
+  label-disconnected-foreground = #66ffffff
+
+  ramp-signal-0 = 😱
+  ramp-signal-1 = 😠
+  ramp-signal-2 = 😒
+  ramp-signal-3 = 😊
+  ramp-signal-4 = 😃
+  ramp-signal-5 = 😈
+
+  animation-packetloss-0 = ⚠
+  animation-packetloss-0-foreground = #ffa64c
+  animation-packetloss-1 = 📶
+  animation-packetloss-1-foreground = #000000
+  ; Framerate in milliseconds
+  animation-packetloss-framerate = 500

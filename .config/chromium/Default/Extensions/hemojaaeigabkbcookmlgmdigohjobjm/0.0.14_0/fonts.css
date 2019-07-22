@@ -1,0 +1,10 @@
+/*
+compiled scss will be in the build directory so we need to go up two directories
+*/
+[class^="icon-"], [class*=" icon-"] {
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-uniE600:before {
+  content: "\e600"; }

@@ -1,0 +1,12 @@
+html {
+  overflow: scroll;
+}
+body {
+  background: #e5e5e5;
+  margin: 0;
+  overflow-y: scroll;
+}
+
+html /deep/ body {
+ //font-family: RobotoDraft, 'Helvetica Neue', Helvetica, Arial;
+}

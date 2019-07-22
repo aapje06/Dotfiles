@@ -1,0 +1,11 @@
+2017/12/04-16:07:49.107 5093 Reusing MANIFEST /home/pieter-jan/.config/chromium/Default/IndexedDB/https_www.epson.be_0.indexeddb.leveldb/MANIFEST-000001
+2017/12/04-16:07:49.107 5093 Recovering log #6
+2017/12/04-16:07:49.107 5093 Reusing old log /home/pieter-jan/.config/chromium/Default/IndexedDB/https_www.epson.be_0.indexeddb.leveldb/000006.log 
+2017/12/04-16:07:52.230 4984 Current memtable full; waiting...
+2017/12/04-16:07:52.230 1514 Level-0 table #10: started
+2017/12/04-16:07:52.232 1514 Level-0 table #10: 404 bytes OK
+2017/12/04-16:07:52.234 1514 Delete type=0 #6
+2017/12/04-16:07:52.234 1514 Level-0 table #12: started
+2017/12/04-16:07:52.234 1514 Level-0 table #12: 0 bytes OK
+2017/12/04-16:07:52.238 1514 Delete type=0 #9
+2017/12/04-16:07:52.238 1514 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

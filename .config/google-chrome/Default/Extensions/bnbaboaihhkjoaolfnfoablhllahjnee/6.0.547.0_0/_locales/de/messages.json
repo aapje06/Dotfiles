@@ -1,0 +1,11 @@
+{
+   "appDesc": {
+      "message": "App Paket enthält Werkzeuge für Geometrie, Tabelle, Wahrscheinlichkeit, und CAS"
+   },
+   "appName": {
+      "message": "GeoGebra Classic"
+   },
+   "appShortName": {
+      "message": "GeoGebra Classic"
+   }
+}

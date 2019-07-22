@@ -1,0 +1,32 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "js/foam.js", "js/cab.js", "config.js", "background_main.js" ]
+      }
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "img/128.png",
+      "16": "img/16.png",
+      "48": "img/48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDKbpoBQQMLB4pfFlnJR0bzUAhy3UAHiA48iniDobZDaWWUdvBv6h8DPjEhcVWb0ySt9hfRxr1ZH7MOqO0FcwXTmaYVDjP3vxPGt2jxbRGlQhtFLfb3kngvfRfMNFc+qNblizwpYYa0FBHqPb/V+WDu0jiQjaT/j669vLyXX55rUQIDAQAB",
+   "kiosk_enabled": true,
+   "manifest_version": 2,
+   "minimum_chrome_version": "37.0.0.0",
+   "name": "__MSG_appName__",
+   "offline_enabled": true,
+   "permissions": [ "webview", "power", "storage", "videoCapture", "pointerLock", "fullscreen", "system.display", {
+      "fileSystem": [ "write", "retainEntries", "directory" ]
+   }, "accessibilityFeatures.read", "accessibilityFeatures.modify" ],
+   "short_name": "__MSG_appShortName__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "6.0.547.0",
+   "webview": {
+      "partitions": [ {
+         "accessible_resources": [ "app-offline.html", "*.js", "*.css" ],
+         "name": "static"
+      } ]
+   }
+}

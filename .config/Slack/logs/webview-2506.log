@@ -1,0 +1,276 @@
+[06/16/18, 19:00:40:091] info: ╔══════════════════════════════════════════════════════════════════════════════╗
+[06/16/18, 19:00:40:092] info: ║      Slack 3.0.0, linux 4.15.10-1-ARCH on x64 at 06/16/18, 19:00:40:087      ║
+[06/16/18, 19:00:40:092] info: ╚══════════════════════════════════════════════════════════════════════════════╝
+[06/16/18, 19:00:40:207] info: Initializing local storage instance at path: /home/pieter-jan/.config/Slack/local-settings.json
+[06/16/18, 19:00:40:511] info: updateSuspendResume: true
+[06/16/18, 19:00:40:511] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[06/16/18, 19:00:43:581] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T8KGJDVTQ"
+}
+[06/16/18, 19:00:43:585] info: Store: MAIN_WINDOW_SHOWN
+[06/16/18, 19:00:43:660] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "loaded",
+  "teamId": "T6SGGRDBP"
+}
+[06/16/18, 19:00:44:574] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 5,
+  "state": "loaded",
+  "teamId": "T9A14CKNZ"
+}
+[06/16/18, 19:00:44:577] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T8KGJDVTQ"
+}
+[06/16/18, 19:00:44:578] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T6SGGRDBP"
+}
+[06/16/18, 19:00:44:982] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T9A14CKNZ"
+}
+[06/16/18, 19:00:44:983] info: Store: SELECT_CHANNEL G8LS2H9NJ
+[06/16/18, 19:00:44:987] info: Store: SELECT_CHANNEL C6SGGRKTP
+[06/16/18, 19:00:44:987] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[06/16/18, 19:00:44:988] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[06/16/18, 19:00:44:989] info: Store: SELECT_CHANNEL C9AUM0F8X
+[06/16/18, 19:00:44:991] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[06/16/18, 19:00:44:992] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8KGJDVTQ"
+}
+[06/16/18, 19:00:44:993] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T8KGJDVTQ",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[06/16/18, 19:00:45:001] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T6SGGRDBP"
+}
+[06/16/18, 19:00:45:002] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "webapp-loaded",
+  "teamId": "T6SGGRDBP"
+}
+[06/16/18, 19:00:45:004] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T9A14CKNZ"
+}
+[06/16/18, 19:00:45:006] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 5,
+  "state": "webapp-loaded",
+  "teamId": "T9A14CKNZ"
+}
+[06/16/18, 19:00:45:007] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T6SGGRDBP",
+  "token": "xoxs-⋯"
+}
+[06/16/18, 19:00:45:008] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T6SGGRDBP",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[06/16/18, 19:00:45:029] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T9A14CKNZ",
+  "token": "xoxs-⋯"
+}
+[06/16/18, 19:00:45:032] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T9A14CKNZ",
+  "theme": {
+    "active_item": "#6698C8",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#94E864",
+    "badge": "#78AF8F",
+    "column_bg": "#303E4D",
+    "hover_item": "#4A5664",
+    "menu_bg": "#2C3849",
+    "text_color": "#FFFFFF"
+  }
+}
+[06/16/18, 19:00:45:232] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-22/290747504084_06553d4bb8012621e99a_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-22/290747504084_06553d4bb8012621e99a_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-22/290747504084_06553d4bb8012621e99a_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-22/290747504084_06553d4bb8012621e99a_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-22/290747504084_06553d4bb8012621e99a_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-22/290747504084_06553d4bb8012621e99a_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-22/290747504084_06553d4bb8012621e99a_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-22/290747504084_06553d4bb8012621e99a_original.png"
+  },
+  "teamId": "T8KGJDVTQ"
+}
+[06/16/18, 19:00:45:351] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8KGJDVTQ"
+}
+[06/16/18, 19:00:45:361] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T8KGJDVTQ"
+}
+[06/16/18, 19:00:46:054] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T8KGJDVTQ",
+  "token": "xoxs-⋯"
+}
+[06/16/18, 19:00:46:112] info: Raw Locale list: ["C","en_US.utf8","POSIX",""]
+[06/16/18, 19:00:46:112] info: Filtered Locale list: ["en_US"]
+[06/16/18, 19:00:46:113] info: Counts: {"en":["en_US"]}
+[06/16/18, 19:00:46:113] info: Setting en
+[06/16/18, 19:00:46:114] info: Result: {"en":"en-US"}
+[06/16/18, 19:00:46:115] info: Requesting to load nl-NL, alternatives are ["nl-NL","nl-NL","nl-NL"]
+[06/16/18, 19:00:46:116] info: Loading dictionary for language nl-NL
+[06/16/18, 19:00:46:117] info: Returning local copy: /home/pieter-jan/.config/Slack/dictionaries/nl-NL.bdic
+[06/16/18, 19:00:46:128] info: Setting current spellchecker to nl-NL, requested language was nl-NL
+[06/16/18, 19:00:46:129] info: Creating node-spellchecker instance
+[06/16/18, 19:00:46:131] info: Actually installing spell check provider to Electron
+[06/16/18, 19:00:46:397] info: Loading dictionary for language nl-NL
+[06/16/18, 19:00:46:397] info: Returning local copy: /home/pieter-jan/.config/Slack/dictionaries/nl-NL.bdic
+[06/16/18, 19:00:46:399] info: Setting current spellchecker to nl-NL, requested language was nl-NL
+[06/16/18, 19:00:58:230] info: Store: MAIN_WINDOW_FOCUSED
+[06/16/18, 19:00:58:329] info: Store: SELECT_TEAM T9A14CKNZ
+[06/16/18, 19:01:16:277] info: Store: SELECT_CHANNEL D9A3RJY7N
+[06/16/18, 19:01:18:583] info: Loading dictionary for language nl-NL
+[06/16/18, 19:01:18:583] info: Returning local copy: /home/pieter-jan/.config/Slack/dictionaries/nl-NL.bdic
+[06/16/18, 19:01:18:586] info: Setting current spellchecker to nl-NL, requested language was nl-NL
+[06/16/18, 19:03:21:703] info: Unloading spellchecker
+[06/16/18, 19:03:21:725] info: Restoring spellchecker
+[06/16/18, 19:03:21:725] info: Loading dictionary for language nl-NL
+[06/16/18, 19:03:21:725] info: Returning local copy: /home/pieter-jan/.config/Slack/dictionaries/nl-NL.bdic
+[06/16/18, 19:03:21:747] info: Store: MAIN_WINDOW_FOCUSED
+[06/16/18, 19:03:21:747] info: Store: MAIN_WINDOW_FOCUSED
+[06/16/18, 19:03:21:750] info: Setting current spellchecker to nl-NL, requested language was nl-NL
+[06/16/18, 19:03:21:750] info: Creating node-spellchecker instance
+[06/16/18, 19:03:26:110] info: Store: SELECT_CHANNEL C9AUM0F8X
+[06/16/18, 19:03:26:483] info: Loading dictionary for language nl-NL
+[06/16/18, 19:03:26:484] info: Returning local copy: /home/pieter-jan/.config/Slack/dictionaries/nl-NL.bdic
+[06/16/18, 19:03:26:487] info: Setting current spellchecker to nl-NL, requested language was nl-NL
+[06/16/18, 19:06:56:620] info: Unloading spellchecker
+[06/16/18, 19:06:56:679] info: Restoring spellchecker
+[06/16/18, 19:06:56:680] info: Loading dictionary for language nl-NL
+[06/16/18, 19:06:56:680] info: Returning local copy: /home/pieter-jan/.config/Slack/dictionaries/nl-NL.bdic
+[06/16/18, 19:06:56:682] info: Store: MAIN_WINDOW_FOCUSED
+[06/16/18, 19:06:56:683] info: Store: MAIN_WINDOW_FOCUSED
+[06/16/18, 19:06:56:771] info: Setting current spellchecker to nl-NL, requested language was nl-NL
+[06/16/18, 19:06:56:771] info: Creating node-spellchecker instance
+[06/16/18, 19:14:54:917] info: Unloading spellchecker
+[06/16/18, 19:14:54:975] info: Restoring spellchecker
+[06/16/18, 19:14:54:976] info: Loading dictionary for language nl-NL
+[06/16/18, 19:14:54:976] info: Returning local copy: /home/pieter-jan/.config/Slack/dictionaries/nl-NL.bdic
+[06/16/18, 19:14:54:978] info: Store: MAIN_WINDOW_FOCUSED
+[06/16/18, 19:14:54:978] info: Store: MAIN_WINDOW_FOCUSED
+[06/16/18, 19:14:55:050] info: Setting current spellchecker to nl-NL, requested language was nl-NL
+[06/16/18, 19:14:55:050] info: Creating node-spellchecker instance
+[06/16/18, 19:17:51:431] info: Unloading spellchecker
+[06/16/18, 19:17:51:447] info: Restoring spellchecker
+[06/16/18, 19:17:51:448] info: Loading dictionary for language nl-NL
+[06/16/18, 19:17:51:448] info: Returning local copy: /home/pieter-jan/.config/Slack/dictionaries/nl-NL.bdic
+[06/16/18, 19:17:51:511] info: Store: MAIN_WINDOW_FOCUSED
+[06/16/18, 19:17:51:512] info: Store: MAIN_WINDOW_FOCUSED
+[06/16/18, 19:17:51:515] info: Setting current spellchecker to nl-NL, requested language was nl-NL
+[06/16/18, 19:17:51:515] info: Creating node-spellchecker instance
+[06/16/18, 19:19:35:380] info: Unloading spellchecker
+[06/16/18, 19:19:35:445] info: Restoring spellchecker
+[06/16/18, 19:19:35:445] info: Loading dictionary for language nl-NL
+[06/16/18, 19:19:35:445] info: Returning local copy: /home/pieter-jan/.config/Slack/dictionaries/nl-NL.bdic
+[06/16/18, 19:19:35:526] info: Store: MAIN_WINDOW_FOCUSED
+[06/16/18, 19:19:35:526] info: Store: MAIN_WINDOW_FOCUSED
+[06/16/18, 19:19:35:530] info: Setting current spellchecker to nl-NL, requested language was nl-NL
+[06/16/18, 19:19:35:530] info: Creating node-spellchecker instance
+[06/16/18, 19:19:53:008] info: Unloading spellchecker
+[06/16/18, 19:19:53:070] info: Restoring spellchecker
+[06/16/18, 19:19:53:072] info: Loading dictionary for language nl-NL
+[06/16/18, 19:19:53:073] info: Returning local copy: /home/pieter-jan/.config/Slack/dictionaries/nl-NL.bdic
+[06/16/18, 19:19:53:141] info: Store: MAIN_WINDOW_FOCUSED
+[06/16/18, 19:19:53:141] info: Store: MAIN_WINDOW_FOCUSED
+[06/16/18, 19:19:53:144] info: Setting current spellchecker to nl-NL, requested language was nl-NL
+[06/16/18, 19:19:53:145] info: Creating node-spellchecker instance
+[06/16/18, 19:23:22:939] info: Unloading spellchecker
+[06/16/18, 19:23:23:015] info: Restoring spellchecker
+[06/16/18, 19:23:23:015] info: Loading dictionary for language nl-NL
+[06/16/18, 19:23:23:015] info: Returning local copy: /home/pieter-jan/.config/Slack/dictionaries/nl-NL.bdic
+[06/16/18, 19:23:23:081] info: Store: MAIN_WINDOW_FOCUSED
+[06/16/18, 19:23:23:082] info: Store: MAIN_WINDOW_FOCUSED
+[06/16/18, 19:23:23:086] info: Setting current spellchecker to nl-NL, requested language was nl-NL
+[06/16/18, 19:23:23:086] info: Creating node-spellchecker instance
+[06/16/18, 19:23:39:107] info: Unloading spellchecker
+[06/16/18, 19:23:39:110] info: Restoring spellchecker
+[06/16/18, 19:23:39:110] info: Loading dictionary for language nl-NL
+[06/16/18, 19:23:39:111] info: Returning local copy: /home/pieter-jan/.config/Slack/dictionaries/nl-NL.bdic
+[06/16/18, 19:23:39:216] info: Store: MAIN_WINDOW_FOCUSED
+[06/16/18, 19:23:39:219] info: Unloading spellchecker
+[06/16/18, 19:23:39:220] info: Store: SELECT_TEAM T8KGJDVTQ
+[06/16/18, 19:23:39:228] info: Setting current spellchecker to nl-NL, requested language was nl-NL
+[06/16/18, 19:23:39:228] info: Creating node-spellchecker instance
+[06/16/18, 19:23:40:625] info: Store: MAIN_WINDOW_FOCUSED
+[06/16/18, 19:23:40:633] info: Store: SELECT_TEAM T9A14CKNZ
+[06/16/18, 19:23:40:637] info: Restoring spellchecker
+[06/16/18, 19:23:40:638] info: Loading dictionary for language nl-NL
+[06/16/18, 19:23:40:638] info: Returning local copy: /home/pieter-jan/.config/Slack/dictionaries/nl-NL.bdic
+[06/16/18, 19:23:40:734] info: Setting current spellchecker to nl-NL, requested language was nl-NL
+[06/16/18, 19:55:42:119] info: Unloading spellchecker
+[06/16/18, 19:55:42:195] info: Restoring spellchecker
+[06/16/18, 19:55:42:196] info: Loading dictionary for language nl-NL
+[06/16/18, 19:55:42:196] info: Returning local copy: /home/pieter-jan/.config/Slack/dictionaries/nl-NL.bdic
+[06/16/18, 19:55:42:308] info: Store: MAIN_WINDOW_FOCUSED
+[06/16/18, 19:55:42:309] info: Store: MAIN_WINDOW_FOCUSED
+[06/16/18, 19:55:42:311] info: Setting current spellchecker to nl-NL, requested language was nl-NL
+[06/16/18, 19:55:42:311] info: Creating node-spellchecker instance
+[06/16/18, 19:56:18:087] info: Unloading spellchecker
+[06/16/18, 19:56:18:157] info: Restoring spellchecker
+[06/16/18, 19:56:18:157] info: Loading dictionary for language nl-NL
+[06/16/18, 19:56:18:157] info: Returning local copy: /home/pieter-jan/.config/Slack/dictionaries/nl-NL.bdic
+[06/16/18, 19:56:18:234] info: Store: MAIN_WINDOW_FOCUSED
+[06/16/18, 19:56:18:235] info: Store: MAIN_WINDOW_FOCUSED
+[06/16/18, 19:56:18:241] info: Setting current spellchecker to nl-NL, requested language was nl-NL
+[06/16/18, 19:56:18:241] info: Creating node-spellchecker instance
+[06/16/18, 19:56:20:477] info: Unloading spellchecker

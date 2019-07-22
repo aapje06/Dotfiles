@@ -1,0 +1,18 @@
+2017/12/22-10:55:33.131 30936 Reusing MANIFEST /home/pieter-jan/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2017/12/22-10:55:33.131 30936 Recovering log #213
+2017/12/22-10:55:33.142 30936 Reusing old log /home/pieter-jan/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000213.log 
+2017/12/22-10:55:39.183 31093 Level-0 table #217: started
+2017/12/22-10:55:39.200 31093 Level-0 table #217: 4222255 bytes OK
+2017/12/22-10:55:39.202 31093 Delete type=0 #213
+2017/12/22-10:55:39.203 31093 Compacting 4@0 + 1@1 files
+2017/12/22-10:55:39.244 31093 Generated table #218@0: 15 keys, 123403 bytes
+2017/12/22-10:55:39.244 31093 Compacted 4@0 + 1@1 files => 123403 bytes
+2017/12/22-10:55:39.245 31093 compacted to: files[ 0 1 1 0 0 0 0 ]
+2017/12/22-10:55:39.245 31093 Delete type=2 #207
+2017/12/22-10:55:39.245 31093 Delete type=2 #217
+2017/12/22-10:55:39.246 31093 Delete type=2 #211
+2017/12/22-10:55:39.246 31093 Delete type=2 #214
+2017/12/22-10:55:39.247 31093 Delete type=2 #209
+2017/12/22-11:45:08.923 31093 Level-0 table #220: started
+2017/12/22-11:45:08.946 31093 Level-0 table #220: 4943948 bytes OK
+2017/12/22-11:45:08.949 31093 Delete type=0 #216

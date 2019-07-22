@@ -1,0 +1,1000 @@
+{
+   "addStyleLabel": {
+      "message": "Nieuwe stijl schrijven"
+   },
+   "addStyleTitle": {
+      "message": "Stijl toevoegen"
+   },
+   "alphaChannel": {
+      "message": "Doorzichtigheid"
+   },
+   "appliesAdd": {
+      "message": "Toevoegen"
+   },
+   "appliesDisplay": {
+      "message": "Van toepassing op: $applies$",
+      "placeholders": {
+         "applies": {
+            "content": "$1"
+         }
+      }
+   },
+   "appliesDisplayTruncatedSuffix": {
+      "message": "en meer"
+   },
+   "appliesDomainOption": {
+      "message": "URL’s op het domein"
+   },
+   "appliesHelp": {
+      "message": "Gebruik de ‘Van toepassing op’-functies om de URL’s voor de code in deze sectie te beperken."
+   },
+   "appliesLabel": {
+      "message": "Van toepassing op"
+   },
+   "appliesLineWidgetLabel": {
+      "message": "‘Van toepassing op’-info weergeven"
+   },
+   "appliesLineWidgetWarning": {
+      "message": "Werkt niet met verkleinde CSS"
+   },
+   "appliesRegexpOption": {
+      "message": "URL’s overeenkomend met de regexp"
+   },
+   "appliesRemove": {
+      "message": "Verwijderen"
+   },
+   "appliesRemoveError": {
+      "message": "Kan laatste ‘Van toepassing op’-item niet verwijderen"
+   },
+   "appliesSpecify": {
+      "message": "Specificeren"
+   },
+   "appliesToEverything": {
+      "message": "Alles"
+   },
+   "appliesUrlPrefixOption": {
+      "message": "URL’s beginnend met"
+   },
+   "applyAllUpdates": {
+      "message": "Alle updates toepassen"
+   },
+   "author": {
+      "message": "Auteur"
+   },
+   "backupButtons": {
+      "message": "Back-up"
+   },
+   "backupMessage": {
+      "message": "Selecteer een bestand of sleep het naar deze pagina."
+   },
+   "bckpInstStyles": {
+      "message": "Stijlen exporteren"
+   },
+   "checkAllUpdates": {
+      "message": "Alle stijlen controleren op updates"
+   },
+   "checkAllUpdatesForce": {
+      "message": "Ik heb geen stijlen bewerkt; opnieuw controleren!"
+   },
+   "checkForUpdate": {
+      "message": "Controleren op update"
+   },
+   "checkingForUpdate": {
+      "message": "Controleren..."
+   },
+   "clickToUninstall": {
+      "message": "Klik om te de-installeren"
+   },
+   "cm_autoCloseBrackets": {
+      "message": "Haakjes en aanhalingstekens automatisch sluiten"
+   },
+   "cm_autoCloseBracketsTooltip": {
+      "message": "Automatisch sluitteken toevoegen by typen van een openingsteken uit ()[]{}''\"\""
+   },
+   "cm_autocompleteOnTyping": {
+      "message": "Automatisch aanvullen tijdens typen"
+   },
+   "cm_colorpicker": {
+      "message": "Kleurkiezer voor CSS-kleuren"
+   },
+   "cm_indentWithTabs": {
+      "message": "Tabs met slimme inspringing gebruiken"
+   },
+   "cm_keyMap": {
+      "message": "Toetsenbordindeling"
+   },
+   "cm_lineWrapping": {
+      "message": "Tekstterugloop"
+   },
+   "cm_linter": {
+      "message": "CSS-linter"
+   },
+   "cm_matchHighlight": {
+      "message": "Markeren"
+   },
+   "cm_matchHighlightSelection": {
+      "message": "Alleen selectie"
+   },
+   "cm_matchHighlightToken": {
+      "message": "Token onder cursor"
+   },
+   "cm_resizeGripHint": {
+      "message": "Dubbelklik om de hoogte te maximaliseren/herstellen"
+   },
+   "cm_selectByTokens": {
+      "message": "Dubbelklikken selecteert tokens"
+   },
+   "cm_selectByTokensTooltip": {
+      "message": "Voorbeelden van tokens: .foo-bar-2 #aabbcc 0.32 !important\nWanneer uitgeschakeld: door interpunctie gescheiden woorden worden geselecteerd."
+   },
+   "cm_smartIndent": {
+      "message": "Slimme inspringing gebruiken"
+   },
+   "cm_tabSize": {
+      "message": "Tabgrootte"
+   },
+   "cm_theme": {
+      "message": "Thema"
+   },
+   "colorpickerSwitchFormatTooltip": {
+      "message": "Indelingen omschakelen: HEX -> RGB -> HSL.\nShift-klik om de volgorde om te keren.\nWerkt ook met de toetsen PgUp (PageUp) en PgDn (PageDown)."
+   },
+   "colorpickerTooltip": {
+      "message": "Kleurkiezer openen"
+   },
+   "configOnChange": {
+      "message": "bij wijzigingen"
+   },
+   "configOnChangeTooltip": {
+      "message": "Wijzigingen automatisch opslaan en toepassen"
+   },
+   "configureStyle": {
+      "message": "Configureren"
+   },
+   "configureStyleOnHomepage": {
+      "message": "Configureren op startpagina"
+   },
+   "confirmCancel": {
+      "message": "Annuleren"
+   },
+   "confirmClose": {
+      "message": "Sluiten"
+   },
+   "confirmDefault": {
+      "message": "Standaard gebruiken"
+   },
+   "confirmDelete": {
+      "message": "Verwijderen"
+   },
+   "confirmDiscardChanges": {
+      "message": "Wijzigingen verwerpen?"
+   },
+   "confirmNo": {
+      "message": "Nee"
+   },
+   "confirmSave": {
+      "message": "Opslaan"
+   },
+   "confirmStop": {
+      "message": "Stoppen"
+   },
+   "confirmYes": {
+      "message": "Ja"
+   },
+   "dateInstalled": {
+      "message": "Installatiedatum"
+   },
+   "dateUpdated": {
+      "message": "Bijwerkdatum"
+   },
+   "dbError": {
+      "message": "Er is een fout opgetreden bij het gebruiken van de Stylus-database. Wilt u een webpagina met mogelijke oplossingen bezoeken?"
+   },
+   "defaultTheme": {
+      "message": "standaard"
+   },
+   "deleteStyleConfirm": {
+      "message": "Weet u zeker dat u deze stijl wilt verwijderen?"
+   },
+   "deleteStyleLabel": {
+      "message": "Verwijderen"
+   },
+   "description": {
+      "message": "Voorzie het web van een ander uiterlijk met Stylus, een gebruikersstijlbeheerder. Met Stylus kunt u eenvoudig thema’s en stijlen voor veel populaire websites installeren."
+   },
+   "disableAllStyles": {
+      "message": "Alle stijlen uitschakelen"
+   },
+   "disableStyleLabel": {
+      "message": "Uitschakelen"
+   },
+   "dragDropMessage": {
+      "message": "Sleep uw back-upbestand naar deze pagina om het te importeren."
+   },
+   "editDeleteText": {
+      "message": "Verwijderen"
+   },
+   "editGotoLine": {
+      "message": "Ga naar regel (of regel:kolom)"
+   },
+   "editStyleHeading": {
+      "message": "Stijl bewerken"
+   },
+   "editStyleLabel": {
+      "message": "Bewerken"
+   },
+   "editStyleTitle": {
+      "message": "Stijl $stylename$ bewerken",
+      "placeholders": {
+         "stylename": {
+            "content": "$1"
+         }
+      }
+   },
+   "editorStylesButton": {
+      "message": "Editorstijlen zoeken"
+   },
+   "enableStyleLabel": {
+      "message": "Inschakelen"
+   },
+   "exportLabel": {
+      "message": "Exporteren"
+   },
+   "externalHomepage": {
+      "message": "Startpagina"
+   },
+   "externalLink": {
+      "message": "Externe koppeling"
+   },
+   "externalSupport": {
+      "message": "Ondersteuning"
+   },
+   "externalUsercssDocument": {
+      "message": "Documentatie voor Usercss"
+   },
+   "filteredStyles": {
+      "message": "$numShown$ van de $numTotal$ getoond",
+      "placeholders": {
+         "numShown": {
+            "content": "$1"
+         },
+         "numTotal": {
+            "content": "$2"
+         }
+      }
+   },
+   "filteredStylesAllHidden": {
+      "message": "Geen overeenkomende stijlen met de momenteel toegepaste filters"
+   },
+   "findStyles": {
+      "message": "Stijlen zoeken"
+   },
+   "findStylesForSite": {
+      "message": "Meer stijlen voor deze website zoeken"
+   },
+   "findStylesInlineTooltip": {
+      "message": "Zoekresultaten binnen dit venster weergeven"
+   },
+   "genericAdd": {
+      "message": "Toevoegen"
+   },
+   "genericClone": {
+      "message": "Dupliceren"
+   },
+   "genericDisabledLabel": {
+      "message": "Uitgeschakeld"
+   },
+   "genericEnabledLabel": {
+      "message": "Ingeschakeld"
+   },
+   "genericError": {
+      "message": "Fout"
+   },
+   "genericHistoryLabel": {
+      "message": "Geschiedenis"
+   },
+   "genericNext": {
+      "message": "Volgende"
+   },
+   "genericPrevious": {
+      "message": "Vorige"
+   },
+   "genericResetLabel": {
+      "message": "Standaardwaarden"
+   },
+   "genericSavedMessage": {
+      "message": "Opgeslagen"
+   },
+   "genericTitle": {
+      "message": "Titel"
+   },
+   "genericUnknown": {
+      "message": "Onbekend"
+   },
+   "helpAlt": {
+      "message": "Hulp"
+   },
+   "helpKeyMapCommand": {
+      "message": "Typ een opdrachtnaam"
+   },
+   "helpKeyMapHotkey": {
+      "message": "Druk op een sneltoets"
+   },
+   "importAppendLabel": {
+      "message": "Toevoegen aan stijl"
+   },
+   "importAppendTooltip": {
+      "message": "Geïmporteerde stijl toevoegen aan huidige stijl"
+   },
+   "importLabel": {
+      "message": "Importeren"
+   },
+   "importReplaceLabel": {
+      "message": "Stijl overschrijven"
+   },
+   "importReplaceTooltip": {
+      "message": "Inhoud van huidige stijl verwerpen en met de geïmporteerde stijl overschrijven"
+   },
+   "importReportLegendAdded": {
+      "message": "toegevoegd"
+   },
+   "importReportLegendIdentical": {
+      "message": "gelijke overgeslagen"
+   },
+   "importReportLegendInvalid": {
+      "message": "ongeldige overgeslagen"
+   },
+   "importReportLegendUpdatedBoth": {
+      "message": "meta-informatie en code bijgewerkt"
+   },
+   "importReportLegendUpdatedCode": {
+      "message": "code bijgewerkt"
+   },
+   "importReportLegendUpdatedMeta": {
+      "message": "meta-informatie bijgewerkt"
+   },
+   "importReportTitle": {
+      "message": "Stijlen importeren voltooid"
+   },
+   "importReportUnchanged": {
+      "message": "Er is niets gewijzigd."
+   },
+   "importReportUndone": {
+      "message": "stijlen zijn teruggezet"
+   },
+   "importReportUndoneTitle": {
+      "message": "Importeren is ongedaan gemaakt"
+   },
+   "installButton": {
+      "message": "Stijl installeren"
+   },
+   "installButtonInstalled": {
+      "message": "Stijl geïnstalleerd"
+   },
+   "installButtonReinstall": {
+      "message": "Stijl herinstalleren"
+   },
+   "installButtonUpdate": {
+      "message": "Stijl bijwerken"
+   },
+   "installUpdate": {
+      "message": "Update installeren"
+   },
+   "installUpdateFrom": {
+      "message": "De stijl wordt momenteel bijgewerkt vanaf $url$",
+      "placeholders": {
+         "url": {
+            "content": "$1"
+         }
+      }
+   },
+   "installUpdateFromLabel": {
+      "message": "Controleren op updates"
+   },
+   "installUpdateUnavailable": {
+      "message": "Als u controle op updates wilt inschakelen, sleep dan het bestand naar de tabbladenstrook of geef een @updateURL op in de metagegevens van de stijl."
+   },
+   "license": {
+      "message": "Licentie"
+   },
+   "linkGetHelp": {
+      "message": "Hulp verkrijgen"
+   },
+   "linkGetStyles": {
+      "message": "Stijlen verkrijgen"
+   },
+   "linkTranslate": {
+      "message": "Vertalen"
+   },
+   "linterCSSLintIncompatible": {
+      "message": "CSSLint heeft geen ondersteuning voor $preprocessorname$",
+      "placeholders": {
+         "preprocessorname": {
+            "content": "$1"
+         }
+      }
+   },
+   "linterCSSLintSettings": {
+      "message": "(stel regel als volgt in: 0 = uitgeschakeld; 1 = waarschuwing; 2 = fout)"
+   },
+   "linterConfigPopupTitle": {
+      "message": "$linter$-regelconfiguratie instellen",
+      "placeholders": {
+         "linter": {
+            "content": "$1"
+         }
+      }
+   },
+   "linterConfigTooltip": {
+      "message": "Klik om deze linter te configureren"
+   },
+   "linterInvalidConfigError": {
+      "message": "Niet opgeslagen vanwege deze ongeldige configuratie-instellingen:"
+   },
+   "linterIssues": {
+      "message": "Problemen"
+   },
+   "linterIssuesHelp": {
+      "message": "De door stylelint gevonden problemen, $link$:",
+      "placeholders": {
+         "link": {
+            "content": "$1"
+         }
+      }
+   },
+   "linterJSONError": {
+      "message": "Ongeldige JSON-opmaak"
+   },
+   "linterResetMessage": {
+      "message": "Druk op Ctrl-Z (of Cmd-Z) in het tekstvak om ongedaan te maken"
+   },
+   "linterRulesLink": {
+      "message": "Volledige regellijst bekijken"
+   },
+   "liveReloadError": {
+      "message": "Er is een fout opgetreden tijdens het bekijken van het bestand"
+   },
+   "liveReloadInstallHint": {
+      "message": "Live herladen is ingeschakeld. De geïnstalleerde stijl zal bij externe wijzigingen automatisch worden bijgewerkt als zowel dit tabblad als het tabblad van het bronbestand zijn geopend."
+   },
+   "liveReloadLabel": {
+      "message": "Live herladen"
+   },
+   "liveReloadUnavailable": {
+      "message": "Als u live herladen wilt inschakelen, sleep dan het bestand naar de tabbladenstrook (het gebied waar de tabbladtitels worden getoond)."
+   },
+   "manageFavicons": {
+      "message": "Favicons in kolom ‘Van toepassing op’"
+   },
+   "manageFaviconsGray": {
+      "message": "Niet beschikbaar"
+   },
+   "manageFaviconsHelp": {
+      "message": "Stylus gebruikt een externe dienst: https://www.google.com/s2/favicons"
+   },
+   "manageHeading": {
+      "message": "Geïnstalleerde stijlen"
+   },
+   "manageMaxTargets": {
+      "message": "Aantal ‘Van toepassing op’-items"
+   },
+   "manageNewStyleAsUsercss": {
+      "message": "als Usercss"
+   },
+   "manageNewUI": {
+      "message": "Nieuwe indeling van beheerscherm"
+   },
+   "manageOnlyDisabled": {
+      "message": "Alleen uitgeschakelde stijlen"
+   },
+   "manageOnlyEnabled": {
+      "message": "Alleen ingeschakelde stijlen"
+   },
+   "manageOnlyExternal": {
+      "message": "Alleen externe stijlen"
+   },
+   "manageOnlyLocal": {
+      "message": "Alleen lokaal aangemaakte stijlen"
+   },
+   "manageOnlyLocalTooltip": {
+      "message": "(de stijlen die niet via userstyles.org zijn geïnstalleerd)"
+   },
+   "manageOnlyNonUsercss": {
+      "message": "Alleen niet-Usercss-stijlen"
+   },
+   "manageOnlyUpdates": {
+      "message": "Alleen bij updates of problemen"
+   },
+   "manageOnlyUsercss": {
+      "message": "Alleen Usercss-stijlen"
+   },
+   "menuShowBadge": {
+      "message": "Aantal actieve stijlen tonen"
+   },
+   "noStylesForSite": {
+      "message": "Geen geïnstalleerde stijlen voor deze website."
+   },
+   "openManage": {
+      "message": "Beheren"
+   },
+   "openOptionsManage": {
+      "message": "Opties"
+   },
+   "openOptionsPopup": {
+      "message": "Opties"
+   },
+   "openStylesManager": {
+      "message": "Stijlbeheerder openen"
+   },
+   "optionsActions": {
+      "message": "Acties"
+   },
+   "optionsAdvanced": {
+      "message": "Geavanceerd"
+   },
+   "optionsAdvancedContextDelete": {
+      "message": "‘Verwijderen’ toevoegen in contextmenu van editor"
+   },
+   "optionsAdvancedExposeIframes": {
+      "message": "iframes blootleggen via HTML[stylus-iframe]"
+   },
+   "optionsAdvancedExposeIframesNote": {
+      "message": "Legt het bovenliggende domein van de website bloot in elk iframe.\nSchakelt schrijven in voor iframe-specifieke CSS, zoals:\nhtml[stylus-iframe$=\"twitter.com\"] h1 { display:none }"
+   },
+   "optionsAdvancedNewStyleAsUsercss": {
+      "message": "Nieuwe stijl schrijven als usercss"
+   },
+   "optionsBadgeDisabled": {
+      "message": "Achtergrondkleur wanneer uitgeschakeld"
+   },
+   "optionsBadgeNormal": {
+      "message": "Achtergrondkleur"
+   },
+   "optionsCheck": {
+      "message": "Stijlen bijwerken"
+   },
+   "optionsCheckUpdate": {
+      "message": "Controleren op updates en deze installeren"
+   },
+   "optionsCustomizeBadge": {
+      "message": "Badge op werkbalkpictogram"
+   },
+   "optionsCustomizeIcon": {
+      "message": "Werkbalkpictogram"
+   },
+   "optionsCustomizePopup": {
+      "message": "Pop-up"
+   },
+   "optionsHeading": {
+      "message": "Opties"
+   },
+   "optionsIconDark": {
+      "message": "Donkere browserthema’s"
+   },
+   "optionsIconLight": {
+      "message": "Lichte browserthema’s"
+   },
+   "optionsOpen": {
+      "message": "Openen"
+   },
+   "optionsOpenManager": {
+      "message": "Stijlen beheren"
+   },
+   "optionsPopupWidth": {
+      "message": "Pop-upbreedte (in pixels)"
+   },
+   "optionsReset": {
+      "message": "Opties terugzetten naar standaardwaarden"
+   },
+   "optionsResetButton": {
+      "message": "Standaardwaarden"
+   },
+   "optionsSubheading": {
+      "message": "Meer opties"
+   },
+   "optionsUpdateImportNote": {
+      "message": "Als u stijlen vanuit een oudere versie of vanuit Stylish importeert, controleer dan eenmalig op updates in de stijlbeheerder om er zeker van te zijn dat alle stijlen zijn bijgewerkt."
+   },
+   "optionsUpdateInterval": {
+      "message": "Interval voor automatisch bijwerken van gebruikersstijlen in uren (geef 0 op om dit uit te schakelen)"
+   },
+   "paginationCurrent": {
+      "message": "Huidige pagina"
+   },
+   "paginationEstimated": {
+      "message": "Geschatte aantal pagina’s"
+   },
+   "paginationNext": {
+      "message": "Volgende pagina"
+   },
+   "paginationPrevious": {
+      "message": "Vorige pagina"
+   },
+   "paginationTotal": {
+      "message": "Totale aantal pagina’s"
+   },
+   "parseUsercssError": {
+      "message": "Stylus kan de usercss niet verwerken:"
+   },
+   "popupBorders": {
+      "message": "Witte randen toevoegen aan zijkanten"
+   },
+   "popupBordersTooltip": {
+      "message": "Handig voor donkere thema’s in Chrome, omdat zijranden niet meer worden gerenderd"
+   },
+   "popupHotkeysInfo": {
+      "message": "\u003C1>-\u003C9>, \u003C0>, ook op het numerieke toetsenbord - schakelt naar de Ne stijl (0 is 10)\n\u003CA>-\u003CZ> schakelt naar de eerste stijl die met de letter begint\n\u003CShift> opent de editor i.p.v. deze in/uit te schakelen\n\u003CNumpad +> schakelt opgesomde stijlen in\n\u003CNumpad –> schakelt opgesomde stijlen uit\n\u003CNumpad *> en \u003C`> (accent grave) - schakelt tussen initieel ingeschakelde stijlen; niet van toepassing op stijlen die zijn ingeschakeld met het pop-upvenster geopend, zodat u na het uitproberen de initiële selectie kunt herstellen: schakel alles uit en schakel dan om, m.a.w. \u003CNumpad –> \u003CNumpad *>\nMeer info is te vinden in de wiki"
+   },
+   "popupHotkeysTooltip": {
+      "message": "Klik om beschikbare sneltoetsen te tonen"
+   },
+   "popupManageTooltip": {
+      "message": "Shift-klik of rechtsklik opent de beheerder met stijlen die op de huidige website van toepassing zijn"
+   },
+   "popupOpenEditInWindow": {
+      "message": "Editor openen in nieuw venster"
+   },
+   "popupOpenEditInWindowTooltip": {
+      "message": "Wordt tevens ingeschakeld door het losmaken van het editor-tabblad,\nen uitgeschakeld door het vastmaken van een los editor-tabblad aan een ander venster."
+   },
+   "popupStylesFirst": {
+      "message": "Stijlen vóór opdrachten"
+   },
+   "prefShowBadge": {
+      "message": "Aantal actieve stijlen voor de huidige website"
+   },
+   "previewLabel": {
+      "message": "Live-voorbeeld"
+   },
+   "previewTooltip": {
+      "message": "Past de wijzigingen tijdelijk toe zonder deze op te slaan.\nSla de stijl op om de wijzigingen permanent te maken."
+   },
+   "replace": {
+      "message": "Vervangen"
+   },
+   "replaceAll": {
+      "message": "Alle vervangen"
+   },
+   "replaceWith": {
+      "message": "Vervangen door"
+   },
+   "retrieveBckp": {
+      "message": "Stijlen importeren"
+   },
+   "search": {
+      "message": "Zoeken"
+   },
+   "searchCaseSensitive": {
+      "message": "Hoofdlettergevoelig"
+   },
+   "searchNumberOfResults": {
+      "message": "Aantal overeenkomsten"
+   },
+   "searchNumberOfResults2": {
+      "message": "Aantal overeenkomsten in code en ‘Van toepassing op’-waarden"
+   },
+   "searchRegexp": {
+      "message": "Gebruik /re/-syntaxis voor regexp-zoeken"
+   },
+   "searchResultInstallCount": {
+      "message": "Totale aantal installaties"
+   },
+   "searchResultNoneFound": {
+      "message": "Geen stijlen voor deze website gevonden."
+   },
+   "searchResultRating": {
+      "message": "Waardering"
+   },
+   "searchResultUpdated": {
+      "message": "Bijgewerkt"
+   },
+   "searchResultWeeklyCount": {
+      "message": "Wekelijks aantal installaties"
+   },
+   "searchStyles": {
+      "message": "Inhoud doorzoeken"
+   },
+   "searchStylesHelp": {
+      "message": "\u003C/>-toets legt de focus in het zoekvak.\nPlatte tekst: zoeken in de naam, code, website-URL en de websites waarop het wordt toegepast. Woorden met minder dan 3 letters worden genegeerd.\nStijlen die met een volledige URL overeenkomen: begin de zoekopdracht met \u003Curl:>, bv. \u003Curl:https://github.com/openstyles/stylus>\nReguliere expressies: voeg schuine strepen en vlaggen toe, bv. \u003C/body.*?\\ba\\b/simguy>\nExacte woorden: gebruik dubbele aanhalingstekens in de zoekterm, bv. \u003C\".header ~ div\">"
+   },
+   "sectionAdd": {
+      "message": "Nog een sectie toevoegen"
+   },
+   "sectionHelp": {
+      "message": "Met secties kunt u verschillende stukjes code definiëren en op verschillende groepen URL’s in dezelfde stijl toepassen. Een enkele stijl kan bijvoorbeeld de startpagina van een website op een bepaalde manier wijzigen, terwijl de rest van de website op een andere manier wordt gewijzigd."
+   },
+   "sectionRemove": {
+      "message": "Sectie verwijderen"
+   },
+   "sectionRestore": {
+      "message": "Verwijderde sectie herstellen"
+   },
+   "shortcuts": {
+      "message": "Sneltoetsen"
+   },
+   "shortcutsNote": {
+      "message": "Sneltoetsen definiëren"
+   },
+   "sortDateNewestFirst": {
+      "message": "nieuwste eerst"
+   },
+   "sortDateOldestFirst": {
+      "message": "oudste eerst"
+   },
+   "sortLabel": {
+      "message": "Selecteer een sorteermethode om op geïnstalleerde stijlen toe te passen"
+   },
+   "sortLabelTitleAsc": {
+      "message": "Titel - Oplopend"
+   },
+   "sortLabelTitleDesc": {
+      "message": "Titel - Aflopend"
+   },
+   "sortStylesHelp": {
+      "message": "Kies de toe te passen sorteermethode voor de geïnstalleerde items vanuit het vervolgkeuzemenu. De standaardinstelling past een oplopende sortering (A-Z) op de itemtitels toe. Sorteren op ‘Titel - Aflopend’ past het omgekeerde (Z-A) toe.\nAndere keuzes laten u items sorteren op basis van meerdere criteria. Denk hierbij aan het sorteren van een tabel met meerdere kolommen, en elke categorie in een selectie (tussen de plustekens) stelt een kolom of groep voor.\nVoorbeeld: als de instelling ‘Ingeschakeld (eerst) + Titel’ is, worden de ingeschakelde items bovenaan geplaatst en worden zowel de in- als uitgeschakelde items apart oplopend gesorteerd (A-Z)."
+   },
+   "sortStylesHelpTitle": {
+      "message": "Inhoud sorteren"
+   },
+   "styleBadRegexp": {
+      "message": "Regexp is ongeldig."
+   },
+   "styleBeautify": {
+      "message": "Mooier maken"
+   },
+   "styleBeautifyIndentConditional": {
+      "message": "@media, @supports inspringen"
+   },
+   "styleBeautifyPreserveNewlines": {
+      "message": "Nieuwe regels behouden"
+   },
+   "styleCancelEditLabel": {
+      "message": "Terug naar beheren"
+   },
+   "styleChangesNotSaved": {
+      "message": "U hebt wijzigingen in deze stijl aangebracht zonder op te slaan."
+   },
+   "styleEnabledLabel": {
+      "message": "Ingeschakeld"
+   },
+   "styleFromMozillaFormatError": {
+      "message": "Importeren vanuit Mozilla-opmaak mislukt"
+   },
+   "styleFromMozillaFormatPrompt": {
+      "message": "Plak de code in Mozilla-opmaak"
+   },
+   "styleInstall": {
+      "message": "‘$stylename$’ installeren in Stylus?",
+      "placeholders": {
+         "stylename": {
+            "content": "$1"
+         }
+      }
+   },
+   "styleInstallFailed": {
+      "message": "Installeren van gebruikersstijl mislukt!\n$error$",
+      "placeholders": {
+         "error": {
+            "content": "$1"
+         }
+      }
+   },
+   "styleInstallOverwrite": {
+      "message": "‘$stylename$’ is al geïnstalleerd. Overschrijven?\nVersie: $oldVersion$ -> $newVersion$",
+      "placeholders": {
+         "newVersion": {
+            "content": "$3"
+         },
+         "oldVersion": {
+            "content": "$2"
+         },
+         "stylename": {
+            "content": "$1"
+         }
+      }
+   },
+   "styleMetaErrorCheckbox": {
+      "message": "Ongeldig @var-selectievakje: waarde moet 0 of 1 zijn"
+   },
+   "styleMetaErrorColor": {
+      "message": "$color$ is geen geldige kleur",
+      "placeholders": {
+         "color": {
+            "content": "$1"
+         }
+      }
+   },
+   "styleMetaErrorPreprocessor": {
+      "message": "Niet-ondersteunde @preprocessor: $preprocessor$",
+      "placeholders": {
+         "preprocessor": {
+            "content": "$1"
+         }
+      }
+   },
+   "styleMetaErrorRangeOrNumber": {
+      "message": "Ongeldige @var $type$: de waarde moet een reeks zijn die minimaal één getal bevat bij index nul",
+      "placeholders": {
+         "type": {
+            "content": "$1"
+         }
+      }
+   },
+   "styleMetaErrorSelectValueMismatch": {
+      "message": "Ongeldige @select: waarde staat niet op de lijst"
+   },
+   "styleMissingMeta": {
+      "message": "Ontbrekende metagegevens @ $key$",
+      "placeholders": {
+         "key": {
+            "content": "$1"
+         }
+      }
+   },
+   "styleMissingName": {
+      "message": "Voer een naam in"
+   },
+   "styleMozillaFormatHeading": {
+      "message": "Mozilla-opmaak"
+   },
+   "styleNotAppliedRegexpProblemTooltip": {
+      "message": "Stijl is niet toegepast vanwege onjuist gebruik van ‘regexp()’"
+   },
+   "styleRegexpInvalidExplanation": {
+      "message": "Sommige ‘regexp()’-regels konden niet worden gecompileerd."
+   },
+   "styleRegexpPartialExplanation": {
+      "message": "Deze stijl gebruikt gedeeltelijk overeenkomende regexps. Dit is in strijd met de \u003Ca href='https://developer.mozilla.org/docs/Web/CSS/@document'>CSS4 @document-specificatie\u003C/a>, die een volledige URL-overeenkomst vereist. De getroffen CSS-secties zijn niet op de pagina toegepast. Deze stijl is waarschijnlijk met Stylish-for-Chrome gemaakt, dat sinds de allereerste versie op een onjuiste manier ‘regexp()’-regels controleert (bekende fout)."
+   },
+   "styleRegexpProblemTooltip": {
+      "message": "Aantal secties dat niet wordt toegepast vanwege onjuist gebruik van ‘regexp()’"
+   },
+   "styleRegexpTestButton": {
+      "message": "RegExp-test"
+   },
+   "styleRegexpTestFull": {
+      "message": "Overeenkomende tabbladen"
+   },
+   "styleRegexpTestInvalid": {
+      "message": "Ongeldige regexps overgeslagen"
+   },
+   "styleRegexpTestNone": {
+      "message": "Geen overeenkomende tabbladen"
+   },
+   "styleRegexpTestNote": {
+      "message": "Let op: gebruik een enkele \\ voor het gebruik van escapetekens in het regexp-invoerveld. Deze worden automatisch omgezet naar \\\\ in de stijlcode volgens de specificatie voor tekenreeksen tussen aanhalingstekens in CSS."
+   },
+   "styleRegexpTestPartial": {
+      "message": "Niet volledig overeenkomend, dus overgeslagen"
+   },
+   "styleRegexpTestTitle": {
+      "message": "Lijst van overeenkomende geopende tabbladen (klik op de URL om de focus op het tabblad te leggen)"
+   },
+   "styleSaveLabel": {
+      "message": "Opslaan"
+   },
+   "styleSectionsTitle": {
+      "message": "Secties"
+   },
+   "styleToMozillaFormatHelp": {
+      "message": "De Mozilla-opmaak van de code kan bij userstyles.org worden ingediend en met het klassieke Stylish voor Firefox worden gebruikt."
+   },
+   "styleToMozillaFormatTitle": {
+      "message": "Stijl in Mozilla-opmaak"
+   },
+   "styleUpdate": {
+      "message": "Weet u zeker dat u ‘$stylename$’ wilt bijwerken?",
+      "placeholders": {
+         "stylename": {
+            "content": "$1"
+         }
+      }
+   },
+   "styleUpdateDiscardChanges": {
+      "message": "Deze stijl is buiten de editor om gewijzigd. Wilt u de stijl opnieuw laden?"
+   },
+   "stylusUnavailableForURL": {
+      "message": "Stylus werkt niet op pagina’s als deze."
+   },
+   "stylusUnavailableForURLdetails": {
+      "message": "Als beveiligingsmaatregel verbiedt de browser dat extensies effect hebben op ingebouwde pagina’s (zoals chrome://version, de standaard nieuw-tabbladpagina sinds Chrome 61, about:addons, enz.), evenals op pagina’s van andere extensies. Ook beperkt elke browser toegang tot de eigen extensiegalerij (zoals de Chrome Web Store of AMO)."
+   },
+   "syncStorageErrorSaving": {
+      "message": "De waarde kan niet worden opgeslagen. Probeer de hoeveelheid tekst te verminderen."
+   },
+   "toggleStyle": {
+      "message": "Stijl in-/uitschakelen"
+   },
+   "undo": {
+      "message": "Ongedaan maken"
+   },
+   "undoGlobal": {
+      "message": "Ongedaan maken (alle secties)"
+   },
+   "unreachableAMO": {
+      "message": "Firefox blokkeert de toegang tot deze website."
+   },
+   "unreachableAMOHint": {
+      "message": "Toestemming verlenen: open \u003Cabout:config>, klik met de rechtermuisknop op de lijst, klik op ‘Nieuw’ -> ‘Boolean’ en plak \u003Cprivacy.resistFingerprinting.block_mozAddonManager>. Klik daarna op OK -> \u003Ctrue> -> OK en vernieuw de pagina \u003Caddons.mozilla.org>."
+   },
+   "unreachableAMOHintNewFF": {
+      "message": "In Firefox 60 en hoger moet u ook het AMO-domein uit \u003Cextensions.webextensions.restrictedDomains> verwijderen in \u003Cabout:config>."
+   },
+   "unreachableAMOHintOldFF": {
+      "message": "Alleen Firefox 59 en hoger kunnen worden geconfigureerd om WebExtensions stijlelementen te laten toevoegen op door CSP beveiligde websites zoals deze."
+   },
+   "unreachableContentScript": {
+      "message": "Kon niet met de pagina communiceren. Probeer het tabblad te vernieuwen."
+   },
+   "unreachableFileHint": {
+      "message": "Stylus kan URL’s die met file:// beginnen alleen benaderen als u het selectievakje hiervoor op de pagina chrome://extensions aanvinkt."
+   },
+   "updateAllCheckSucceededNoUpdate": {
+      "message": "Geen updates gevonden."
+   },
+   "updateAllCheckSucceededSomeEdited": {
+      "message": "Sommige stijlen die kunnen worden bijgewerkt zijn niet gecontroleerd, om mogelijke lokale bewerkingen te behouden. Updates kunnen worden geforceerd door de stijlen individueel te controleren, of door alle stijlen opnieuw te controleren (lokale bewerkingen worden overschreven)."
+   },
+   "updateCheckFailBadResponseCode": {
+      "message": "Update mislukt: server gaf code $code$ als antwoord.",
+      "placeholders": {
+         "code": {
+            "content": "$1"
+         }
+      }
+   },
+   "updateCheckFailServerUnreachable": {
+      "message": "Update mislukt: server onbereikbaar."
+   },
+   "updateCheckHistory": {
+      "message": "Geschiedenis van updatecontroles"
+   },
+   "updateCheckManualUpdateForce": {
+      "message": "Update installeren (lokale bewerkingen worden overschreven)"
+   },
+   "updateCheckManualUpdateHint": {
+      "message": "Een update forceren zal lokale bewerkingen overschrijven."
+   },
+   "updateCheckSkippedLocallyEdited": {
+      "message": "Deze stijl is lokaal bewerkt."
+   },
+   "updateCheckSkippedMaybeLocallyEdited": {
+      "message": "Deze stijl is mogelijk lokaal bewerkt."
+   },
+   "updateCheckSucceededNoUpdate": {
+      "message": "Stijl is up-to-date."
+   },
+   "updateCompleted": {
+      "message": "Update voltooid."
+   },
+   "updatesCurrentlyInstalled": {
+      "message": "Geïnstalleerde updates:"
+   },
+   "usercssAvoidOverwriting": {
+      "message": "Wijzig de waarde van @name of @namespace om te voorkomen dat een bestaande stijl wordt overschreven."
+   },
+   "usercssConfigIncomplete": {
+      "message": "De stijl is bijgewerkt of verwijderd nadat het configuratievenster werd getoond. Om beschadiging van metagegevens van de extensie te voorkomen, zijn deze variabelen niet opgeslagen:"
+   },
+   "usercssEditorNamePlaceholder": {
+      "message": "Specificeer @name in de code"
+   },
+   "usercssReplaceTemplateConfirmation": {
+      "message": "Wilt u de standaardsjabloon voor nieuwe Usercss-stijlen vervangen door de huidige code?"
+   },
+   "usercssReplaceTemplateName": {
+      "message": "Lege @name vervangt de standaardsjabloon"
+   },
+   "usercssReplaceTemplateSectionBody": {
+      "message": "Voer hier code in..."
+   },
+   "versionInvalidOlder": {
+      "message": "De versie is ouder dan de geïnstalleerde stijl."
+   },
+   "writeStyleFor": {
+      "message": "Stijl schrijven voor:"
+   },
+   "writeStyleForURL": {
+      "message": "deze URL"
+   }
+}

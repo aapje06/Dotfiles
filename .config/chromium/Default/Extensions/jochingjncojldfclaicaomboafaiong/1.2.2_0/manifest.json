@@ -1,0 +1,30 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "icons/button_gray.png",
+      "default_title": "CouchPotato"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "includes/content.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "description": "Easily add movies to your CouchPotato wanted list!",
+   "homepage_url": "https://couchpota.to/",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/button.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCxgvdQPzRRTrAYzWZtwXNZM6ifkZxXLTKMM4RG3aQtDsCbmgONswaIDWGyfcBUXiVNTisnHviBBk+q1K0j2JGrAbEIRP1CAwcfgoYNj/IU2XW7+JS7RU70O0jjMIoqeyEC2njij7ETzuLXkrtHIurU8gGCpj5duK6CLZ4Thr6NPwIDAQAB",
+   "manifest_version": 2,
+   "name": "CouchPotato",
+   "permissions": [ "tabs", "http://*/*", "https://*/*", "contextMenus", "webNavigation" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2.2",
+   "web_accessible_resources": [ "res/*", "assets/*", "icons/*" ]
+}

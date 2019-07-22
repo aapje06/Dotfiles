@@ -1,0 +1,24 @@
+2018/11/05-14:46:41.983 1186 Reusing MANIFEST /home/pieter-jan/.config/chromium/Default/Session Storage/MANIFEST-000001
+2018/11/05-14:46:41.983 1186 Recovering log #280
+2018/11/05-14:46:41.984 1186 Reusing old log /home/pieter-jan/.config/chromium/Default/Session Storage/000280.log 
+2018/11/05-14:46:52.964 1826 Level-0 table #284: started
+2018/11/05-14:46:52.969 1826 Level-0 table #284: 44910 bytes OK
+2018/11/05-14:46:52.971 1826 Delete type=0 #280
+2018/11/05-14:53:35.647 1826 Level-0 table #286: started
+2018/11/05-14:53:35.651 1826 Level-0 table #286: 40889 bytes OK
+2018/11/05-14:53:35.653 1826 Delete type=0 #283
+2018/11/05-14:53:35.653 1826 Compacting 4@0 + 1@1 files
+2018/11/05-14:53:35.659 1826 Generated table #287@0: 1181 keys, 103375 bytes
+2018/11/05-14:53:35.659 1826 Compacted 4@0 + 1@1 files => 103375 bytes
+2018/11/05-14:53:35.661 1826 compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/11/05-14:53:35.661 1826 Delete type=2 #286
+2018/11/05-14:53:35.661 1826 Delete type=2 #275
+2018/11/05-14:53:35.661 1826 Delete type=2 #281
+2018/11/05-14:53:35.661 1826 Delete type=2 #278
+2018/11/05-14:53:35.661 1826 Delete type=2 #284
+2018/11/05-15:12:20.662 1826 Level-0 table #289: started
+2018/11/05-15:12:20.667 1826 Level-0 table #289: 21799 bytes OK
+2018/11/05-15:12:20.669 1826 Delete type=0 #285
+2018/11/05-15:56:36.881 1826 Level-0 table #291: started
+2018/11/05-15:56:36.883 1826 Level-0 table #291: 19513 bytes OK
+2018/11/05-15:56:36.890 1826 Delete type=0 #288

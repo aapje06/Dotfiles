@@ -1,0 +1,30 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "main.js" ]
+      }
+   },
+   "icons": {
+      "128": "assets/icon_128.png",
+      "16": "assets/icon_16.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsNMrjf0G9Dwsbps38SWl3OklZZAfQ9lcwJdfMtCEUAnbKUeKf6xB5KfrlQQFxpAYNjaqborRnPmIAInrenwSSsbErovtuHTzqMkQ5mvV8Bzup6FG1p3DzZ4ZCwtq0tn2ClvnHLeAFr0912zUJfAKdNEy7e3rFEEqJroZ2nnnx4IBAd9iWIIo6KjivGMdvGlOA/txsieuxMzO7tyBzPMy+lHyJ0QRVtLH05hphM8ihjJuvuBVgGuAzcQ1UQfDMnYhHJb+2k6TERi7+N7LK9LEKK+uFcXITmEjQkwbNMpR4VsaXz4vy3Edi6MDMqSL1KUHJCB7gvdRpgoc8vn1YkdizwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "36",
+   "name": "MQTTLens",
+   "permissions": [ "storage", "*://*/*", "\u003Call_urls>" ],
+   "sockets": {
+      "tcp": {
+         "connect": "*"
+      },
+      "tcpServer": {
+         "listen": "*"
+      },
+      "udp": {
+         "bind": "*",
+         "send": "*"
+      }
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.14"
+}

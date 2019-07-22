@@ -1,0 +1,11 @@
+{
+   "appDesc": {
+      "message": "全機能統合版アプリ（関数グラフ作成、幾何、空間図形、CAS、統計、確率）"
+   },
+   "appName": {
+      "message": "GeoGebra全機能版"
+   },
+   "appShortName": {
+      "message": "GeoGebra全機能版"
+   }
+}

@@ -1,0 +1,185 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Scrollbar Customizer Options</title>
+  
+  <link rel="stylesheet" type="text/css" href="../lib/bgrins-spectrum-ed52c1c/spectrum.css">
+  <style>
+    * { font-size: 14px; font-family:verdana,arial; padding: 0px; margin: 0px;}
+    h1 { font-size: 20px; text-align: center;}
+    div.option { width: 400px; height: 20px; padding-bottom: 10px; padding-top: 10px; }
+    div.left { width: 40%; height: 22px; float: left; }
+    div.right { width: 60%; height: 22px; float: right; }
+    #save { padding: 5px; padding-left: 10px; padding-right: 10px; }
+    #status { padding: 5px; }
+  </style>
+  <style id="sb_style">
+    
+  </style>
+</head>
+
+<body>
+
+<div>
+  <div id="header" style="width: 100%; position: fixed; background-color: #ddd; border-bottom: 10px solid #eee; z-index: 1000;">
+    
+    <div id="title" style="margin: 0 auto; width: 100%; background-color:#0679AD; color: #fff; padding-bottom: 20px; padding-top: 20px;">
+      <h1>Scrollbar Customizer</h1>
+    </div>
+    <div id="preview" style="width: 400px; height: 150px; margin: 0 auto;">
+      
+      <div id="sbp_active" style="width: 200px; float: left; text-align: center;">
+        <h2>active scrollbars</h2>
+        <div style="width: 200px; height: 150px; overflow: scroll;">
+          <div style="width: 400px; height: 300px;">
+            
+          </div>
+        </div>
+      </div>
+      <div id="sbp_inactive" style="width: 200px; float: left; text-align: center;">
+        <h2>inactive scrollbars</h2>
+        <div style="width: 200px; height: 150px; overflow: scroll;">
+          
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  <div style="width: 400px; margin: 0 auto;">
+    
+    <div id="settings" style="padding-top: 250px; margin-left: 20px; margin-right: 20px;">
+      
+      <div class="option">
+        <div class="left">Preset Scrollbars:</div>
+        <div class="right">
+          <select id="css_set">
+            <option value="customized">Custom Style</option>
+          </select>
+        </div>
+      </div>
+      
+      <div style="text-align: center; border-top: solid 1px #ddd; margin-top: 10px; padding-top: 10px;"><h2><a id="customize_button" href="" style="color: #000;">Customize</a></h2></div>
+      
+      <div id="customize" style="display: none;">
+        
+        <div class="option_box" style="margin-top: 10px;">
+          <div style=""><h3 style="font-size: 12px; border-bottom: 1px solid #aaa;">Scrollbar Style</h3></div>
+          
+          <div class="option">
+            <div class="left">Width</div>
+            <div class="right">
+              <input id="sb_width" class="chgupd" type="number" style="width: 50px;" />
+            </div>
+          </div>
+          
+          <div class="option">
+            <div class="left">Height</div>
+            <div class="right">
+              <input id="sb_height" class="chgupd" type="number" style="width: 50px;" />
+            </div>
+          </div>
+          
+          <div class="option">
+            <div class="left">Background-Color</div>
+            <div class="right">
+              <input id="sb_bgc" class="chgupd colorpicker" style="width: 50px;" />
+            </div>
+          </div>
+          
+        </div>
+        
+        <div class="option_box" style="margin-top: 10px;">
+          <div style=""><h3 style="font-size: 12px; border-bottom: 1px solid #aaa;">Button Style</h3></div>
+          
+          <!--<div class="option">
+            <div class="left">Arrow Style</div>
+            <div class="right">
+              <select id="sbb_arrow">
+                <option>Chrome Standard</option>
+                <option>No Arrows</option>
+              </select>
+            </div>
+          </div>-->
+          
+          <div class="option">
+            <div class="left">Width</div>
+            <div class="right">
+              <input id="sbb_width" class="chgupd" type="number" style="width: 50px;" />
+            </div>
+          </div>
+          
+          <div class="option">
+            <div class="left">Height</div>
+            <div class="right">
+              <input id="sbb_height" class="chgupd" type="number" style="width: 50px;" />
+            </div>
+          </div>
+          
+          <div class="option">
+            <div class="left">Rounded</div>
+            <div class="right">
+              <input id="sbb_rounded" class="chgupd" type="number" style="width: 50px;" />
+            </div>
+          </div>
+          
+          <div class="option">
+            <div class="left">Background-Color</div>
+            <div class="right">
+              <input id="sbb_bgc" class="chgupd colorpicker" style="width: 50px;" />
+            </div>
+          </div>
+          
+        </div>
+        
+        <div class="option_box" style="margin-top: 10px;">
+          <div style=""><h3 style="font-size: 12px; border-bottom: 1px solid #aaa;">Thumb Style</h3></div>
+          
+          <div class="option">
+            <div class="left">Rounded</div>
+            <div class="right">
+              <input id="sbt_rounded" class="chgupd" type="number" style="width: 50px;" />
+            </div>
+          </div>
+          
+          <div class="option">
+            <div class="left">Color Style</div>
+            <div class="right">
+              <label><input class="chgupd sbt_color_style" type="radio" name="sbt_color_style" value="clean" checked="checked" /> Clean</label>
+              <label><input class="chgupd sbt_color_style" type="radio" name="sbt_color_style" value="linear" /> Linear</label>
+              <label><input class="chgupd sbt_color_style" type="radio" name="sbt_color_style" value="radial" /> Radial</label>
+            </div>
+          </div>
+          
+          <div class="option">
+            <div class="left">Color</div>
+            <div class="right">
+              <span id="sbt_bgc1_box"><input id="sbt_bgc1" class="chgupd colorpicker" style="width: 50px;" /></span>
+              <span id="sbt_bgc2_box" style="display: none;"><input id="sbt_bgc2" class="chgupd colorpicker" style="width: 50px;" /></span>
+            </div>
+          </div>
+          
+        </div>
+        
+      </div>
+      
+      <div style="clear:both;"></div>
+      
+    </div>
+    
+    <br>
+    <div id="status" style="margin-bottom: 20px; margin-left: 20px; margin-right: 20px;"></div>
+    <button id="save" style="margin-bottom: 20px; margin-left: 20px; margin-right: 20px;">Save</button>
+
+  
+  </div>
+</div>
+
+</body>
+
+<script src="../lib/jquery.js"></script>
+<script src="../lib/bgrins-spectrum-ed52c1c/spectrum.js"></script>
+<script src="../lib/presets.js"></script>
+<script src="options.js"></script>
+
+</html>

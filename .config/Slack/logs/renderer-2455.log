@@ -1,0 +1,167 @@
+[06/04/18, 20:47:17:485] info: ╔══════════════════════════════════════════════════════════════════════════════╗
+[06/04/18, 20:47:17:485] info: ║      Slack 3.0.0, linux 4.15.10-1-ARCH on x64 at 06/04/18, 20:47:17:481      ║
+[06/04/18, 20:47:17:486] info: ╚══════════════════════════════════════════════════════════════════════════════╝
+[06/04/18, 20:47:17:736] info: Initializing local storage instance at path: /home/pieter-jan/.config/Slack/local-settings.json
+[06/04/18, 20:47:22:153] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T9A14CKNZ"
+}
+[06/04/18, 20:47:22:166] info: Store: MAIN_WINDOW_SHOWN
+[06/04/18, 20:47:22:193] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "loaded",
+  "teamId": "T6SGGRDBP"
+}
+[06/04/18, 20:47:22:421] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T9A14CKNZ"
+}
+[06/04/18, 20:47:22:436] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T6SGGRDBP"
+}
+[06/04/18, 20:47:22:827] info: Store: SELECT_CHANNEL C9AUM0F8X
+[06/04/18, 20:47:22:832] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T9A14CKNZ"
+}
+[06/04/18, 20:47:22:839] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[06/04/18, 20:47:22:851] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T9A14CKNZ",
+  "theme": {
+    "active_item": "#6698C8",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#94E864",
+    "badge": "#78AF8F",
+    "column_bg": "#303E4D",
+    "hover_item": "#4A5664",
+    "menu_bg": "#2C3849",
+    "text_color": "#FFFFFF"
+  }
+}
+[06/04/18, 20:47:22:864] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 5,
+  "state": "loaded",
+  "teamId": "T8KGJDVTQ"
+}
+[06/04/18, 20:47:22:887] info: Store: SELECT_CHANNEL C6SGGRKTP
+[06/04/18, 20:47:22:897] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[06/04/18, 20:47:23:112] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T8KGJDVTQ"
+}
+[06/04/18, 20:47:23:313] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T6SGGRDBP"
+}
+[06/04/18, 20:47:23:320] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "webapp-loaded",
+  "teamId": "T6SGGRDBP"
+}
+[06/04/18, 20:47:23:455] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T6SGGRDBP",
+  "token": "xoxs-⋯"
+}
+[06/04/18, 20:47:23:467] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T6SGGRDBP",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[06/04/18, 20:47:23:510] info: Store: SELECT_CHANNEL D8JK94Z51
+[06/04/18, 20:47:23:515] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[06/04/18, 20:47:23:793] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-22/290747504084_06553d4bb8012621e99a_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-22/290747504084_06553d4bb8012621e99a_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-22/290747504084_06553d4bb8012621e99a_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-22/290747504084_06553d4bb8012621e99a_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-22/290747504084_06553d4bb8012621e99a_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-22/290747504084_06553d4bb8012621e99a_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-22/290747504084_06553d4bb8012621e99a_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-22/290747504084_06553d4bb8012621e99a_original.png"
+  },
+  "teamId": "T8KGJDVTQ"
+}
+[06/04/18, 20:47:23:965] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8KGJDVTQ"
+}
+[06/04/18, 20:47:23:975] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 5,
+  "state": "webapp-loaded",
+  "teamId": "T8KGJDVTQ"
+}
+[06/04/18, 20:47:24:044] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T9A14CKNZ"
+}
+[06/04/18, 20:47:24:050] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T9A14CKNZ"
+}
+[06/04/18, 20:47:24:150] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T8KGJDVTQ",
+  "token": "xoxs-⋯"
+}
+[06/04/18, 20:47:24:161] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T8KGJDVTQ",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[06/04/18, 20:47:24:429] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T9A14CKNZ",
+  "token": "xoxs-⋯"
+}
+[06/04/18, 20:47:43:264] info: Store: MAIN_WINDOW_FOCUSED
+[06/04/18, 20:47:43:363] info: Store: SELECT_TEAM T8KGJDVTQ
+[06/04/18, 20:47:48:318] info: Store: SELECT_CHANNEL G8LS2H9NJ
+[06/04/18, 20:48:51:218] info: Store: MAIN_WINDOW_FOCUSED
+[06/04/18, 20:48:51:221] info: Store: MAIN_WINDOW_FOCUSED

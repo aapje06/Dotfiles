@@ -1,0 +1,903 @@
+{
+	"folder_history":
+	[
+		"/home/pieter-jan/.config",
+		"/home/pieter-jan/.config/polybar",
+		"/home/pieter-jan/git/Server/src/main/resources/static"
+	],
+	"last_version": 3143,
+	"last_window_id": 7,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 1036.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/pieter-jan/git/Server/src/test/resources/polygloty.sql",
+				"/home/pieter-jan/Downloads/transmission downloads/MICROSOFT Office PRO Plus 2016 v16.0.4266.1003 RTM + Activator [TechTools.NET]/_ReadMe.txt",
+				"/home/pieter-jan/git/Server/src/main/resources/config/config.json",
+				"/home/pieter-jan/Downloads/polygloty (1).sql",
+				"/home/pieter-jan/git/tmp/poging2App/Polygloty/www/index.html",
+				"/home/pieter-jan/git/tmp/poging2App/Polygloty/www/components/app/main/app.html",
+				"/home/pieter-jan/git/tmp/poging2App/Polygloty/www/polygloty.js",
+				"/home/pieter-jan/git/tmp/Android-App/www/index.html",
+				"/home/pieter-jan/git/tmp/Android-App/www/components/app/app.js",
+				"/home/pieter-jan/git/tmp/Android-App/www/components/app/main/app.html",
+				"/home/pieter-jan/git/tmp/Android-App/www/polygloty.js",
+				"/home/pieter-jan/git/tmp/Android-App/www/scripts/home.js",
+				"/home/pieter-jan/git/Server/sonar-scanner.properties",
+				"/home/pieter-jan/Downloads/languages.sql",
+				"/home/pieter-jan/.cache/.fr-DNmcFW/ZAP_2.7.0/zap.sh",
+				"/home/pieter-jan/testje.txt",
+				"/home/pieter-jan/Downloads/config.properties",
+				"/home/pieter-jan/tmp/myapp/src/theme/variables.scss",
+				"/home/pieter-jan/Downloads/polygloty.sql",
+				"/home/pieter-jan/Downloads/users.sql",
+				"/home/pieter-jan/test.log",
+				"/home/pieter-jan/hs_err_pid856.log",
+				"/home/pieter-jan/Dropbox/School/2017-2018/Design_Project/Polygloty/passwords",
+				"/home/pieter-jan/git/Web-App/styles/home-pages.css",
+				"/home/pieter-jan/.config/conky/conky.conf",
+				"/home/pieter-jan/Dropbox/School/2017-2018/Queueing analisys/project/queue/SSF.py",
+				"/home/pieter-jan/Dropbox/School/2017-2018/Queueing analisys/project/queue/PRI.py",
+				"/home/pieter-jan/.config/polybar/config",
+				"/home/pieter-jan/.config/dunst/dunstrc",
+				"/home/pieter-jan/Dropbox/School/2017-2018/Design_Project/Polygloty/installscripts/installJava",
+				"/home/pieter-jan/.cache/.fr-qhzOOr/sonarqube-6.7.1/data/README.txt",
+				"/mnt/server/users/ptuytsch/github/simple-java-maven-app/jenkins/Jenkinsfile",
+				"/home/pieter-jan/.jFed/tmp/openSsh6697491124801689944-1518691614638.sh",
+				"/home/pieter-jan/Downloads/usecase2.pu",
+				"/home/pieter-jan/Downloads/use case 3 - White box sequence diagram V2.pu",
+				"/home/pieter-jan/Downloads/use case 3 - White box sequence diagram.pu",
+				"/home/pieter-jan/Dropbox/School/2017-2018/Design_Project/hexacaluber/Use Case 1 - part 1.png",
+				"/home/pieter-jan/Downloads/QXRoZW5hRmFybS5Qcm9qZWN0IDIwMTYgU3R1ZGVudHNPbmx5.ica",
+				"/home/pieter-jan/Dropbox/School/2017-2018/Queueing analisys/project/results/3-Delay-Serv.csv",
+				"/home/pieter-jan/Dropbox/School/2017-2018/Queueing analisys/project/codeSSF.py",
+				"/home/pieter-jan/Dropbox/School/2017-2018/Queueing analisys/project/codePRI.py",
+				"/home/pieter-jan/hs_err_pid6954.log",
+				"/home/pieter-jan/Dropbox/School/2017-2018/Parralelle_en_Gedistribueerde_softwaresystemen/Homework_assignments/van_vriendelijke_dude/Assignment_4/prodcons/prodcons.cpp",
+				"/home/pieter-jan/Dropbox/School/2017-2018/Parralelle_en_Gedistribueerde_softwaresystemen/Homework_assignments/van_vriendelijke_dude/Assignment_4/threadsum/threadsum.cpp",
+				"/home/pieter-jan/Dropbox/School/2017-2018/Parralelle_en_Gedistribueerde_softwaresystemen/Homework_assignments/van_vriendelijke_dude/Assignment_4/Assignment_4/threadsum/threadsum.cpp",
+				"/home/pieter-jan/.config/zathura/zathurarc",
+				"/mnt/usb/NCFL/NCSORLST.LST",
+				"/mnt/usb/NIKON001.DSC",
+				"/mnt/usb/NCFL/NCFAVLST.LST",
+				"/home/pieter-jan/tmp/ass3/Assignment_3/pimontecarlo/pimontecarlo.cpp",
+				"/home/pieter-jan/Downloads/transmission downloads/Cars (2006)/Cars (2006).srt",
+				"/home/pieter-jan/Downloads/transmission downloads/Cars (2006)/ck-carsa.srt",
+				"/home/pieter-jan/.xinitrc",
+				"/home/pieter-jan/.Xresources",
+				"/home/pieter-jan/Dropbox/School/2017-2018/Parralelle_en_Gedistribueerde_softwaresystemen/Homework_assignments/Assignment_1/results.txt",
+				"/home/pieter-jan/.zshrc",
+				"/home/pieter-jan/.zshrcBACK",
+				"/home/pieter-jan/.bashrc",
+				"/home/pieter-jan/fonts.txt",
+				"/home/pieter-jan/Assignment_1/vectortriad/vectortriadICC.cpp",
+				"/home/pieter-jan/.config/compton/compton.conf",
+				"/run/media/pieter-jan/ESD-USB/arch linux backup/installed.txt",
+				"/run/media/pieter-jan/ESD-USB/arch linux backup/installedAUR2.txt",
+				"/home/pieter-jan/Dropbox/School/2017-2018/Design_Project/main.tex",
+				"/home/pieter-jan/.colors/numix",
+				"/home/pieter-jan/255",
+				"/run/media/pieter-jan/ESD-USB/arch linux backup/configs/.config/bspwm/bspwmrc",
+				"/home/pieter-jan/Downloads/Conky/.conkyrc",
+				"/home/pieter-jan/.scripts/incBrightness.sh",
+				"/home/pieter-jan/.scripts/decBrightness.sh",
+				"/home/pieter-jan/.scripts/setBrightness.sh",
+				"/usr/share/slim/themes/dwm01/slim.theme",
+				"/run/media/pieter-jan/ESD-USB/arch linux backup/configs/.xinitrc",
+				"/home/pieter-jan/.config/sxhkd/sxhkdrc",
+				"/run/media/pieter-jan/ESD-USB/arch linux backup/configs/.config/fontconfigBACK/fonts.conf",
+				"/usr/share/slim/slim.conf",
+				"/run/media/pieter-jan/ESD-USB/arch linux backup/configs/.config/nemo/desktop-metadata",
+				"/run/media/pieter-jan/ESD-USB/arch linux backup/slim/slim.conf",
+				"/run/media/pieter-jan/ESD-USB/arch linux backup/configs/.config/lemonbuddy/config"
+			],
+			"find":
+			{
+				"height": 39.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": true,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 26.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 48.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 112.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1896.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/pieter-jan/Dropbox/School/2017-2018/Design_Project/Polygloty/passwords",
+					"settings":
+					{
+						"buffer_size": 957,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/pieter-jan/git/application/www/polygloty.js",
+					"settings":
+					{
+						"buffer_size": 10592,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/pieter-jan/git/application/www/components/home/home.js",
+					"settings":
+					{
+						"buffer_size": 5085,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/pieter-jan/Documents/demo/demo_dutch.txt",
+					"settings":
+					{
+						"buffer_size": 42,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/pieter-jan/Documents/demo/demo_english.txt",
+					"settings":
+					{
+						"buffer_size": 51,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/pieter-jan/Documents/ip_addr.txt",
+					"settings":
+					{
+						"buffer_size": 1019,
+						"encoding": "UTF-8",
+						"line_ending": "Unix",
+						"name": "18:12:36 pieter-jan@PJT_ARCH_L ~ ip addr"
+					}
+				},
+				{
+					"file": "/home/pieter-jan/.config/polybar/config",
+					"settings":
+					{
+						"buffer_size": 12543,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/pieter-jan/git/Server/src/main/resources/config/config.json",
+					"settings":
+					{
+						"buffer_size": 4734,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/pieter-jan/.config/bspwm/bspwmrc",
+					"settings":
+					{
+						"buffer_size": 1780,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/pieter-jan/git/Android-App/.gitignore",
+					"settings":
+					{
+						"buffer_size": 762,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/pieter-jan/.config/sxhkd/sxhkdrc",
+					"settings":
+					{
+						"buffer_size": 3183,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/home/pieter-jan/.config",
+				"/home/pieter-jan/.config/sxhkd"
+			],
+			"file_history":
+			[
+				"/home/pieter-jan/package-lock.json",
+				"/home/pieter-jan/Downloads/polygloty (3).sql",
+				"/home/pieter-jan/git/Android-App/config.xml",
+				"/home/pieter-jan/git/Server/src/test/resources/polygloty.sql",
+				"/home/pieter-jan/Downloads/transmission downloads/MICROSOFT Office PRO Plus 2016 v16.0.4266.1003 RTM + Activator [TechTools.NET]/_ReadMe.txt",
+				"/home/pieter-jan/git/Server/src/main/resources/config/config.json",
+				"/home/pieter-jan/Downloads/polygloty (1).sql",
+				"/home/pieter-jan/git/tmp/poging2App/Polygloty/www/index.html",
+				"/home/pieter-jan/git/tmp/poging2App/Polygloty/www/components/app/main/app.html",
+				"/home/pieter-jan/git/tmp/poging2App/Polygloty/www/polygloty.js",
+				"/home/pieter-jan/git/tmp/Android-App/www/index.html",
+				"/home/pieter-jan/git/tmp/Android-App/www/components/app/app.js",
+				"/home/pieter-jan/git/tmp/Android-App/www/components/app/main/app.html",
+				"/home/pieter-jan/git/tmp/Android-App/www/polygloty.js",
+				"/home/pieter-jan/git/tmp/Android-App/www/scripts/home.js",
+				"/home/pieter-jan/git/Server/sonar-scanner.properties",
+				"/home/pieter-jan/Downloads/languages.sql",
+				"/home/pieter-jan/.cache/.fr-DNmcFW/ZAP_2.7.0/zap.sh",
+				"/home/pieter-jan/testje.txt",
+				"/home/pieter-jan/Downloads/config.properties",
+				"/home/pieter-jan/tmp/myapp/src/theme/variables.scss",
+				"/home/pieter-jan/Downloads/polygloty.sql",
+				"/home/pieter-jan/Downloads/users.sql",
+				"/home/pieter-jan/test.log",
+				"/home/pieter-jan/hs_err_pid856.log",
+				"/home/pieter-jan/Dropbox/School/2017-2018/Design_Project/Polygloty/passwords",
+				"/home/pieter-jan/git/Web-App/styles/home-pages.css",
+				"/home/pieter-jan/.config/conky/conky.conf",
+				"/home/pieter-jan/Dropbox/School/2017-2018/Queueing analisys/project/queue/SSF.py",
+				"/home/pieter-jan/Dropbox/School/2017-2018/Queueing analisys/project/queue/PRI.py",
+				"/home/pieter-jan/.config/polybar/config",
+				"/home/pieter-jan/.config/dunst/dunstrc",
+				"/home/pieter-jan/Dropbox/School/2017-2018/Design_Project/Polygloty/installscripts/installJava",
+				"/home/pieter-jan/.cache/.fr-qhzOOr/sonarqube-6.7.1/data/README.txt",
+				"/mnt/server/users/ptuytsch/github/simple-java-maven-app/jenkins/Jenkinsfile",
+				"/home/pieter-jan/.jFed/tmp/openSsh6697491124801689944-1518691614638.sh",
+				"/home/pieter-jan/Downloads/usecase2.pu",
+				"/home/pieter-jan/Downloads/use case 3 - White box sequence diagram V2.pu",
+				"/home/pieter-jan/Downloads/use case 3 - White box sequence diagram.pu",
+				"/home/pieter-jan/Dropbox/School/2017-2018/Design_Project/hexacaluber/Use Case 1 - part 1.png",
+				"/home/pieter-jan/Downloads/QXRoZW5hRmFybS5Qcm9qZWN0IDIwMTYgU3R1ZGVudHNPbmx5.ica",
+				"/home/pieter-jan/Dropbox/School/2017-2018/Queueing analisys/project/results/3-Delay-Serv.csv",
+				"/home/pieter-jan/Dropbox/School/2017-2018/Queueing analisys/project/codeSSF.py",
+				"/home/pieter-jan/Dropbox/School/2017-2018/Queueing analisys/project/codePRI.py",
+				"/home/pieter-jan/hs_err_pid6954.log",
+				"/home/pieter-jan/Dropbox/School/2017-2018/Parralelle_en_Gedistribueerde_softwaresystemen/Homework_assignments/van_vriendelijke_dude/Assignment_4/prodcons/prodcons.cpp",
+				"/home/pieter-jan/Dropbox/School/2017-2018/Parralelle_en_Gedistribueerde_softwaresystemen/Homework_assignments/van_vriendelijke_dude/Assignment_4/threadsum/threadsum.cpp",
+				"/home/pieter-jan/Dropbox/School/2017-2018/Parralelle_en_Gedistribueerde_softwaresystemen/Homework_assignments/van_vriendelijke_dude/Assignment_4/Assignment_4/threadsum/threadsum.cpp",
+				"/home/pieter-jan/.config/zathura/zathurarc",
+				"/mnt/usb/NCFL/NCSORLST.LST",
+				"/mnt/usb/NIKON001.DSC",
+				"/mnt/usb/NCFL/NCFAVLST.LST",
+				"/home/pieter-jan/tmp/ass3/Assignment_3/pimontecarlo/pimontecarlo.cpp",
+				"/home/pieter-jan/Downloads/transmission downloads/Cars (2006)/Cars (2006).srt",
+				"/home/pieter-jan/Downloads/transmission downloads/Cars (2006)/ck-carsa.srt",
+				"/home/pieter-jan/.xinitrc",
+				"/home/pieter-jan/.Xresources",
+				"/home/pieter-jan/Dropbox/School/2017-2018/Parralelle_en_Gedistribueerde_softwaresystemen/Homework_assignments/Assignment_1/results.txt",
+				"/home/pieter-jan/.zshrc",
+				"/home/pieter-jan/.zshrcBACK",
+				"/home/pieter-jan/.bashrc",
+				"/home/pieter-jan/fonts.txt",
+				"/home/pieter-jan/Assignment_1/vectortriad/vectortriadICC.cpp",
+				"/home/pieter-jan/.config/compton/compton.conf",
+				"/run/media/pieter-jan/ESD-USB/arch linux backup/installed.txt",
+				"/run/media/pieter-jan/ESD-USB/arch linux backup/installedAUR2.txt",
+				"/home/pieter-jan/Dropbox/School/2017-2018/Design_Project/main.tex",
+				"/home/pieter-jan/.colors/numix",
+				"/home/pieter-jan/255",
+				"/run/media/pieter-jan/ESD-USB/arch linux backup/configs/.config/bspwm/bspwmrc",
+				"/home/pieter-jan/Downloads/Conky/.conkyrc",
+				"/home/pieter-jan/.scripts/incBrightness.sh",
+				"/home/pieter-jan/.scripts/decBrightness.sh",
+				"/home/pieter-jan/.scripts/setBrightness.sh",
+				"/usr/share/slim/themes/dwm01/slim.theme",
+				"/run/media/pieter-jan/ESD-USB/arch linux backup/configs/.xinitrc",
+				"/home/pieter-jan/.config/sxhkd/sxhkdrc",
+				"/run/media/pieter-jan/ESD-USB/arch linux backup/configs/.config/fontconfigBACK/fonts.conf",
+				"/usr/share/slim/slim.conf",
+				"/run/media/pieter-jan/ESD-USB/arch linux backup/configs/.config/nemo/desktop-metadata",
+				"/run/media/pieter-jan/ESD-USB/arch linux backup/slim/slim.conf",
+				"/run/media/pieter-jan/ESD-USB/arch linux backup/configs/.config/lemonbuddy/config"
+			],
+			"find":
+			{
+				"height": 26.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": true,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/pieter-jan/.config"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/pieter-jan/Dropbox/School/2017-2018/Design_Project/Polygloty/passwords",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 957,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										718,
+										718
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/pieter-jan/git/application/www/polygloty.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 10592,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+								},
+								"translation.x": 27.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 5,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/pieter-jan/git/application/www/components/home/home.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 5085,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 4,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/home/pieter-jan/Documents/demo/demo_dutch.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 42,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										42,
+										42
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/home/pieter-jan/Documents/demo/demo_english.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 51,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										51,
+										51
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "/home/pieter-jan/Documents/ip_addr.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1019,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1019,
+										1019
+									]
+								],
+								"settings":
+								{
+									"auto_name": "18:12:36 pieter-jan@PJT_ARCH_L ~ ip addr",
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 6,
+							"file": "/home/pieter-jan/.config/polybar/config",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 12543,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										716,
+										716
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 162.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 9,
+							"type": "text"
+						},
+						{
+							"buffer": 7,
+							"file": "/home/pieter-jan/git/Server/src/main/resources/config/config.json",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 4734,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 10,
+							"type": "text"
+						},
+						{
+							"buffer": 8,
+							"file": "/home/pieter-jan/.config/bspwm/bspwmrc",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1780,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										328,
+										362
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 216.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 8,
+							"type": "text"
+						},
+						{
+							"buffer": 9,
+							"file": "/home/pieter-jan/git/Android-App/.gitignore",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 762,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										761,
+										761
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 253.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 6,
+							"type": "text"
+						},
+						{
+							"buffer": 10,
+							"file": "/home/pieter-jan/.config/sxhkd/sxhkdrc",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3183,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										759,
+										759
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 918.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 7,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 26.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,10,33,1906,1066,1920,1080",
+			"project": "",
+			"replace":
+			{
+				"height": 48.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 304.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 7,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

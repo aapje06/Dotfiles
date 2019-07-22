@@ -1,0 +1,21 @@
+{
+    "content_scripts": [
+        "userscript.js"
+    ], 
+    "name": "CouchPotato", 
+    "creator": "Ruud Burger", 
+    "description": "Easily add movies to your CouchPotato wanted list!", 
+    "framework_version": "1.8.0 3dc957b83b36", 
+    "background_scripts": [
+        "main.js"
+    ], 
+    "homepage_url": "https://couchpota.to/", 
+    "version": "1.2.2", 
+    "framework_package_id": "dev", 
+    "id": "{45128412-D4A8-49C4-8AF5-AECD9C05982C}", 
+    "browser_button": {
+        "caption": "CouchPotato", 
+        "tooltipText": "CouchPotato", 
+        "icon": "icons/button_gray.png"
+    }
+}

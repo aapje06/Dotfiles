@@ -1,0 +1,49 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://localhost/"
+      },
+      "linked_icons": [ {
+         "size": 32,
+         "url": "http://localhost/assets/icon/icon.png"
+      }, {
+         "size": 48,
+         "url": "http://localhost/assets/icon/icon.png"
+      }, {
+         "size": 64,
+         "url": "http://localhost/assets/icon/icon.png"
+      }, {
+         "size": 96,
+         "url": "http://localhost/assets/icon/icon.png"
+      }, {
+         "size": 128,
+         "url": "http://localhost/assets/icon/icon.png"
+      }, {
+         "size": 144,
+         "url": "http://localhost/assets/icon/icon.png"
+      }, {
+         "size": 256,
+         "url": "http://localhost/assets/icon/icon.png"
+      } ],
+      "theme_color": "rgba(72,138,255,1)"
+   },
+   "description": "",
+   "icons": {
+      "128": "icons/128.png",
+      "144": "icons/144.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "412pYLMj0fxYJfzEpTMqPpT7aNvnL0SDLCcPKwLX+HE=",
+   "name": "Ionic PWA Toolkit",
+   "url_handlers": {
+      "scope": {
+         "matches": [ "http://localhost/*" ],
+         "title": "Ionic PWA Toolkit"
+      }
+   },
+   "version": "2018.11.12.40393"
+}

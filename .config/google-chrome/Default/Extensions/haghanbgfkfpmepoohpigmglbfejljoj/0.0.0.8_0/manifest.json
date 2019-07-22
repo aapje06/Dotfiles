@@ -1,0 +1,19 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "https://www.circuitlab.com/chromeapp/launcher/"
+      },
+      "urls": [ "https://*.circuitlab.com/chromeapp/", "https://*.circuitlab.com/editor/" ]
+   },
+   "description": "Schematic editor and circuit simulator.",
+   "icons": {
+      "128": "icon_128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC9EAUkH4njCOVMfsCUPk+jyXqhKVzzy7vHCjxF4l4Yey2r/h4OmTSjgRjLL2ZjdfiySqtgq0KFVMNMc7Rif2UOJFrsKxtk6pBeQdwEnQVurY4dvG4r/stOnKeGjTW0Sxcwa9ZYXiEGQJ2plGl+u90E3Z/G4eWLUwHqwLpf3eGoAQIDAQAB",
+   "manifest_version": 2,
+   "name": "CircuitLab",
+   "offline_enabled": true,
+   "permissions": [ "unlimitedStorage" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.0.0.8"
+}

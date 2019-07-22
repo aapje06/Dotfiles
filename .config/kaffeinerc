@@ -1,0 +1,24 @@
+[DVB]
+ChannelViewState=AAAA/wAAAAAAAAABAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAMgAAAACAQEAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAACAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAD6AAAAABk
+LastChannel=
+TabSplitterState=AAAA/wAAAAEAAAACAAAAogAAAAAB/////wEAAAABAA==
+
+[MainWindow]
+DisplayMode=0
+
+[MediaObject]
+AutoResizeFactor=0
+Deinterlace=true
+Volume=100
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/transmission downloads/MOVIES/Black Swan (2010)/Black.Swan.720p.x264.BrRip.YIFY.mkv
+File2[$e]=$HOME/Downloads
+File3[$e]=$HOME/Downloads/transmission downloads/The.Grand.Tour.S02E08.WEB.H264-DEFLATE[ettv]
+File4[$e]=$HOME/Downloads/transmission downloads/The.Grand.Tour.S02E11.720p.WEB.H264-DEFLATE[rarbg]
+File5[$e]=$HOME/Downloads/transmission downloads/De.Indringer[2005]DvDrip[Dutch]-Jte
+Name1[$e]=Black.Swan.720p.x264.BrRip.YIFY.mkv
+Name2[$e]=Downloads
+Name3[$e]=The.Grand.Tour.S02E08.WEB.H264-DEFLATE[ettv]
+Name4[$e]=The.Grand.Tour.S02E11.720p.WEB.H264-DEFLATE[rarbg]
+Name5[$e]=De.Indringer[2005]DvDrip[Dutch]-Jte
